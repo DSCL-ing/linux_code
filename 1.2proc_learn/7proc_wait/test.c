@@ -4,11 +4,64 @@
 #include<unistd.h>
 #include<stdlib.h>
 
+#define TASK_NUM 10
+
+void sync_disk()
+{
+  printf("同步磁盘任务...\n");
+}
+void sync_log()
+{
+  printf("同步日志任务...\n");
+}   
+void net_send()
+{
+  printf("网络发送任务...\n");
+}
+
+typedef void (*fun_t)();
+fun_t other_task[TASK_NUM] = {NULL};
+//默认是表结构, 如果不是表结构则不能使用一下遍历方式
+
+int AddTask(fun_t fun)
+{
+  int i =0; 
+  while(i<TASK_NUM)
+  {
+    if(other_task[i] == NULL)
+      break; 
+    ++i;
+  }
+   
+    if(i==TASK_NUM)
+      return -1;
+    else
+      other_task[i] = fun;
+  return 0;
+}
+
+void InitTask()
+{
+  for(int i = 0 ;i<TASK_NUM;++i) other_task[i] = NULL;
+  AddTask(sync_disk);
+  AddTask(sync_log);
+  AddTask(net_send);
+}
+
+void RunTest()
+{
+  for(int i = 0;i<TASK_NUM; ++i)
+  {
+    if(other_task[i]==NULL) continue;
+    other_task[i]();
+  }
+}
+
 int main()
 {
 
   pid_t id = fork();
-  
+  InitTask(); 
   if(id == 0) 
   {
     int cnt = 5;
@@ -32,10 +85,10 @@ int main()
       else if(ret_id == 0)
       {
         printf("子进程还没退出,可以执行别的\n");
+        RunTest();
         sleep(1);
         continue;
-      }
-      else 
+      } else 
       {
         if(WIFEXITED(status)) //如果status中信号为0,即没有信号时执行
         {
@@ -45,7 +98,7 @@ int main()
         {
             printf("我是父进程,等待子进程成功,ret_id:%d, pid:%d, ppid:%d,child exit signal:%d\n" ,ret_id,getpid(),getppid(),status&0x7F); 
         }
-          break;
+        break;
       }
   }
   // 2.waitpid(pid,status,0)的使用
