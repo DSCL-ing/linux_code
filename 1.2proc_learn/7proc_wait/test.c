@@ -37,7 +37,14 @@ int main()
       }
       else 
       {
-          printf("我是父进程,等待子进程成功,ret_id:%d, pid:%d, ppid:%d,child exit code:%d , child exit signal:%d\n" ,ret_id,getpid(),getppid(),(status>>8)&0xFF,status&0x7F); 
+        if(WIFEXITED(status)) //如果status中信号为0,即没有信号时执行
+        {
+          printf("我是父进程,等待子进程成功,ret_id:%d, pid:%d, ppid:%d,child exit code:%d\n" ,ret_id,getpid(),getppid(),WEXITSTATUS(status)); 
+        }
+        else
+        {
+            printf("我是父进程,等待子进程成功,ret_id:%d, pid:%d, ppid:%d,child exit signal:%d\n" ,ret_id,getpid(),getppid(),status&0x7F); 
+        }
           break;
       }
   }
