@@ -1,0 +1,49 @@
+
+set nocompatible " 关闭 vi 兼容模式
+set smartindent "当在大括号中间回车的时候，他会智能缩进，因为他知道括号中间要缩进
+set tabstop=4
+set shiftwidth=4
+set expandtab
+syntax on " 自动语法高亮
+set number " 显示行号
+set cursorline " 突出显示当前行
+    "red（红），white（白），black（黑），green（绿），yellow（黄），blue（蓝），purple（紫），gray（灰），brown（棕），tan(褐色)，syan(青色)
+hi CursorLine   cterm=NONE ctermbg=darkgray ctermfg=NONE
+"hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white 
+ 
+set ruler " 打开状态栏标尺
+set shiftwidth=4 " 设定 << 和 >> 命令移动时的宽度为 4
+set softtabstop=4 " 使得按退格键时可以一次删掉 4 个空格
+set tabstop=4 " 设定 tab 长度为 4
+set nobackup " 覆盖文件时不备份
+"set autochdir " 自动切换当前目录为当前文件所在的目录
+set backupcopy=yes " 设置备份时的行为为覆盖
+set ignorecase smartcase " 搜索时忽略大小写，但在有一个或以上大写字母时仍保持对大小写敏感
+set nowrapscan " 禁止在搜索到文件两端时重新搜索
+set incsearch " 输入搜索内容时就显示搜索结果
+set hlsearch " 搜索时高亮显示被找到的文本
+set noerrorbells " 关闭错误信息响铃
+set novisualbell " 关闭使用可视响铃代替呼叫
+set t_vb= " 置空错误铃声的终端代码
+set showmatch " 插入括号时，短暂地跳转到匹配的对应括号
+" set matchtime=2 " 短暂跳转到匹配括号的时间
+set magic " 设置魔术
+set hidden " 允许在有未保存的修改时切换缓冲区，此时的修改由 vim 负责保存
+set guioptions-=T " 隐藏工具栏
+set guioptions-=m " 隐藏菜单栏
+set smartindent " 开启新行时使用智能自动缩进
+set backspace=indent,eol,start
+" 不设定在插入状态无法用退格键和 Delete 键删除回车符
+set cmdheight=1 " 设定命令行的行数为 1
+set laststatus=2 " 显示状态栏 (默认值为 1, 无法显示状态栏)
+
+
+1.vim代码折叠简介
+vim代码折叠方式可以用"foldmethod"选项来设置，如: set foldmethod=indent
+有6种方式来折叠代码，如下：
+:set foldmethod=manual  #手工定义折叠
+:set foldmethod=indent  #用缩进表示折叠
+:set foldmethod=expr　  #用表达式来定义折叠
+:set foldmethod=syntax  #用语法高亮来定义折叠
+:set foldmethod=diff    #对没有更改的文本进行折叠
+:set foldmethod=marker  #用标志折叠
