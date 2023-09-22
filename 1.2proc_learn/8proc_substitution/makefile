@@ -1,4 +1,4 @@
-a.out:3proc.c
+a.out:4proc.c
 	gcc -o $@ $^ -std=c99
 .PHONY:clean
 clean:
