@@ -27,15 +27,20 @@ int main()
        //     "MYENV=我是传给C++程序的环境变量",
        //     NULL
        // };
-       
+      
+
+       //5.execle
         //传自定义的环境变量
         //int n = execle("./test_CPP_proc/a.outProc_Cpp","a.outProc_Cpp",NULL,myenv);
-        extern char **environ;
+        
         //传系统的环境变量
+        //extern char **environ;
+        //putenv("MYENV=我是传给其他程序的环境变量");
+        //int n = execle("./test_CPP_proc/a.outProc_Cpp","a.outProc_Cpp",NULL,environ);
         
-        putenv("MYENV=我是传给C++程序的环境变量");
-        
-        int n = execle("./test_CPP_proc/a.outProc_Cpp","a.outProc_Cpp",NULL,environ); 
+        //调用其他语言程序测试
+        //int n = execl("./other_languageTest/shell.sh","shell.sh",NULL) ;
+        int n = execl("./other_languageTest/test.py","test.py",NULL) ;
         printf("看到我说明execl执行失败了:返回值:%d\n",n);
         exit(1);
     }
