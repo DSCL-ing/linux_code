@@ -3,14 +3,30 @@
 #include<sys/types.h>
 #include<sys/stat.h>
 #include<fcntl.h>
-#define LOG "log.txt"
+#define LOG_NORMAL "logNormal.txt"
+#define LOG_ERROR "logError.txt"
 int main()
 {
     umask(0000);
    
    
-   
-  
+  //4.模拟重定向,把正常输出和错误输出分别输出到不同的文件 
+    close(1);
+    open(LOG_NORMAL,O_WRONLY|O_CREAT|O_TRUNC,0666);
+    close(2);
+    open(LOG_ERROR,O_WRONLY|O_CREAT|O_APPEND,0666);
+    printf("hello printf->stdout\n");
+    printf("hello printf->stdout\n");
+    printf("hello printf->stdout\n");
+
+    fprintf(stdout,"hello fprintf->stdout\n");
+    fprintf(stdout,"hello fprintf->stdout\n");
+    fprintf(stdout,"hello fprintf->stdout\n");
+    fprintf(stderr,"hello fprintf->stderr\n");
+    fprintf(stderr,"hello fprintf->stderr\n");
+    fprintf(stderr,"hello fprintf->stderr\n");
+
+
 
 
    
