@@ -22,6 +22,7 @@ void Print(int flags)
 }
 
 
+//模拟实现系统标志位
 
 int main()
 {

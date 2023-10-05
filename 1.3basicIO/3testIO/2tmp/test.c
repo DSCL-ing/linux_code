@@ -7,7 +7,8 @@
 int main()
 {
     umask(0000);
-
+    printf("fljgkagkalj\n");
+    fprintf(stderr,"hello wordl!\n");
 
     return 0;
 }

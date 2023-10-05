@@ -9,27 +9,33 @@ int main()
 {
     umask(0000);
    
+    //dup2,系统调用重定向
+    int fd = open(LOG_NORMAL,O_WRONLY,O_CREAT,O_APPEND,0666);
+    if(fd<0)
+    {
+        perror("open");
+        return 0;
+    }
+    dup2(fd,1);
+    
+    printf("hello world!\n");
+    close(fd);
    
   //4.模拟重定向,把正常输出和错误输出分别输出到不同的文件 
-    close(1);
-    open(LOG_NORMAL,O_WRONLY|O_CREAT|O_TRUNC,0666);
-    close(2);
-    open(LOG_ERROR,O_WRONLY|O_CREAT|O_APPEND,0666);
-    printf("hello printf->stdout\n");
-    printf("hello printf->stdout\n");
-    printf("hello printf->stdout\n");
+    //close(1);
+    //open(LOG_NORMAL,O_WRONLY|O_CREAT|O_TRUNC,0666);
+    //close(2);
+    //open(LOG_ERROR,O_WRONLY|O_CREAT|O_APPEND,0666);
+    //printf("hello printf->stdout\n");
+    //printf("hello printf->stdout\n");
+    //printf("hello printf->stdout\n");
 
-    fprintf(stdout,"hello fprintf->stdout\n");
-    fprintf(stdout,"hello fprintf->stdout\n");
-    fprintf(stdout,"hello fprintf->stdout\n");
-    fprintf(stderr,"hello fprintf->stderr\n");
-    fprintf(stderr,"hello fprintf->stderr\n");
-    fprintf(stderr,"hello fprintf->stderr\n");
-
-
-
-
-   
+    //fprintf(stdout,"hello fprintf->stdout\n");
+    //fprintf(stdout,"hello fprintf->stdout\n");
+    //fprintf(stdout,"hello fprintf->stdout\n");
+    //fprintf(stderr,"hello fprintf->stderr\n");
+    //fprintf(stderr,"hello fprintf->stderr\n");
+    //fprintf(stderr,"hello fprintf->stderr\n");
 
     //3.关闭stdin和stderr后,可以发现0,2号位置都给了新文件 
    //即证明:文件描述符的分配规则:在文件描述符中,把最小的,没有被使用的数组元素,分配给新文件
