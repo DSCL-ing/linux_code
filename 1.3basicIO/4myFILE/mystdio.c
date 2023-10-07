@@ -57,7 +57,7 @@ int my_fflush(MY_FILE *stream)
    stream->current = 0 ;
    
    //调用fsync阻塞等待保证冲刷成功
-   fsync(stream->fd);
+   fsync(stream->fd);//强制刷新到磁盘文件中
    return 0;
 }
 
