@@ -11,7 +11,7 @@ int main()
     {
         printf("我是子进程: %d\n",getpid());
         //exec成功,查看程序执行错误的退出码 
-        int n = execl("/usr/bin/ls","ls","bqa",NULL);
+        int n = execl("/usr/bin/ls","ls","bqa",NULL); //使用错误的ls命令baq,使exec失败
    
        // int n = execl("/usr/bin/lsssss","lsssss","-a","-l",NULL);
  //如果执行成功了,那也没必要看返回值了,因为看不到了,整个代码都被替换掉

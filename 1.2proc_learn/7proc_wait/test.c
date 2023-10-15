@@ -22,6 +22,8 @@ void net_send()
 typedef void (*fun_t)();
 fun_t other_task[TASK_NUM] = {NULL};
 //默认是表结构, 如果不是表结构则不能使用一下遍历方式
+//表结构使用初始化器方便
+
 
 int AddTask(fun_t fun)
 {
@@ -52,7 +54,7 @@ void RunTest()
 {
   for(int i = 0;i<TASK_NUM; ++i)
   {
-    if(other_task[i]==NULL) continue;
+    if(other_task[i]==NULL) continue;//表结构其实break就完事了
     other_task[i]();
   }
 }
@@ -73,6 +75,8 @@ int main()
     }
     exit(111);
   }
+  
+  //父进程
   while(1)
   {   
       int status = 0;
