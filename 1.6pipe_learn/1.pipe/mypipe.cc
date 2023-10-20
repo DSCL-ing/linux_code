@@ -48,7 +48,8 @@ int main()
             snprintf(buffer,sizeof(buffer),"%s, 计数器: %d, 子进程id: %d",str.c_str(),cnt++,getpid());
             int n = write(pipefd[1],buffer,strlen(buffer));//strlen不计算\0,strlen会得到不会超过1023的有效字符
             std::cout<< "成功写入的字符数: " << n<<std::endl;
-            sleep(1);
+            //sleep(1);
+            close(pipefd[1]) ;
         }
         //通信结束,关闭文件和结束进程
         close(pipefd[1]); //读端也关闭,因为管道也是个文件
@@ -66,6 +67,14 @@ int main()
            std::cout<<"我是父进程,子进程的massage: "<<buffer<<std::endl;
            std::cout<<"成功读取的字符数: "<<n<<std::endl;
        }
+        else if(n == 0)
+        {
+          std::cout<<"我是父进程,读到了文件结尾"<<std::endl;
+        }
+        else
+        {
+          std::cout<<"我是父进程,读异常了"<<std::endl;
+        }
     }
     //3.创建通信条件 -- 关闭读端,只读
     close(pipefd[1]);
