@@ -12,18 +12,24 @@ typedef void (*fun_t)();
 
 void PrintLog()
 {
-    std::cout<<"pid" << getpid()<<"正在执行'日志打印'任务..."<<std::endl;
+    std::cout<<"pid: " << getpid()<<" 正在执行'日志打印'任务..."<<std::endl;
 }
 
 void InsertMySQL()
 {
-    std::cout<<"pid" << getpid()<<"正在执行'数据库'任务..."<<std::endl;
+    std::cout<<"pid: " << getpid()<<" 正在执行'数据库'任务..."<<std::endl;
 }
 
 void NetRequest()
 {
-    std::cout<<"pid" << getpid()<<"正在执行'网络请求'任务..."<<std::endl;
+    std::cout<<"pid: " << getpid()<<" 正在执行'网络请求'任务..."<<std::endl;
 }
+
+//也可以采用子进程exit方式结束子进程
+// void ExitProcess()
+// {
+//   exit(0); 
+// }
 
 //如果使用宏则必须约定是4字节(因为使用了整型) -- 配合read
 enum task{COMMAND_LOG,COMMAND_MYSQL,COMMAND_REQUEST};
