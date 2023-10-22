@@ -11,12 +11,13 @@ int main()
   umask(0000);
   //1创建命名管道
   int n = mkfifo(fifoname.c_str(),mode) ;
-  if(n<0)
+  if(n!=0)
   {
     // 错误格式:  errno:xx-->错误信息
     std::cout<<"errno:"<<errno<<"-->"<<strerror(errno)<<std::endl;
     return 1;
   }
+  std::cout<<"create fifo file success"<<std::endl;
   //2.打开管道,以读方式
   int rfd = open(fifoname.c_str(),O_RDONLY);
   if(rfd<0)
@@ -24,6 +25,7 @@ int main()
     std::cout<<"errno:"<<errno<<"-->"<<strerror(errno)<<std::endl;
     return 2;
   }
+  std::cout<<"open fifo success,begin ipc" <<std::endl;
   //3.开始通信
   char buffer[NUM] = {0};
   while(true)
@@ -33,10 +35,11 @@ int main()
     if(n>0)
     {
       buffer[n] = 0;
+      std::cout<<"client# "<< buffer <<std::endl;
     }
     else if(n==0)
     {
-      std::cout<<" 客户端停止发送数据,终止当前进程" <<std::endl;
+      std::cout<<" 客户端已停止,服务端也关闭" <<std::endl;
       break;
     }
     else
@@ -47,5 +50,9 @@ int main()
   }
   //3.关闭管道
   close(rfd);
+
+  //4.删除管道文件
+  unlink(fifoname.c_str()); //客户端强制关闭后,服务端能正常结束,所以unlink放在服务端合适
+  std::cout<<"removed fifo file" << std::endl;
   return 0;
 }
