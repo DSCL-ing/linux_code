@@ -72,7 +72,7 @@ void createProcess(std::vector<endPoint> &end_points)
     if(id == 0)//子进程
     {
       for(const auto& fd:fds){
-        close(fd);//关闭继承自父进程的连接到其他子进程的写端
+        close(fd);//关闭 继承自父进程的连接到其他子进程的写端
       }
       close(pipefd[1]);
       
