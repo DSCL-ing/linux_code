@@ -23,26 +23,21 @@ int main()
   // 2.正常通信
   // 2.1 从标准输入中获取数据
   char buffer[NUM];
+  std::cout << "请输入你的消息# ";
   while (true)
   {
-    buffer[0] = 0;                                    // 置成c空串
-    char *msg = fgets(buffer, sizeof(buffer), stdin); // 成功返回字符串,错误返回null
-    assert(msg);                                      // 测试必须不能为空
-    (void)msg;
-    buffer[strlen(buffer) - 1] = 0; // 把换行干掉
+    system("stty raw");
+    int c = getchar();       //服务端关闭,client也会关闭....
+    system("stty -raw");
 
-    if (strcasecmp(buffer, "quit") == 0)
-      break;
-    else if (strcasecmp(buffer, "exit") == 0)
-      break;
-
-    // 2.2往服务端写数据
-    ssize_t n = write(wfd, buffer, strlen(buffer)); // write返回值目前没有用,等网络
+    ssize_t n = write(wfd, (char *)&c, sizeof(char));
     assert(n >= 0);
     (void)n;
   }
-  
+
   close(wfd);
+
+
 
   return 0;
 }

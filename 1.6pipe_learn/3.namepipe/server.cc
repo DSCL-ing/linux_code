@@ -9,6 +9,13 @@
 int main()
 {
   umask(0000);
+
+  if (access(fifoname.c_str(), F_OK) == 0)
+  {
+    remove(fifoname.c_str());
+    printf("文件 %s 存在,已删除\n", fifoname.c_str());
+  }
+
   //1创建命名管道
   int n = mkfifo(fifoname.c_str(),mode) ;
   if(n!=0)
@@ -35,7 +42,7 @@ int main()
     if(n>0)
     {
       buffer[n] = 0;
-      std::cout<<"client# "<< buffer <<std::endl;
+      std::cout<<"client# "<< buffer <<std::endl; //换行自动刷新
     }
     else if(n==0)
     {
