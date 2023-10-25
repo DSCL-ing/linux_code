@@ -3,6 +3,14 @@
 
 int main()
 {
+  Init init(CLIENT);
+  char* start = init.getStart();
+
+
+
+
+
+  /*
   //1.获取key
   key_t k = getKey();
   std::cout<<"client_key:"<<toHex(k)<<std::endl;
@@ -17,8 +25,9 @@ int main()
   //4.通信
 
   //5.去关联
+  detachShm(start);
 
-  
+  */
 
   return 0;
 }

@@ -3,6 +3,11 @@
 #include <unistd.h> //用户使用了sleep需要
 int main()
 {
+  Init init(SERVER);
+  char* start = init.getStart();
+
+  /*
+
   // 1.获取key
   key_t k = getKey();
   std::cout << "server_key:" << toHex(k) << std::endl;
@@ -28,11 +33,12 @@ int main()
   //4.通信
 
   //5.去关联
+  detachShm(start);
 
-  //6. 删除共享内存
+  //6. 删除共享内存 -- 谁创建,谁负责
   delShm(shmid);
   std::cout << "removed shm,shmid:" << shmid << std::endl;
-  
+  */
   return 0;
 
 
