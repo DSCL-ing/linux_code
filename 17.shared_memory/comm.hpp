@@ -16,6 +16,8 @@
 #include<cerrno>
 #include<cstring>
 #include<string>
+#include<cassert>
+#include<sys/stat.h>
 
 #define PATHNAME "."
 #define PROJID 0x6666   //任意值
@@ -44,8 +46,8 @@ std::string toHex(int x) //打印成string字符串
 
 //2.创建共享内存Jk
 
-
-// static修饰函数:限定作用域于当前文件中
+//static函数-->只在本文件内有效
+//2.1 static修饰函数:限定作用域于当前文件中
 static int getShmHelper(key_t key,size_t size,int flag)//helper:辅助用
 {
   int shmid = shmget(key,size,flag);
@@ -57,20 +59,45 @@ static int getShmHelper(key_t key,size_t size,int flag)//helper:辅助用
   return shmid;
 }
 
-//提供给创建者
+//2.2提供给创建者
 int createShm(key_t key,int size)
 {
-  return getShmHelper(key,size,IPC_CREAT|IPC_EXCL);
+  umask(0);
+  return getShmHelper(key,size,IPC_CREAT|IPC_EXCL|0666);
+  //IPC_CREAT的八进制是1000,权限一般是0xxx,所以不会冲突
 }
 
-//提供给获取者
+//2.2提供给获取者
 int getShm(key_t key,int size)
 {
   return getShmHelper(key,size,IPC_CREAT);
 }
 
+//3.关联共享内存,//自己创建的shm不一定是给自己用的,可能是给其他进程使用,所以也需要关联才能用
+char* attachShm(int shmid)
+{
+  char* start = (char*)shmat(shmid,nullptr,0);//类似malloc,在虚拟地址上申请空间
+  return start;
+}
 
-//static函数-->只在本文件内有效
+
+
+//.删除共享内存
+void delShm(int shmid)
+{
+  int n = shmctl(shmid,IPC_RMID,nullptr);
+  assert(n != -1);//删除不影响程序,不用强制退出,
+  (void)n;
+}
+
+
+
+
+
+
+
+
+
 
 //相似代码复用方法
 
