@@ -6,8 +6,15 @@ int main()
   Init init(SERVER);
   char* start = init.getStart();
 
-  /*
+  int cnt = 0;
+  while(true)
+  {
+    std::cout<<"client:" <<start<<std::endl;
+    sleep(1);
+    if(cnt++ == 30) break;
+  }
 
+  /*
   // 1.获取key
   key_t k = getKey();
   std::cout << "server_key:" << toHex(k) << std::endl;

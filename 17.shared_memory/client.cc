@@ -1,5 +1,6 @@
 
 #include"comm.hpp"
+#include<unistd.h>
 
 int main()
 {
@@ -7,6 +8,16 @@ int main()
   char* start = init.getStart();
 
 
+
+  
+  char c = 'A';
+  while(c<='Z')
+  {
+    start[c-'A'] = c; // 从0开始
+    ++c;
+    start[c-'A'] = 0; //字符串结束
+    sleep(1);
+  }
 
 
 

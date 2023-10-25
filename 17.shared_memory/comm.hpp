@@ -113,7 +113,6 @@ public:
     key_t k = getKey();
     if (_type == SERVER)   _shmid = createShm(k, gsize);
     else if (_type == CLIENT)  _shmid = getShm(k, gsize);
-    else {}
     _start = attachShm(_shmid);
   }
   char *getStart() { return _start; }
