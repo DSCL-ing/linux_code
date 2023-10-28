@@ -37,36 +37,36 @@ colorscheme luna-term
 
 
 """""""""""""""""""""""""" 零碎配置
-set hlsearch " 搜索时高亮显示被找到的文本"
+set hlsearch
 let mapleader = ";" 
-set nu "显示行号"
+set nu
 behave mswin
-syntax on   "自动语法高亮
+syntax on
 set si
 set ai
 set nowritebackup
-" 不设定在插入状态无法用退格键和 Delete 键删除回车符
-set backspace=indent,eol,start 
-set expandtab "将tab扩展成空格"
-set tabstop=4 "table一次键入4个空格"
-set softtabstop=4 "表示在编辑模式的时候按退格键的时候退回缩进的长度"
-set shiftwidth=4 "每一级缩进是4个空格"
+set backspace=indent,eol,start
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set fileencodings=utf-8,gbk,cp936,cp950,latin1
 set encoding=utf-8
-set ruler "" 打开状态栏标尺"
-set showcmd "命令模式下，在底部显示键入指令"
-set incsearch "" 输入搜索内容时就显示搜索结果"
+set ruler
+set showcmd
+set incsearch
+set ruler
 set foldmethod=marker
 filetype plugin on
-" 不吱吱叫,即错误时不会发出响声
+" 不吱吱叫
 set noeb vb t_vb=
-set cursorline "突出显示当前行"
+set cursorline
 " 文件修改之后自动载入
 set autoread
 " 在上下移动光标时，光标的上方或下方至少会保留显示的行数
 set scrolloff=5
 " 左下角不显示当前vim模式
-set showmode
+set noshowmode
 
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
@@ -182,11 +182,10 @@ endfunc
 """""""""""""""""""""""""" YouCompleteMe
 set completeopt=longest,menu
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
-"inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
 
 let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
 let g:ycm_confirm_extra_conf = 0
-let g:ycm_key_invoke_completion='<C-j>'
+" let g:ycm_key_invoke_completion='<C-j>' //触发补全?
 let g:ycm_error_symbol = 'E>'
 let g:ycm_warning_symbol = 'W>'
 " 使用 NerdFont 中的图标表示错误和警告
@@ -204,7 +203,6 @@ let g:ycm_semantic_triggers =  {
       \ 'cs,lua,javascript': ['re!\w{2}'],
       \}
 
-let g:ycm_show_diagnostics_ui = 0
 
 """""""""""""""""""""""""" Tagbar(函数列表)
 let g:tagbar_ctags_bin='/usr/bin/ctags'
@@ -229,7 +227,7 @@ let g:cpp_member_variable_highlight = 1
 let g:cpp_concepts_highlight = 1
 let g:cpp_experimental_simple_template_highlight = 1
 " 文件较大时使用下面的设置高亮模板速度较快，但会有一些小错误
-let g:cpp_experimental_template_highlight = 1
+let g:cpp_experimental_template_highlight = 0
 
 
 """""""""""""""""""""""""" UltiSnips(代码模板)
@@ -415,10 +413,10 @@ nmap <CR> i<CR><Esc>
 
 """ 其他
 " 调整窗口移动
-nnoremap H <C-w>h
-nnoremap J <C-w>j
-nnoremap K <C-w>k
-nnoremap L <C-w>l
+" nnoremap H <C-w>h
+" nnoremap J <C-w>j
+" nnoremap K <C-w>k
+" nnoremap L <C-w>l
 " 快速保存
 inoremap jk <esc>:w<cr>
 nnoremap <esc> :w<cr>
