@@ -4,7 +4,6 @@
 #include<unistd.h>
 #include<sys/types.h>
 
-//sighandler_t == void(*)(int)
 void handler(int signu)
 {
   std::cout<<"get a signal: " <<signu <<std::endl;
@@ -13,15 +12,16 @@ void handler(int signu)
 int main()
 {
 
-  //signal(2,handler);
+  signal(6,handler);
   //signal(3,handler);
-
   while(true)
   {
-    std::cout<<"我是一个进程,我正在运行 ... ,pid: "<<getpid()<<std::endl;
+    std::cout<<"begin:"<<std::endl;
     sleep(1);
+    abort();
+    std::cout<<"end:"<<std::endl;
+
+
   }
-
-
   return 0 ;
 }
