@@ -14,6 +14,7 @@ int main()
 {
 
   signal(2,handler);
+  signal(3,handler);
 
   while(true)
   {
