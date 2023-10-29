@@ -16,8 +16,20 @@ int main()
 
   //signal(2,handler);
   //signal(3,handler);
-
-
+  
+  signal(2,SIG_DFL);
+  
+  
+  //signal(2,SIG_IGN);
+  sleep(1);
+  //std::cout<<"DFL"<<std::endl;
+  //std::cout<<"IGN"<<std::endl;
+  //raise(2);
+  while(true)
+  {
+    sleep(1);
+  }
+  
 
   // signal(8,handler);
   // std::cout<<"除零错误"<<std::endl;
@@ -25,12 +37,12 @@ int main()
   // std::cout<<"除零错误"<<std::endl;
   // int a =1/0; //除零错误
 
-    std::cout<<"野指针"<<std::endl;
-    std::cout<<"野指针"<<std::endl;
-    std::cout<<"野指针"<<std::endl;
-    std::cout<<"野指针"<<std::endl;
-  int *p = NULL; 
-  *p = 10; //野指针
+    //std::cout<<"野指针"<<std::endl;
+    //std::cout<<"野指针"<<std::endl;
+    //std::cout<<"野指针"<<std::endl;
+    //std::cout<<"野指针"<<std::endl;
+    //int *p = NULL; 
+    //*p = 10; //野指针
 
 
  // while(true)
