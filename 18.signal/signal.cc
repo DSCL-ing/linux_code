@@ -3,20 +3,21 @@
 #include<signal.h>
 #include<unistd.h>
 #include<sys/types.h>
+#include<cassert>
 
 //sighandler_t == void(*)(int)
-void handler(int signu)
+static void handler(int signu)
 {
   std::cout<<"get a signal: " <<signu <<"pid: "<<getpid()<<std::endl;
   sleep(1);
 }
 
-void showBlock(sigset_t* oset)
+static void showPending(sigset_t& pending)
 {
+  std::cout<<"当前进程的pending位图:";
   int signo =1;
-  for(;signo<=31;++signo)
-  {
-    if(sigismember(oset,signo)==1) std::cout<<1;
+  for(;signo<=31;++signo) {
+    if(sigismember(&pending,signo)==1) std::cout<<1;
     else std::cout<<0;
   }
   std::cout<<"\n";
@@ -29,21 +30,35 @@ int main()
   sigset_t set,oset;
   sigemptyset(&set);
   sigemptyset(&oset);
-  sigaddset(&set,2);
+
+  for(int signo = 1 ; signo<=31;++signo)
+  {
+    sigaddset(&set,signo);
+  }
   sigprocmask(SIG_SETMASK,&set,&oset);
 
-  int cnt = 0;
+  
+  signal(2,handler);
+
+  int cnt=0;
   while(true)
   {
-    showBlock(&oset) ;
-    sleep(1);
-    if(cnt == 10)
+    sigset_t pending;
+    int n = sigemptyset(&pending);
+    assert(n == 0);//一定会成功,就用assert
+    (void)n; 
+    sigpending(&pending);//获取未决表
+    showPending(pending);//打印未决表
+    if(cnt++ == 10)
     {
-      std::cout<<"recover block\n";
-      sigprocmask(SIG_SETMASK,&oset,&set);
-      showBlock(&set);
+      std::cout<<"解除对2号信号的屏蔽\n";
+      sigprocmask(SIG_SETMASK,&oset,nullptr);
     }
-    cnt++;
+    
+    sleep(1);
+   
+    
+
 
   }
 
