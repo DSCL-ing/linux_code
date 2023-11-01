@@ -20,8 +20,9 @@ static void showPending(sigset_t& pending)
 
 volatile int quit = 0; 
 
-static void handler(int signu)
+static void handler(int signo)
 {
+  (void)signo;
   printf("change quit from 0 to 1\n");
   quit = 1;
   printf("quit %d\n",quit);
