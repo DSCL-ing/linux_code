@@ -5,48 +5,59 @@
 #include <cstring>
 #include <string>
 
+//只支持内置类型,语言级别的类型,类不支持
+//只类似全局变量,不能是static,因为static一定在全局已初始化数据区
+ __thread int g_val = 100;//gcc/g++的选项,使全局变量给每个线程都拷贝一份,是属于线程内部的全局变量
 
+// int g_val = 100;
 
-std::string toHex(int num) 
-{
-	char buffer[64] ={0};
-	snprintf(buffer,64,"0x%x",num);
-	return buffer;
-}
-
- void *threadRoutine(void *args)
+ std::string hexAddr(pthread_t tid)
  {
-   pthread_detach(pthread_self()); // ----------------------复合函数实现自己分离自己
-   std::string name = static_cast<const char*>(args);
-   int cnt = 5;
-   while(cnt)
-   {
-     std::cout<<name<<" : "<<cnt--<<toHex(pthread_self())<<std::endl;
-     sleep(1);
-   }
-   return nullptr;
+     g_val++; //作用:统计该函数被该线程调用了多少次
+     char buffer[64];
+     snprintf(buffer, sizeof(buffer), "0x%lx", tid);
+
+     return buffer;
  }
- 
+
+ void *threadRoutine(void* args)
+ {
+     // static int a = 10;
+   std::string name = static_cast<const char*>(args);
+     int cnt = 5;
+     while(cnt)
+     {
+         // cout << name << " : " << cnt-- << " : " << hexAddr(pthread_self()) << " &cnt: " << &cnt << endl;
+       std::cout << name << " g_val: " << g_val++ << ", &g_val: " << &g_val << std::endl;
+         sleep(1);
+     }
+     return nullptr;
+ }
+
  int main()
  {
-     pthread_t tid;
-     pthread_create(&tid, nullptr, threadRoutine, (void*)"thread 1");
-     //sleep(10);                                                      
-    
-     while(true)
-     {
-       std::cout<<" main thread: "<<toHex(pthread_self())<<" new thread id: " << toHex(tid)<<std::endl;
-       sleep(1);
-     }
+     pthread_t t1, t2, t3;
+     pthread_create(&t1, nullptr, threadRoutine, (void*)"thread 1"); // 线程被创建的时候，谁先执行不确定！
+     pthread_create(&t2, nullptr, threadRoutine, (void*)"thread 2"); // 线程被创建的时候，谁先执行不确定！
+     pthread_create(&t3, nullptr, threadRoutine, (void*)"thread 3"); // 线程被创建的时候，谁先执行不确定!
 
-     //pthread_detach(tid); //主线程分离
-     int n = pthread_join(tid,nullptr);
-     if(n!=0)
-     {
-       std::cout<<"error: "<<errno<<" : " <<strerror(errno)<<std::endl;
-     }
+     pthread_join(t1, nullptr);
+     pthread_join(t2, nullptr);
+     pthread_join(t3, nullptr);
 
-     std::cout << "all thread quit" << std::endl;
- 
-   return 0;
+     // pthread_detach(tid);
+
+     // while(true)
+     // {
+     //     cout << " main thread:  " << hexAddr(pthread_self()) << " new thread id: " << hexAddr(tid) << endl;
+     //     sleep(1);
+     // }
+
+     // if( 0 != n )
+     // {
+     //     std::cerr << "error: " << n << " : " <<  strerror(n) << std::endl;
+     // }
+
+     // sleep(10);
+     return 0;
  }
