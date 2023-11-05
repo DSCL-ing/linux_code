@@ -9,25 +9,38 @@
 using namespace std;
 
 int tickets = 1000;
-pthread_mutex_t mutex;
 
-void *threadRoutine(void *name)
+class TData
 {
-  string tname = static_cast<const char *>(name);
+  public:
+    TData(const std::string& name,pthread_mutex_t& mutex)
+      :_tname(name),_mutex(mutex) 
+    {}
+    ~TData()
+    {}
+  public:
+    std::string _tname;
+    pthread_mutex_t& _mutex;
+};
+
+
+void *threadRoutine(void* args)
+{
+  TData* tdata = static_cast<TData *>(args);
 
   while (true)
   {
-    // pthread_mutex_lock(&mutex);
+    pthread_mutex_lock(&tdata->_mutex);
     if (tickets > 0)
     {
       usleep(2000);
-      cout << tname << " get a ticket: " << tickets-- << endl;
+      cout << tdata->_tname << " get a ticket: " << tickets-- << endl;
       // printf("%s get a ticket: %d\n",name,tickets--);
-      pthread_mutex_unlock(&mutex);
+      pthread_mutex_unlock(&tdata->_mutex);
     }
     else
     {
-      pthread_mutex_unlock(&mutex);
+      pthread_mutex_unlock(&tdata->_mutex);
       break;
     }
     //usleep(1000);//现象原因:某线程执行太快,加锁解锁特别频繁,其他线程阻塞状态不能立即获得资源 ---> 导致只有一个线程工作
@@ -36,17 +49,21 @@ void *threadRoutine(void *name)
   return nullptr;
 }
 
+
+
 int main()
 {
+  pthread_mutex_t mutex;//局部锁,需要让所有线程看见的话,要传进routine
   pthread_mutex_init(&mutex,nullptr);
   pthread_t t[4];
   int n = sizeof(t) / sizeof(t[0]);
 
   for (int i = 0; i < n; i++)
   {
-    char *tname = new char[64]; // C语言接口,传C字符串
-    snprintf(tname, 64, "thread-%d", i + 1);
-    pthread_create(t + i, nullptr, threadRoutine, tname);
+    char name[64];
+    snprintf(name,64,"thread-%d",i+1);
+    TData *tdata = new TData(name,mutex);
+    pthread_create(t + i, nullptr, threadRoutine, tdata);
   }
 
   for (int i = 0; i < n; i++)
