@@ -17,7 +17,7 @@ void *threadRoutine(void *name)
 
   while (true)
   {
-    // pthread_mutex_lock(&mutex);
+      pthread_mutex_lock(&mutex);
     if (tickets > 0)
     {
       usleep(2000);
