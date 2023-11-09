@@ -19,7 +19,7 @@
 #include <sys/stat.h>
 
 #define PATHNAME "."
-#define PROJID 0x6666 // 任意值
+#define PROJ_ID 0x6666 // 任意值
 
 // 标志位要宏定义或枚举 重命名,否则可读性差
 #define SERVER 1
@@ -30,7 +30,7 @@ const int gsize = 4096;
 // 1.获取key
 key_t getKey()
 {
-  key_t k = ftok(PATHNAME, PROJID);
+  key_t k = ftok(PATHNAME, PROJ_ID); //ftok是一套算法,将路径名和项目标识符转换为System V版本的key
   if (k == -1)
   {
     std::cout << "errno: " << errno << "-->" << strerror(errno) << std::endl;
@@ -79,7 +79,7 @@ int getShm(key_t key, int size)
 // 3.关联共享内存,//自己创建的shm不一定是给自己用的,可能是给其他进程使用,所以也需要关联才能用
 char *attachShm(int shmid)
 {
-  char *start = (char *)shmat(shmid, nullptr, 0); // 类似malloc,在虚拟地址上申请空间
+  char *start = (char *)shmat(shmid, nullptr, 0); // 类似malloc,在虚拟地址上申请空间,shmaddr为选择挂接的内存地址,用户不知道,所以设为null,让系统选择即可.shmflg是选项,0为读写,SHM_RDONLY为只读
   return start;
 }
 
@@ -125,8 +125,8 @@ public:
   }
 
 private:
-  char *_start;
-  int _type; // 1:server 0:client
+  char *_start; //创建一个指向共享内存的指针
+  int _type; // 1:server 0:client -- 用户
   int _shmid;
 };
 
