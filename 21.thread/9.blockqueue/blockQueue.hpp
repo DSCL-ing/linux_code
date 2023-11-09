@@ -5,7 +5,9 @@
 #include <pthread.h>
 #include <unistd.h>
 
-typedef int Data_t;
+// typedef int Data_t;
+typedef class Task Data_t;
+
 extern const int g_cap = 5;
 
 template <typename T>
