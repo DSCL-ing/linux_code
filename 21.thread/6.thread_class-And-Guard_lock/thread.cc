@@ -19,7 +19,7 @@ void *routine(void *args)
   while (true)
   {
     {
-      LockGuard lockguard(&mutex); //临时对象  -- RAII风格的锁
+      LockGuard lockguard(&mutex); //作用域只在临界资源代码块的临时对象,出了作用域自动析构,释放锁  -- RAII风格的锁
       if (tickets > 0)
       {
         usleep(2000);

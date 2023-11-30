@@ -10,12 +10,16 @@ pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
 void* routine(void*)
 {
-    std::cout<<"I am a new thread" <<std::endl;
+    std::cout<<"I am a new thread" <<"  ";
+    
     pthread_mutex_lock(&mutex);
     std::cout<<"I got a mutex!" <<std::endl;
+   
     pthread_mutex_lock(&mutex);
+    std::cout<<"I am a new thread" <<"  ";
     std::cout<<"I alive again" << std::endl;
-
+   
+    return nullptr;
 }
 
 int main()

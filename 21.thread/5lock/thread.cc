@@ -19,8 +19,8 @@ class TData
     ~TData()
     {}
   public:
-    std::string _tname;
-    pthread_mutex_t& _mutex;
+    std::string _tname; //线程名
+    pthread_mutex_t& _mutex; //引用局部域中定义的锁
 };
 
 
@@ -55,9 +55,10 @@ int main()
 {
   pthread_mutex_t mutex;//局部锁,需要让所有线程看见的话,要传进routine
   pthread_mutex_init(&mutex,nullptr);
-  pthread_t t[4];
-  int n = sizeof(t) / sizeof(t[0]);
 
+  pthread_t t[4];
+ 
+  int n = sizeof(t) / sizeof(t[0]);
   for (int i = 0; i < n; i++)
   {
     char name[64];
