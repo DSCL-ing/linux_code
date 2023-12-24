@@ -75,5 +75,7 @@ int main()
   pthread_join(c[0], nullptr);
   pthread_join(c[1], nullptr);
 
+  delete bq; //new的资源,用完要释放
+
   return 0;
 }
