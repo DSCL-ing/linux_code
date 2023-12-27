@@ -19,7 +19,7 @@ public:
     //不依赖于初始化参数的,或需要组合的,在括号里初始化
     _c_step = _p_step = 0; //生产和消费都是从队头开始
    
-    pthread_mutex_init(&_c_mtx,nullptr); 
+   pthread_mutex_init(&_c_mtx,nullptr); 
    pthread_mutex_init(&_p_mtx,nullptr); 
    
    sem_init(&_data_sem,0,0);
@@ -72,12 +72,12 @@ public:
 
   void pop(T* out)
   {
-    P(_data_sem);
-    lock(_c_mtx);
-    *out = _ring[_c_step++];
+    P(_data_sem); //申请数据信号量
+    lock(_c_mtx);//加消费者锁
+    *out = _ring[_c_step++]; //取数据
     _c_step %= _cap;
-    V(_space_sem);
-    unlock(_c_mtx);
+    V(_space_sem); //释放空间信号量
+    unlock(_c_mtx); //解消费者锁
   }
 
 
@@ -98,8 +98,4 @@ private:
 
 
 #endif
-
-
-
-
 

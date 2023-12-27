@@ -5,21 +5,30 @@
 #include<string>
 #include<functional>
 #include<ctime>
+#include"task.hpp"
 
-typedef int DT;
+//typedef int DT;
+typedef Task DT;
 
 std::string ops("+-*/%");
 
 void* produser(void*args)
 {
-  RingQueue<DT>* rq = static_cast<RingQueue<DT>*>(args); //类型要匹配,指针转指针
+ RingQueue<DT>* rq = static_cast<RingQueue<DT>*>(args); //类型要匹配,指针转指针
   //RingQueue<DT>* _rq = (RingQueue<DT>*)args;
  while(true)
  {
-  DT data = rand(); 
-  data%=100;
-  rq->push(data);
-  sleep(1); //生产者慢
+  //DT data = rand(); 
+  //data%=100;
+  //rq->push(data);
+  int x = rand()%100; 
+  int y = rand()%100;
+  char op = ops[rand()%ops.size()];
+  Task task(x,y,op); 
+  rq->push(task);
+  std::cout<<"生产者:"<<task.formatArg()<<"?"<<std::endl;
+  
+  //sleep(1); //生产者慢
  }
  return nullptr;
 }
@@ -32,23 +41,26 @@ void* consumer(void*args)
   {
     DT ret; 
     rq->pop(&ret);
-    std::cout<< ret <<std::endl;
+    ret();
+    std::cout<<"消费者:"<<ret.formatArg() <<ret.formatRes() <<std::endl;
+    //std::cout<< ret <<std::endl;
+    sleep(1);
+  
   }
   return nullptr;
 }
 
-
 int main()
 {
   srand(time(nullptr)*getpid());
-  RingQueue<DT> *rq = new RingQueue<DT>(); //定义在栈上也行,最后&地址传地址就好
+  RingQueue<DT> *rq = new RingQueue<DT>(); //定义在栈上也行,最后&地址传地址就好,只要保证不会被自动销毁
   std::vector<std::thread> c(3); //要用圆括号,和数组不一样不能用方括号,最好用花括号,统一更好
   std::vector<std::thread> p{2}; 
   for(int i = 0; i<3;i++)
   {
     std::function<void*(void*)> fn = consumer;  //复习包装器function的用法
-    //c[i] = std::thread(fn,rq);
-    c.push_back(std::thread(fn,rq)); //不给vector大小时常用的方法 //如果vector给定了大小,那push_back要小心越界,因为插入的数据是在最后的,前面的几个数据可能会忽略,导致异常
+    c[i] = std::thread(fn,rq);
+    //c.push_back(std::thread(fn,rq)); //不给vector大小时常用的方法 //如果vector给定了大小,那push_back要小心越界,因为插入的数据是在最后的,前面的几个数据可能会忽略,导致异常
   }
   
   for(int i = 0; i<2; i++)

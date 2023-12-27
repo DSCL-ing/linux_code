@@ -7,7 +7,7 @@
 class Task
 {
 public:
-    Task() //默认的构造函数有什么用
+    Task() //默认的构造函数有什么用? 消费者接收资源时,能够空初始化定义对象,拷贝.
     {}
 
     Task(int x, int y, char op)
