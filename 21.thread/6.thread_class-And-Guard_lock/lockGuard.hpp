@@ -36,13 +36,11 @@ class LockGuard
 public:
     LockGuard(pthread_mutex_t *pmutex) : _mutex(pmutex) //调用Mutex的构造函数
     {
-        // 加载基本资源 -- 加锁
-        _mutex.lock();
+        _mutex.lock();//调用Mutex提供的lock
     }
     ~LockGuard()
     {
-        // 释放资源 --- 释放锁
-        _mutex.unlock();
+        _mutex.unlock(); //调用Mutex提供的unlock
     }
 
 private:
