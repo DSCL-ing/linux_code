@@ -1,5 +1,5 @@
-#ifndef __THREADPOOL_V2_HPP__ 
-#define __THREADPOOL_V2_HPP__
+#ifndef THREADPOOL_V3_HPP 
+#define THREADPOOL_V3_HPP
 
 #include<iostream>
 #include<vector>
@@ -7,6 +7,7 @@
 #include<pthread.h>
 #include<queue>
 #include"Thread.hpp" //版本2:引入封装的线程
+#include"lockGuard.hpp" //版本3:引入守护锁
 
 static const int N = 5;
 
@@ -29,22 +30,24 @@ public:
     pthread_cond_destroy(&_cond);
   }
 
-  void lock()
+  //void lock()
+  //{
+  //  pthread_mutex_lock(&_mtx);
+  //}
+  //void unlock()
+  //{
+  //  pthread_mutex_unlock(&_mtx);
+  //}
+  pthread_mutex_t* get_mutex()
   {
-    pthread_mutex_lock(&_mtx);
+    return &_mtx;
   }
-  void unlock()
-  {
-    pthread_mutex_unlock(&_mtx);
-  }
-
-
+  
   void pushTask(const T& t)
   {
-    lock();
+    LockGuard LockGuard(&_mtx);
     _tasks.push(t);
     threadWakeup();
-    unlock();
   }
 
   T popTask() //返回拷贝:pop后的值没有了,不保存
@@ -72,16 +75,18 @@ public:
   static void* threadRoutine(void*args)
   {
     //pthread_detach(pthread_self()); 
-    ThreadPool<T>* tp = static_cast<ThreadPool<T>*>(args);
+     ThreadPool<T>* tp = static_cast<ThreadPool<T>*>(args);
      while(true) //线程循环运行
      {
-      tp->lock();
-      while(tp->isEmpty())
-      {
-        tp->threadWait();
-      }
-      T t = tp->popTask();
-      tp->unlock();
+       T t;
+       {
+         LockGuard(get_mutex());
+         while(tp->isEmpty())
+         {
+           tp->threadWait();
+         }
+         t = tp->popTask();
+       }
       t();
       std::cout<<"处理任务,结果:"<<t.formatRes()<<std::endl;
      }
@@ -101,8 +106,8 @@ public:
     {
       t.run();
     }
-        
   }
+  
   void check()
   {
     for (auto &t : _threads)
@@ -110,6 +115,7 @@ public:
         std::cout << t.threadname() << " running..." << std::endl;
     }
   }
+
 private:
   std::vector<Thread> _threads; //管理线程的数据结构
   int _num; //记录线程数

@@ -4,8 +4,10 @@
 #include<ctime>
 #include<memory>
 #include<string>
-#include"1threadpool_v1.hpp"
+//#include"1threadpool_v1.hpp"
 //#include"2threadpool_v2.hpp"
+//#include"3threadpool_v3.hpp"
+#include"4threadpool_v4.hpp"
 
 
 std::string ops = "+-*/%";
@@ -13,7 +15,7 @@ std::string ops = "+-*/%";
 int main()
 {
   srand(time(nullptr)*getpid());
-  std::unique_ptr<ThreadPool<Task>> tp(new ThreadPool<Task>() );
+  std::unique_ptr<ThreadPool<Task>> tp(ThreadPool<Task>::getInstance()); //借助智能指针析构是否可行
   tp->init();
   tp->start();
   int cnt = 5;
