@@ -1,8 +1,6 @@
 #include"server.hpp"
-#include<iostream>
 #include<memory>
 #include<string>
-#include"err.hpp"
 
 
 void Usage(std::string proc)
