@@ -2,6 +2,7 @@
 
 #include<iostream>
 #include<string>
+#include<functional>
 
 #include<sys/types.h>
 #include<sys/socket.h>
@@ -12,15 +13,17 @@
 #include<cstring>
 #include<cstdlib>
 
-
 #include"err.hpp"
+
 static const uint16_t default_port = 8080;
+//using func_t = std::function<std::string(std::string)>;//using更好用
+typedef std::function<std::string(std::string)> func_t;
 
 class UdpServer
 {
 public:
   //UdpServer(std::string ip ,uint16_t port = default_port):port_(port),ip_(ip)
-  UdpServer(uint16_t port = default_port):port_(port)
+  UdpServer(func_t fun,uint16_t port = default_port):service_(fun),port_(port)
   {
       std::cout<<" , server port: " << port <<std::endl;
   }
@@ -66,7 +69,7 @@ public:
     char buffer[1024];
     while(true)
     {
-      //接收
+      //1.接收
       struct sockaddr_in peer; //本地sockaddr,用于接收套接字地址
       socklen_t len = sizeof(peer);
       int  n = recvfrom(sock_,buffer,sizeof(buffer)-1,0,(struct sockaddr*)&peer,&len); 
@@ -85,18 +88,23 @@ public:
       std::string clientip = inet_ntoa(peer.sin_addr);
       uint16_t clientport = ntohs(peer.sin_port);
       //std::cout << "get massage# " <<buffer<<std::endl; //打印接收到的信息
+     
+      //2.业务处理
+      std::string response = service_(buffer);
       std::cout<<clientip << "-" <<clientport<<"# " <<buffer<<std::endl;
 
-      //发送
+      //2.2发送
       //peer不需要主机转网络,因为本来就是从网络中取到的
-      sendto(sock_,buffer,strlen(buffer),0,(struct sockaddr*)&peer,sizeof(peer)); //1.此处是strlen,不是sizeof,已经去掉了\0,目前规定网络数据不带\0.2.len不用取地址,recv需要提取出对方发送过来的套接字地址内的数据才需要输出型参数.
+      sendto(sock_,response.c_str(),response.size(),0,(struct sockaddr*)&peer,sizeof(peer)); //1.此处是strlen,不是sizeof,已经去掉了\0,目前规定网络数据不带\0.2.len不用取地址,recv需要提取出对方发送过来的套接字地址内的数据才需要输出型参数.
       
     }
   }
 
 private:
   int sock_;  //udp服务器自己的套接字
+  func_t service_;
   uint16_t port_; //udp服务器自己的端口号
+
 
   //一般输入的IP都是点分十进制的.所以是字符串
   //std::string ip_; //服务器自己的IP --------------------- 云服务器版本不需要手动提供IP地址

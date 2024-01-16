@@ -46,7 +46,6 @@ int main(int argc ,char* argv[])
     std::cin>>massage;
    
     sendto(sock,massage.c_str(),massage.size(),0,(struct sockaddr*)&server,sizeof(server));
-    std::cout<<"sendto success"<<std::endl;
 
     //3.recv
     char buffer[1024];
