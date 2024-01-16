@@ -43,12 +43,13 @@ int main(int argc ,char* argv[])
     //
     std::string massage;
     std::cout<<"please Enter# ";
-    std::cin>>massage;
+    //std::cin>>massage;
+    std::getline(std::cin,massage); //遇到换行符才会结束
    
     sendto(sock,massage.c_str(),massage.size(),0,(struct sockaddr*)&server,sizeof(server));
 
     //3.recv
-    char buffer[1024];
+    char buffer[2048];
     struct sockaddr temp; //temp不需要清空,因为使用来接收的,接收到的数据会覆盖,不必担心
     socklen_t len = sizeof(temp);  
     int n = recvfrom(sock,buffer,sizeof(buffer)-1,0,(struct sockaddr*)&temp,&len);

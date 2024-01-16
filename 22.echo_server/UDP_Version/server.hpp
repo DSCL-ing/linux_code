@@ -66,7 +66,7 @@ public:
 
    void Start()
   {
-    char buffer[1024];
+    char buffer[2048];
     while(true)
     {
       //1.接收
@@ -75,14 +75,15 @@ public:
       int  n = recvfrom(sock_,buffer,sizeof(buffer)-1,0,(struct sockaddr*)&peer,&len); 
       if(n>0)
       { 
-        std::cout<<"get massage success" <<std::endl;
+        //std::cout<<"get massage success" <<std::endl;
+        
         //接收到有效数据后,给C风格字符串补上\0
         buffer[n] = '\0'; 
       }
       else
       {
         //否则继续接收
-        std::cout<<"no get massage "<<std::endl;
+        //std::cout<<"no get massage "<<std::endl;
         continue; 
       }
       std::string clientip = inet_ntoa(peer.sin_addr);
