@@ -5,7 +5,6 @@
 #include<functional>
 #include<unordered_map>
 #include<mutex>
-#include<vector>
 
 
 #include<sys/types.h>
@@ -67,24 +66,17 @@ public:
     std::cout<<"bind socket success" << std::endl;
   }
  
-  void addUser(const std::string &name,const sockaddr_in &peer) //C++ struct可以不写
+  void addUser(std::string name,sockaddr_in peer)
   {
-    //好像没什么必要写addUser,当作复习接口.实际用[]就可以了.实现删除接口意义更大
-    //onlineUser_[name] = peer;
-    
-    std::lock_guard<std::mutex> lock_guard(mtx_);
-    
-    auto it = onlineUser_.find(name);
-    if(it!=onlineUser_.end())
-    //if(onlineUser_.find(name)!=onlineUser_.end()) 
+    if(m_.find(name)!=m_.end())
     {
-      //onlineUser_.emplace(name,peer);//可变参数包+定位new推导,无需类型,
-      //onlineUser_.insert(std::pair<std::string,sockaddr_in>(name,peer));//要写类型
-      onlineUser_.insert(std::make_pair(name,peer));//无需写类型
+      //m_.emplace(name,peer);//可变参数包+定位new推导,无需类型,
+      //m_.insert(std::pair<std::string,sockaddr_in>(name,peer));//要写类型
+      m_.insert(std::make_pair(name,peer));//无需写类型
     }
     else
     {
-        //存在就什么都不做
+
     }
     
     
@@ -109,20 +101,17 @@ public:
       {
         continue; 
       }
-     
-      //添加任务/数据
+      
       rq_.push(buffer);
 
       std::string clientip = inet_ntoa(peer.sin_addr);
       uint16_t clientport = ntohs(peer.sin_port);
       //std::cout<<clientip << "-" <<clientport<<"# " <<buffer<<std::endl;
-      
-      //添加用户
+      //2.将收到的数据放入存储队列中 
       std::string username;
-      username += clientip;
-      username +="-";
-      username += std::to_string(clientport);
+      username = clientip +"+"+ std::to_string(clientport);
 
+      std::lock_guard<std::mutex> lock_guard(mtx_);
       addUser(username,peer);
 
        
@@ -130,41 +119,19 @@ public:
      }  
   }
 
-  //广播给所有用户
   void broadcast()
   {
+    
+
     while(true)
     {
       std::string response;
       rq_.pop(&response);
-   
-      
-      //加锁方案一:
-      //缺点:要加锁的区域涉及sendto系统调用,系统IO等.影响效率
-      //std::lock_guard<std::mutex> lock_guard(mtx_);
-      //for(auto &v:onlineUser_)  //向每个用户都发送一条消息
-      //{
-      //  std::cout<<"broadcast massage to "<<v.first<<" : "<<response<<std::endl;
-      //  sendto(sock_,response.c_str(),response.size(),0,(struct sockaddr*)&v.second,sizeof(v)); 
-      //}
     
-      //加锁方案二:
-      //优点:内存级的拷贝,没有调用任何系统接口,速度快
-      std::vector<sockaddr_in> temp; 
+      for(auto &v:m_)
       {
-        std::lock_guard<std::mutex> lock_guard(mtx_);
-        for(auto &e:onlineUser_)
-        {
-          temp.push_back(e.second);
-        }
+        sendto(sock_,response.c_str(),response.size(),0,(struct sockaddr*)&v.second,sizeof(v)); 
       }
-      
-      for(auto &v:temp)
-      {
-        //std::cout<<"broadcast massage to "<<v.first<<" : "<<response<<std::endl;
-        sendto(sock_,response.c_str(),response.size(),0,(struct sockaddr*)&v,sizeof(v)); 
-      }
-   
     }
 
   }
@@ -182,8 +149,8 @@ private:
   
   RingQueue<std::string> rq_; //用于存放消息
   
-  std::unordered_map<std::string,sockaddr_in> onlineUser_;//在线用户
-  std::mutex mtx_; //阻止onlineUser_ Map在使用时被修改
+  std::unordered_map<std::string,sockaddr_in> onlineuser;//用户数据
+  std::mutex mtx_;
 
 
   //一般输入的IP都是点分十进制的.所以是字符串
