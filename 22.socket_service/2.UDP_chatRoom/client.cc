@@ -36,28 +36,29 @@ int main(int argc ,char* argv[])
   server.sin_addr.s_addr = inet_addr(serverip.c_str());
   server.sin_port = htons(serverport);
 
-  //2.sendto
-  std::string massage;
-  std::cout<<"please Enter# ";
-  std::cin>>massage;
- 
-  sendto(sock,massage.c_str(),massage.size(),0,(struct sockaddr*)&server,sizeof(server));
-
-  //3.recv
-  char buffer[1024];
-  struct sockaddr temp;
-  socklen_t len;  
-  int n = recvfrom(sock,buffer,sizeof(buffer)-1,0,(struct sockaddr*)&temp,&len);
-  if(n > 0)
+  while(true)
   {
-    buffer[n] = '\0';
-  }
-  else
-  {
+    //2.sendto
+    //sendto会在首次发送数据的时,通过系统调用替用户自动选择和绑定套接字地址(IP和端口号)
+    //
+    std::string massage;
+    std::cout<<"please Enter# ";
+    //std::cin>>massage;
+    std::getline(std::cin,massage); //遇到换行符才会结束
+   
+    sendto(sock,massage.c_str(),massage.size(),0,(struct sockaddr*)&server,sizeof(server));
 
+    //3.recv
+    char buffer[2048];
+    struct sockaddr temp; //temp不需要清空,因为使用来接收的,接收到的数据会覆盖,不必担心
+    socklen_t len = sizeof(temp);  
+    int n = recvfrom(sock,buffer,sizeof(buffer)-1,0,(struct sockaddr*)&temp,&len);
+    if(n > 0)
+    {
+      buffer[n] = '\0';
+      std::cout<<"server echo# :" << buffer<<std::endl;
+    }
   }
-  std::cout<<"server massage :" << buffer<<std::endl;
-
   
   return 0;
 }
