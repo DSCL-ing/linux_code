@@ -1,10 +1,16 @@
 
 #include "client.hpp"
+#include <thread>
 
 void Usage(char* proc)
 {
   // ./client serverip serverport 
   std::cout<<"Usage\n\t" <<proc<<" serverip  serverport\n"<<std::endl;
+}
+
+void  send()
+{
+
 }
 
 int main(int argc ,char* argv[])

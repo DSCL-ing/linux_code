@@ -6,12 +6,14 @@
 #include<unordered_map>
 #include<mutex>
 #include<vector>
+#include<thread>
 
 
 #include<sys/types.h>
 #include<sys/socket.h>
 #include<netinet/in.h>
 #include<arpa/inet.h>
+#include<unistd.h>
 
 #include<cerrno>
 #include<cstring>
@@ -19,26 +21,30 @@
 
 #include"err.hpp"
 #include"ringQueue.hpp"
-#include"Thread.hpp"
 
 static const uint16_t default_port = 8080;
-//using func_t = std::function<std::string(std::string)>;//using更好用
-typedef std::function<std::string(std::string)> func_t;
 
 class UdpServer
 {
 public:
-  //UdpServer(std::string ip ,uint16_t port = default_port):port_(port),ip_(ip)
-  UdpServer(func_t fun,uint16_t port = default_port):service_(fun),port_(port)
+  UdpServer(uint16_t port = default_port):port_(port)
   {
       std::cout<<" , server port: " << port <<std::endl;
+      
+      //std::function<void()> func = std::bind(&UdpServer::Recv,this);
+      //std::thread p(std::bind(&UdpServer::Recv,this));
+      //作用:回忆bind用法
   }
   ~UdpServer()
   {
+    p->join();
+    c->join();
 
+    delete p;
+    delete c;
   }
 
-  void InitServer()
+  void start()
   {
     //1. 打开socket接口,打开网络文件
     sock_ = socket(AF_INET,SOCK_DGRAM,0);
@@ -55,7 +61,6 @@ public:
     memset(&local,0,sizeof(local));
     local.sin_family = AF_INET;
     local.sin_port = htons(port_);//主机转网络,16位短整数
-    //local.sin_addr.s_addr = inet_addr(ip_.c_str());//需要把点分十进制转成uint32的IP地址类型  -- 虚拟机,物理机器版本
     
     //2.将准备好的本地套接字字段和网络文件套接字字段绑定
     int n = bind(sock_,(struct sockaddr*)&local,sizeof(local)); //sockaddr_in和sockaddr和sockaddr_un等大小是不一样的,所以把类型大小作参数传进来
@@ -65,6 +70,11 @@ public:
       exit(BIND_ERR);
     }
     std::cout<<"bind socket success" << std::endl;
+
+
+    p = new std::thread(std::bind(&UdpServer::Recv,this)) ;
+    c = new std::thread(std::bind(&UdpServer::broadcast,this)) ;
+
   }
  
   void addUser(const std::string &name,const sockaddr_in &peer) //C++ struct可以不写
@@ -75,12 +85,12 @@ public:
     std::lock_guard<std::mutex> lock_guard(mtx_);
     
     auto it = onlineUser_.find(name);
-    if(it!=onlineUser_.end())
-    //if(onlineUser_.find(name)!=onlineUser_.end()) 
+    if(it==onlineUser_.end())
     {
       //onlineUser_.emplace(name,peer);//可变参数包+定位new推导,无需类型,
       //onlineUser_.insert(std::pair<std::string,sockaddr_in>(name,peer));//要写类型
       onlineUser_.insert(std::make_pair(name,peer));//无需写类型
+      std::cout<<"insert new user"<<std::endl;
     }
     else
     {
@@ -110,12 +120,10 @@ public:
         continue; 
       }
      
-      //添加任务/数据
-      rq_.push(buffer);
 
       std::string clientip = inet_ntoa(peer.sin_addr);
       uint16_t clientport = ntohs(peer.sin_port);
-      //std::cout<<clientip << "-" <<clientport<<"# " <<buffer<<std::endl;
+      std::cout<<clientip << "-" <<clientport<<"# " <<buffer<<std::endl;
       
       //添加用户
       std::string username;
@@ -125,7 +133,14 @@ public:
 
       addUser(username,peer);
 
-       
+      //一定要先添加用户,再push,否则
+      //1.client多线程下会消息错位.
+      //2.client单线程阻塞:会出现service在recv,client也在recv
+      //原因:broadcast是先pop,再判断用户再发送
+      //如果先push,则broadcast可能会立刻pop,此时还没addUser,导致没有发送出去就进入下个循环.发生运行逻辑错误
+
+      //添加任务/数据
+      rq_.push(buffer);
 
      }  
   }
@@ -135,9 +150,9 @@ public:
   {
     while(true)
     {
+      usleep(100);
       std::string response;
       rq_.pop(&response);
-   
       
       //加锁方案一:
       //缺点:要加锁的区域涉及sendto系统调用,系统IO等.影响效率
@@ -152,14 +167,14 @@ public:
       //优点:内存级的拷贝,没有调用任何系统接口,速度快
       std::vector<sockaddr_in> temp; 
       {
-        std::lock_guard<std::mutex> lock_guard(mtx_);
-        for(auto &e:onlineUser_)
+        //std::lock_guard<std::mutex> lock_guard(mtx_);
+        for(auto e:onlineUser_)
         {
           temp.push_back(e.second);
         }
       }
       
-      for(auto &v:temp)
+      for(auto v:temp)
       {
         //std::cout<<"broadcast massage to "<<v.first<<" : "<<response<<std::endl;
         sendto(sock_,response.c_str(),response.size(),0,(struct sockaddr*)&v,sizeof(v)); 
@@ -169,22 +184,18 @@ public:
 
   }
 
-   void Start()
-  {
-     
-      
-  }
 
 private:
   int sock_;  //udp服务器自己的套接字
-  func_t service_;
   uint16_t port_; //udp服务器自己的端口号
   
   RingQueue<std::string> rq_; //用于存放消息
   
   std::unordered_map<std::string,sockaddr_in> onlineUser_;//在线用户
   std::mutex mtx_; //阻止onlineUser_ Map在使用时被修改
-
+  
+  std::thread *p;
+  std::thread *c;
 
   //一般输入的IP都是点分十进制的.所以是字符串
   //std::string ip_; //服务器自己的IP --------------------- 云服务器版本不需要手动提供IP地址

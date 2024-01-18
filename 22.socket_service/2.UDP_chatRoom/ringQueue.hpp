@@ -8,7 +8,7 @@
 #include<unistd.h>
 #include<mutex>
 
-static const int g_val = 5; //将全局变量限定于文件内,不冲突其他文件
+static const int g_val = 50; //将全局变量限定于文件内,不冲突其他文件
 
 template<typename T>
 class RingQueue
@@ -51,23 +51,14 @@ public:
     pthread_mutex_unlock(&m);
   }
 
-  //void push(const T& in)
-  //{
-  //  sem_wait(_space_sem);//先申请信号量
-  //  pthread_mutex_lock(&_p_mtx); 
-  //  _ring[_p_step++] = in;
-  //  _p_step%=_cap;
-  //  sem_post(_data_sem);
-  //  pthread_mutex_unlock(&_p_mtx); 
-  //}
   void push(const T& in)
   {
     P(_space_sem);
     lock(_p_mtx);
     _ring[_p_step++] = in; //插入数据到环形队列中
     _p_step %= _cap;
-    V(_data_sem);
     unlock(_p_mtx);
+    V(_data_sem);
   }
 
   void pop(T* out)
@@ -76,8 +67,8 @@ public:
     lock(_c_mtx);//加消费者锁
     *out = _ring[_c_step++]; //取数据
     _c_step %= _cap;
-    V(_space_sem); //释放空间信号量
     unlock(_c_mtx); //解消费者锁
+    V(_space_sem); //释放空间信号量
   }
 
 
