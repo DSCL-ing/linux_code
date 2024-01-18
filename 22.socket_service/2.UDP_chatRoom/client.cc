@@ -8,9 +8,36 @@ void Usage(char* proc)
   std::cout<<"Usage\n\t" <<proc<<" serverip  serverport\n"<<std::endl;
 }
 
-void  send()
+void Send(int sock,sockaddr_in peer )
 {
+  while(true)
+  {
+    std::string massage;
+    std::cout<<"please Enter# ";
+    //std::cin>>massage;
+    std::getline(std::cin,massage); //遇到换行符才会结束
+    sendto(sock,massage.c_str(),massage.size(),0,(struct sockaddr*)&peer,sizeof(peer));
+  }
+}
 
+void Recv(int sock)
+{
+  while(true)
+  {
+
+    char buffer[2048];
+    sockaddr_in temp;
+    socklen_t len;
+    int n = recvfrom(sock,buffer,sizeof(buffer)-1,0,(struct sockaddr*)&temp,&len);
+    if(n > 0)
+    {
+      buffer[n] = '\0';
+      std::cerr << buffer<<std::endl;//使用cerr
+      //两个输出流,cerr流向命名管道,让消息分开
+      //注意执行重定向命令后,会阻塞等待另一个终端打开管道文件
+      //命令后要带2>fifo,因为默认是标准输出1.使用标准错误来复习
+    }
+  }
 }
 
 int main(int argc ,char* argv[])
@@ -41,30 +68,12 @@ int main(int argc ,char* argv[])
   server.sin_family = AF_INET;
   server.sin_addr.s_addr = inet_addr(serverip.c_str());
   server.sin_port = htons(serverport);
+  
+  std::thread t1(Send,sock,server);
+  std::thread t2(Recv,sock);
 
-  while(true)
-  {
-    //2.sendto
-    //sendto会在首次发送数据的时,通过系统调用替用户自动选择和绑定套接字地址(IP和端口号)
-    //
-    std::string massage;
-    std::cout<<"please Enter# ";
-    //std::cin>>massage;
-    std::getline(std::cin,massage); //遇到换行符才会结束
-   
-    sendto(sock,massage.c_str(),massage.size(),0,(struct sockaddr*)&server,sizeof(server));
-
-    //3.recv
-    char buffer[2048];
-    struct sockaddr temp; //temp不需要清空,因为使用来接收的,接收到的数据会覆盖,不必担心
-    socklen_t len = sizeof(temp);  
-    int n = recvfrom(sock,buffer,sizeof(buffer)-1,0,(struct sockaddr*)&temp,&len);
-    if(n > 0)
-    {
-      buffer[n] = '\0';
-      std::cout<<"server echo# :" << buffer<<std::endl;
-    }
-  }
+  t1.join();
+  t2.join();
   
   return 0;
 }

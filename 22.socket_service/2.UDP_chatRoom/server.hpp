@@ -140,7 +140,11 @@ public:
       //如果先push,则broadcast可能会立刻pop,此时还没addUser,导致没有发送出去就进入下个循环.发生运行逻辑错误
 
       //添加任务/数据
-      rq_.push(buffer);
+      std::string massage;
+      massage+=username;
+      massage+=": ";
+      massage+=buffer;
+      rq_.push(massage);
 
      }  
   }
