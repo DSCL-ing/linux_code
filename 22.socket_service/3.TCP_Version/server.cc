@@ -5,6 +5,8 @@
 #include<string.h>
 #include<vector>
 
+//using namespace ns_server;
+
 void Usage(std::string proc)
 {
   std::cout<< "Usage:\n\t" << proc <<" port\n"<<std::endl;
