@@ -31,7 +31,7 @@ int main(int argc , char*argv[])  //接收命令行数据
     std::unique_ptr<UdpServer> usvr(new UdpServer());
     usvr->start();
   }
- 
+
   std::cout<<"server run"<<std::endl;
   return  0;
 

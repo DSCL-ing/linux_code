@@ -47,9 +47,9 @@ int main(int argc ,char* argv[])
     Usage(argv[0]);
     exit(USAGE_ERR);
   }
-  
+
   std::cout << "client run" << std::endl;
-  
+
   //1. 创建套接字,打开网络文件
   int sock = socket(AF_INET,SOCK_DGRAM,0);
   if(sock<0)
@@ -57,23 +57,23 @@ int main(int argc ,char* argv[])
     std::cerr<<"create socket error "<<std::endl;
     exit(SOCKET_ERR);
   }
- 
+
   //1.5 准备工作
   std::string serverip = argv[1];
   uint16_t serverport = atoi(argv[2]);
-  
+
   //1.6明确server
   struct sockaddr_in server;
   memset(&server,0,sizeof(server)); //string.h
   server.sin_family = AF_INET;
   server.sin_addr.s_addr = inet_addr(serverip.c_str());
   server.sin_port = htons(serverport);
-  
+
   std::thread t1(Send,sock,server);
   std::thread t2(Recv,sock);
 
   t1.join();
   t2.join();
-  
+
   return 0;
 }
