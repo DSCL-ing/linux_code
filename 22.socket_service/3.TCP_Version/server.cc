@@ -10,6 +10,11 @@ void Usage(std::string proc)
            <<proc<<" port"<<std::endl;
 }
 
+std::string echo(const std::string &massage)
+{
+  return massage;
+}
+
 int main(int argc,char *argv[])
 {
   std::unique_ptr<TCPServer> tsvr;
@@ -20,14 +25,14 @@ int main(int argc,char *argv[])
   }
   else if(argc == 2)
   {
-    tsvr = std::unique_ptr<TCPServer>{new TCPServer(atoi(argv[1]))};
+    tsvr = std::unique_ptr<TCPServer>{new TCPServer(echo,atoi(argv[1]))};
   }
   else
   {
-    tsvr = std::unique_ptr<TCPServer>{new TCPServer()};
+    tsvr = std::unique_ptr<TCPServer>{new TCPServer(echo)};
   }
   tsvr->initServer();
   tsvr->start();
 
-    return 0;
+  return 0;
 }
