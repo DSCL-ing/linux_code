@@ -1,5 +1,5 @@
-#ifndef THREADPOOL_V3_HPP 
-#define THREADPOOL_V3_HPP
+#ifndef THREADPOOL_V4_HPP 
+#define THREADPOOL_V4_HPP
 
 #include<iostream>
 #include<vector>
@@ -19,6 +19,24 @@
 */
 
 static const int N = 5;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 template<class T> //任务的类型
 class ThreadPool
@@ -40,6 +58,8 @@ public:
       if(nullptr == _instance)
       {
         _instance = new ThreadPool<T>(); //在类域内,能够访问私有的构造函数
+        _instance->init();
+        _instance->start();
         //可以在这里init和start,也可以在main
       }
     }
@@ -53,30 +73,6 @@ public:
     }
     pthread_mutex_destroy(&_mtx);
     pthread_cond_destroy(&_cond);
-  }
-
-  //void lock()
-  //{
-  //  pthread_mutex_lock(&_mtx);
-  //}
-  //void unlock()
-  //{
-  //  pthread_mutex_unlock(&_mtx);
-  //}
-  
-  
-  void pushTask(const T& t)
-  {
-    LockGuard LockGuard(&_mtx);
-    _tasks.push(t);
-    threadWakeup();
-  }
-
-  T popTask() //返回拷贝:pop后的值没有了,不保存
-  {
-    T t = _tasks.front();
-    _tasks.pop();
-    return t;
   }
 
   bool isEmpty()
@@ -93,20 +89,43 @@ public:
   {
     pthread_cond_signal(&_cond);
   }
+  //void lock()
+  //{
+  //  pthread_mutex_lock(&_mtx);
+  //}
+  //void unlock()
+  //{
+  //  pthread_mutex_unlock(&_mtx);
+  //}
 
+  
+  void pushTask(const T& t)
+  {
+    LockGuard LockGuard(&_mtx);
+    _tasks.push(t);
+    threadWakeup();
+  }
+
+  T popTask() //返回拷贝:pop后的值没有了,不保存
+  {
+    T t = _tasks.front();
+    _tasks.pop();
+    return t;
+  }
   pthread_mutex_t* get_mutex()
   {
     return &_mtx;
   }
+
   static void* threadRoutine(void*args)
   {
-    //pthread_detach(pthread_self()); 
+     pthread_detach(pthread_self()); 
      ThreadPool<T>* tp = static_cast<ThreadPool<T>*>(args);
-     while(true) //线程循环运行
+     while(true) 
      {
        T t;
        {
-         LockGuard(tp->get_mutex());
+         LockGuard(tp->get_mutex()); //bug? 为什么能直接调用非静态成员函数
          while(tp->isEmpty())
          {
            tp->threadWait();
@@ -114,7 +133,6 @@ public:
          t = tp->popTask();
        }
       t();
-      std::cout<<"处理任务,结果:"<<t.formatRes()<<std::endl;
      }
   }
 
