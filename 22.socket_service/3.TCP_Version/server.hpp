@@ -20,6 +20,7 @@
 // #include"ringQueue.hpp"
 #include "err.hpp"
 
+// namespace ns_server = a_very_long_name_namespace_server
 namespace a_very_long_name_namespace_server
 {
 
@@ -72,21 +73,20 @@ namespace a_very_long_name_namespace_server
         int n = bind(listensock_, (sockaddr *)&local, sizeof(local));
         if (n < 0)
         {
-          std::cout << "socket bind error :" << strerror(errno) << std::endl;
+          std::cerr << "socket bind error :" << strerror(errno) << std::endl;
           exit(BIND_ERR);
         }
 
         // 3.监听
         if (listen(listensock_, backlog) < 0)
         {
-          std::cout << "socket listen error :" << strerror(errno) << std::endl;
+          std::cerr << "socket listen error :" << strerror(errno) << std::endl;
           exit(LISTEN_ERR);
         }
         std::cout << "TCP监听已启动" << std::endl;
       }
       void start()
       {
-        signal(SIGCHLD, SIG_IGN); // 进程等待最好的解决方案,方案1 (还有一个方案2)
         quit_ = false;
         while (!quit_)
         {
@@ -111,16 +111,18 @@ namespace a_very_long_name_namespace_server
           pthread_t tid;
           ThreadData *td = new ThreadData(sock, clientip, clientport, this);
           pthread_create(&tid, nullptr, threadRoutine, td);
+          //1.线程不能关闭文件描述符,因为是共享的
+          //2.不要等待,分离线程
         }
       }
 
       static void *threadRoutine(void *args)
       {
-         pthread_detach(pthread_self());
+         pthread_detach(pthread_self()); //
          ThreadData *td = static_cast<ThreadData *>(args);
          td->_current->service(td->_sock, td->_clientip, td->_clientport);
          delete td;
-        return nullptr;
+         return nullptr;
       }
 
     public:
