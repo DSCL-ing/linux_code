@@ -18,6 +18,8 @@
 //#define ERROR 3  //一般错误,不足以影响服务器继续向后运行,服务器还可以跑
 //#define FATAL 4  //致命,非常严重
 
+static const std::string filename = "Log/tcpserver.log";
+
 enum
 {
   DEBUG = 0,
@@ -83,9 +85,17 @@ extern void logMessage(int level,const char *format, ...)  //""是字符串常�
   va_end(p);
 
   //打印
-  printf("%s %s \n",logLeft,logRight);
-  
-  //或者保存到文件中,以后只需要在logMessage中修改定义就可以实现日志信息的流向
+  //printf("%s %s \n",logLeft,logRight);
+ 
 
+  //或者保存到文件中,以后只需要在logMessage中修改定义就可以实现日志信息的流向
+  FILE *fp = fopen(filename.c_str(),"a") ;
+  if(fp == nullptr) 
+  {
+   return ; 
+  }
+  fprintf(fp,"%s %s \n",logLeft,logRight);
+  fflush(fp);
+  fclose(fp);
 
 }

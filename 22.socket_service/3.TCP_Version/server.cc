@@ -1,5 +1,7 @@
 
 #include"server.hpp"
+#include"daemon.hpp"
+
 #include<memory>
 
 using namespace ns_server;
@@ -32,7 +34,10 @@ int main(int argc,char *argv[])
     tsvr = std::unique_ptr<TCPServer>{new TCPServer(echo)};
   }
   tsvr->initServer();
-  tsvr->start();
+  //守护进程化
+  Daemon(); //一般在初始化完成后,守护进程化
+  tsvr->start(); //然后以守护进程的方式启动服务器
+
 
   return 0;
 }
