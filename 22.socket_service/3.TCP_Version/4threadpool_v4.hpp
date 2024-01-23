@@ -10,6 +10,8 @@
 #include"lockGuard.hpp" //版本3:引入守护锁
 //版本4:引入单例
 
+#include"log.hpp"
+
 //懒汉单例:
 /*
 1.构造私有化 
@@ -19,24 +21,6 @@
 */
 
 static const int N = 5;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 template<class T> //任务的类型
 class ThreadPool
@@ -57,6 +41,8 @@ public:
       LockGuard LockGuard(&_instance_mtx);
       if(nullptr == _instance)
       {
+        //std::cout<<"线程池单例形成"<<std::endl;
+        logMessage(DEBUG,"线程池单例形成");
         _instance = new ThreadPool<T>(); //在类域内,能够访问私有的构造函数
         _instance->init();
         _instance->start();
@@ -141,6 +127,8 @@ public:
     for(int i = 0; i<_num; i++)
     {
       _threads.push_back(Thread(i,threadRoutine,this));
+      //std::cout<<i<<"thread running "<<std::endl;
+      logMessage(DEBUG,"%d thread running",i);
     }
     
   }

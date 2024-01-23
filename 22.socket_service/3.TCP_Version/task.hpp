@@ -5,7 +5,7 @@
 #include <string>
 #include <functional>
 
-using cb_t = std::function<void(int fd,std::string ip,uint16_t port)>;
+using cb_t = std::function<void(int fd,const std::string& ip,const uint16_t &port)>;
 
 class Task
 {

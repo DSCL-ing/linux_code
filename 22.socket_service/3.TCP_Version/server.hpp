@@ -20,12 +20,155 @@
 #include "err.hpp"
 #include "task.hpp"
 #include "4threadpool_v4.hpp"
+#include "log.hpp"
 
 
 // namespace ns_server = a_very_long_name_namespace_server
 namespace a_very_long_name_namespace_server
 {
-  inline namespace v4
+  inline namespace v5
+  {
+    static const uint16_t default_port = 8888;
+    static const int backlog = 32; // 待学
+    using func_t = std::function<std::string(const std::string &)>;
+
+    class TCPServer;
+    struct ThreadData
+    {
+      public:
+        ThreadData(int sock, const std::string &ip, const uint16_t port, TCPServer *ts)
+          : _sock(sock), _clientip(ip), _clientport(port), _current(ts)
+        {
+        }
+        int _sock;
+        std::string _clientip;
+        uint16_t _clientport;
+        TCPServer *_current; // 当前的
+        // TCPServer *ts//this
+    };
+
+    class TCPServer
+    {
+      public:
+        TCPServer(func_t fun, uint16_t port = default_port) : port_(port), quit_(true), func_(fun)
+      {
+      }
+        ~TCPServer()
+        {
+        }
+        void initServer()
+        {
+          // 1.创建监听套接字
+          listensock_ = socket(PF_INET, SOCK_STREAM, 0);
+          if (listensock_ < 0)
+          {
+            //std::cerr << "create socket error" << strerror(errno) << std::endl;
+            logMessage(FATAL,"create socket error,exit_code:%d, error_string:%s",errno,strerror(errno));
+            exit(SOCKET_ERR);
+          }
+          logMessage(INFO,"create socket succes,code: %d, code_string:%s",errno,strerror(errno));
+
+          // 2.将套接字与套接字地址绑定
+          struct sockaddr_in local;
+          memset(&local, 0, sizeof(local));
+          local.sin_family = PF_INET;
+          local.sin_addr.s_addr = INADDR_ANY;
+          local.sin_port = htons(port_);
+          int n = bind(listensock_, (sockaddr *)&local, sizeof(local));
+          if (n < 0)
+          {
+            //std::cerr << "socket bind error :" << strerror(errno) << std::endl;
+            logMessage(FATAL,"socket bind error,exit_code:%d, error_string:%s",errno,strerror(errno));
+            exit(BIND_ERR);
+          }
+          logMessage(INFO,"socket bind succes,code: %d, code_string:%s",errno,strerror(errno));
+
+          // 3.监听
+          if (listen(listensock_, backlog) < 0)
+          {
+            //std::cerr << "socket listen error :" << strerror(errno) << std::endl;
+            logMessage(FATAL,"socket listen error,exit_code:%d, error_string:%s",errno,strerror(errno));
+            exit(LISTEN_ERR);
+          }
+          //std::cout << "TCP监听已启动" << std::endl;
+          logMessage(INFO,"socket listen succes,code: %d, code_string:%s",errno,strerror(errno));
+
+        }
+        void start()
+        {
+          quit_ = false;
+          while (!quit_)
+          {
+            // 4.获取连接
+            struct sockaddr_in client; // accept成功后提取出客户端信息
+            socklen_t len = sizeof(client);
+
+            int sock = accept(listensock_, (sockaddr *)&client, &len);
+            if (sock < 0)
+            {
+              //std::cerr << "socket accept error : " << strerror(errno) << std::endl;
+            logMessage(WARNING,"socket accept error,exit_code:%d, error_string:%s",errno,strerror(errno));
+              continue;
+            }
+            // 这个sock是用于提供服务的sock,listsock是用来建立连接的
+
+            // 5.获取新连接成功,开始服务
+            std::string clientip = inet_ntoa(client.sin_addr);
+            uint16_t clientport = ntohs(client.sin_port);
+            //std::cout << "获取新连接成功: " << sock << " form " << listensock_ << ", " << clientip << "-" << clientport << std::endl;
+            logMessage(INFO,"获取新连接成功: %d from %d, %s-%d",sock,listensock_,clientip.c_str(),clientport);
+
+            //v4:线程池
+            //线程池一定是有限条线程的,线程池的每条线程一定是要处理短任务,迅速解决,然后继续提供服务,要避免死循环/阻塞等待这样的任务
+            Task t(sock,clientip,clientport,std::bind(&TCPServer::service,this,std::placeholders::_1,std::placeholders::_2,std::placeholders::_3));
+            ThreadPool<Task>::getInstance()->pushTask(t);
+
+            //其他方案如: 多线程/多进程套线程池,多线程/多进程模型提供服务给客户端,然后在处理任务时使用线程池进行处理,缓解服务器IO压力
+          }
+        }
+
+
+      public:
+        void service(int sock, const std::string &clientip, uint64_t port)
+        {
+          //std::cout<<"service"<<std::endl;//DEBUG
+          std::string who = clientip + "-" + std::to_string(port);
+          char buffer[1024];
+          //如果可读端挂着不执行read/write等,会阻塞等待着,显然会占用资源//一般会有特殊处理,待学
+          ssize_t s = read(sock, buffer, sizeof(buffer) - 1);
+          if (s > 0)
+          {
+            buffer[s] = '\0';
+            //std::cout << who << " : " << buffer << std::endl;
+            logMessage(DEBUG,"%s : %s",who.c_str(),buffer);
+
+            std::string res = func_(buffer);//可以将数据处理交给线程池完成
+            write(sock, res.c_str(), res.size());
+          }
+          else if (s == 0)
+          {
+            //std::cout << who << " quit , me too." << std::endl;
+            logMessage(INFO,"%s quit,me too.",who.c_str());
+          }
+          else
+          {
+            //std::cerr << "read error: " << strerror(errno) << std::endl;
+            logMessage(ERROR,"read error, %d:%s",errno,strerror(errno));
+          }
+          close(sock); 
+        }
+
+      private:
+        int listensock_;
+        uint16_t port_;
+
+        bool quit_; 
+
+        func_t func_;
+    };
+  }
+
+   namespace v4
   {
     static const uint16_t default_port = 8888;
     static const int backlog = 32; // 待学
@@ -110,10 +253,13 @@ namespace a_very_long_name_namespace_server
               << clientip << "-" << clientport << std::endl;
 
             //v4:线程池
+            //线程池一定是有限条线程的,线程池的每条线程一定是要处理短任务,迅速解决,然后继续提供服务,要避免死循环/阻塞等待这样的任务
             Task t(sock,clientip,clientport,std::bind(&TCPServer::service,this,std::placeholders::_1,std::placeholders::_2,std::placeholders::_3));
             std::cout<<"Task created"<<std::endl;
             ThreadPool<Task>::getInstance()->pushTask(t);
             std::cout<<"ThreadPool pushTask\n";
+
+            //其他方案如: 多线程/多进程套线程池,多线程/多进程模型提供服务给客户端,然后在处理任务时使用线程池进行处理,缓解服务器IO压力
           }
         }
 
@@ -124,13 +270,14 @@ namespace a_very_long_name_namespace_server
           std::cout<<"service"<<std::endl;
           std::string who = clientip + "-" + std::to_string(port);
           char buffer[1024];
+          //如果可读端挂着不执行read/write等,会阻塞等待着,显然会占用资源//一般会有特殊处理,待学
           ssize_t s = read(sock, buffer, sizeof(buffer) - 1);
           if (s > 0)
           {
             buffer[s] = '\0';
             std::cout << who << " : " << buffer << std::endl;
 
-            std::string res = func_(buffer);
+            std::string res = func_(buffer);//可以将数据处理交给线程池完成
             write(sock, res.c_str(), res.size());
           }
           else if (s == 0)
