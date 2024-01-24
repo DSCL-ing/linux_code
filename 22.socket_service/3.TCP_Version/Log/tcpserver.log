@@ -24,3 +24,13 @@
 [INFO] [2024-1-23 22:10:48] [9858]  获取新连接成功: 6 from 3, 47.113.229.137-49774 
 [DEBUG] [2024-1-23 22:10:49] [9858]  47.113.229.137-49774 : a 
 [INFO] [2024-1-23 22:10:51] [9858]  获取新连接成功: 5 from 3, 47.113.229.137-49776 
+[INFO] [2024-1-24 10:18:50] [17214]  create socket succes,code: 0, code_string:Success 
+[FATAL] [2024-1-24 10:18:50] [17214]  socket bind error,exit_code:98, error_string:Address already in use 
+[INFO] [2024-1-24 10:19:37] [17333]  create socket succes,code: 0, code_string:Success 
+[FATAL] [2024-1-24 10:19:37] [17333]  socket bind error,exit_code:98, error_string:Address already in use 
+[INFO] [2024-1-24 10:19:58] [17343]  create socket succes,code: 0, code_string:Success 
+[FATAL] [2024-1-24 10:19:58] [17343]  socket bind error,exit_code:98, error_string:Address already in use 
+[INFO] [2024-1-24 10:55:54] [17992]  create socket succes,code: 0, code_string:Success 
+[FATAL] [2024-1-24 10:55:54] [17992]  socket bind error,exit_code:98, error_string:Address already in use 
+[INFO] [2024-1-24 11:0:24] [18138]  create socket succes,code: 0, code_string:Success 
+[FATAL] [2024-1-24 11:0:24] [18138]  socket bind error,exit_code:98, error_string:Address already in use 
