@@ -131,29 +131,32 @@ namespace a_very_long_name_namespace_server
       public:
         void service(int sock, const std::string &clientip, uint64_t port)
         {
-          //std::cout<<"service"<<std::endl;//DEBUG
-          std::string who = clientip + "-" + std::to_string(port);
-          char buffer[1024];
-          //如果可读端挂着不执行read/write等,会阻塞等待着,显然会占用资源//一般会有特殊处理,待学
-          ssize_t s = read(sock, buffer, sizeof(buffer) - 1);
-          if (s > 0)
+          while(true)
           {
-            buffer[s] = '\0';
-            //std::cout << who << " : " << buffer << std::endl;
-            logMessage(DEBUG,"%s : %s",who.c_str(),buffer);
+            //std::cout<<"service"<<std::endl;//DEBUG
+            std::string who = clientip + "-" + std::to_string(port);
+            char buffer[1024];
+            //如果可读端挂着不执行read/write等,会阻塞等待着,显然会占用资源//一般会有特殊处理,待学
+            ssize_t s = read(sock, buffer, sizeof(buffer) - 1);
+            if (s > 0)
+            {
+              buffer[s] = '\0';
+              //std::cout << who << " : " << buffer << std::endl;
+              logMessage(DEBUG,"%s : %s",who.c_str(),buffer);
 
-            std::string res = func_(buffer);//可以将数据处理交给线程池完成
-            write(sock, res.c_str(), res.size());
-          }
-          else if (s == 0)
-          {
-            //std::cout << who << " quit , me too." << std::endl;
-            logMessage(INFO,"%s quit,me too.",who.c_str());
-          }
-          else
-          {
-            //std::cerr << "read error: " << strerror(errno) << std::endl;
-            logMessage(ERROR,"read error, %d:%s",errno,strerror(errno));
+              std::string res = func_(buffer);//可以将数据处理交给线程池完成
+              write(sock, res.c_str(), res.size());
+            }
+            else if (s == 0)
+            {
+              //std::cout << who << " quit , me too." << std::endl;
+              logMessage(INFO,"%s quit,me too.",who.c_str());
+            }
+            else
+            {
+              //std::cerr << "read error: " << strerror(errno) << std::endl;
+              logMessage(ERROR,"read error, %d:%s",errno,strerror(errno));
+            }
           }
           close(sock); 
         }
