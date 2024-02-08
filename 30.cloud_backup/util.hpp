@@ -7,11 +7,15 @@
 #include<experimental/filesystem> //gcc7
 //#include<filesystem>            //gcc8
 
+
 #include<sys/types.h>
 #include<sys/stat.h>
 #include<unistd.h>
 
 #include"bundle.h"
+#include"jsoncpp/json/json.h"
+#include<memory>
+#include<sstream>
 
 
 namespace ns_cloud_backup
@@ -226,5 +230,41 @@ namespace ns_cloud_backup
         }
 
     };//class FileUtil ___End;
+    
+    class JsonUtil //工具类,没有成员,将几种相近功能的函数封装在一起,类方法为静态(可无需实例化直接调用)
+    {
+    public:
+      static bool Serialize(const Json::Value &root,std::string *str) //输出str
+      {
+        Json::StreamWriterBuilder swb;
+        std::unique_ptr<Json::StreamWriter> sw(swb.newStreamWriter());
+        
+        std::stringstream ss;
+        int ret = sw->write(root,&ss);
+        if(ret <0)
+        {
+          std::cout<<"Serialize write error!"<<std::endl;
+          return false;
+        }
+       
+        *str = ss.str();
+        return true;
+      }
+      static bool UnSerialize(const std::string&str,Json::Value *root)
+      {
+        Json::CharReaderBuilder crb;
+        std::unique_ptr<Json::CharReader> cr(crb.newCharReader());
+        std::string err;
+        int ret = cr->parse(str.c_str(),str.c_str()+str.size(),root,&err);
+        if(ret <0)
+        {
+          std::cout<<"UnSerialize parse error : "<<err<<std::endl;
+          return false;
+        }
+        return true; 
+      }
+    }; //class JsonUtil__Endl;
+
+
   } //namespace v1 ___End;
 }//namespace ns_cloud_backup __End;
