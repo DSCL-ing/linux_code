@@ -1,0 +1,32 @@
+2024-01-14T14:29:45.0221444+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 624.5427 ms
+
+2024-01-14T14:29:52.5574207+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 352.4533 ms
+
+2024-01-14T14:29:52.9967043+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 200 in 438.2667 ms
+
+2024-01-14T14:29:54.0448525+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/DSCL-ing/linux_code.git/git-receive-pack responded 200 in 1010.2844 ms
+
+2024-01-14T23:16:18.2791208+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 635.3486 ms
+
+2024-01-14T23:16:18.6412477+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 338.2232 ms
+
+2024-01-14T23:16:19.0442493+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 200 in 399.8071 ms
+
+2024-01-14T23:16:19.9322691+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/DSCL-ing/linux_code.git/git-receive-pack responded 200 in 856.223 ms
+

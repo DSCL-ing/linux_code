@@ -1,0 +1,1848 @@
+2023-11-15T00:00:46.0763731+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T00:02:16.4886797+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[]
+
+2023-11-15T00:06:58.2369714+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T00:09:05.7249292+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T00:11:14.6208549+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T00:11:24.4598445+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T00:16:26.7691086+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T00:20:53.3022677+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.69, 13.107.213.74]
+
+2023-11-15T00:21:28.9811804+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T00:25:56.3995728+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T00:26:35.9994389+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T00:31:38.3522016+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.69]
+
+2023-11-15T00:36:01.2395742+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T00:36:38.6809462+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T00:41:41.1102833+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T00:48:55.2287819+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T00:51:05.4049114+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T00:51:05.7351133+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.69, 13.107.213.73]
+
+2023-11-15T00:53:16.4767882+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T00:53:28.2764063+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T00:56:06.7408262+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T01:01:08.7971738+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T01:05:36.3167961+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T01:07:51.6128256+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T01:10:01.4047849+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T01:10:01.7200339+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.246.74]
+
+2023-11-15T01:15:09.2338119+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T01:22:17.2768079+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T01:24:31.6768487+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T01:26:42.2367800+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T01:26:42.5121864+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T01:31:44.1957130+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T01:36:48.6083552+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T01:41:49.3732720+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T01:46:51.6393487+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T01:51:53.4559784+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T01:56:54.9541227+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T01:57:22.1924877+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 192.30.255.112]
+
+2023-11-15T02:01:57.0722576+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T02:04:22.4608560+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T02:06:31.7408144+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T02:08:42.5568119+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T02:08:49.5950090+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166]
+
+2023-11-15T02:08:51.3557744+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T02:13:52.1905108+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T02:18:56.8156539+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T02:23:58.1239835+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T02:29:02.4911032+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T02:34:03.2211528+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T02:39:06.8926997+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T02:46:13.6928428+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T02:48:27.7088018+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T02:50:36.7331810+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T02:50:37.0223394+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T02:55:37.6547531+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.73, 13.107.213.73]
+
+2023-11-15T02:58:21.8848167+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T03:00:35.7728702+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T03:00:38.8917223+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T03:05:39.5511537+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T03:07:51.1007976+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T03:10:48.8928384+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T03:10:54.3731214+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T03:15:55.1741354+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T03:20:57.4171423+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T03:26:00.5052356+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.246.69]
+
+2023-11-15T03:27:08.1781279+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T03:31:03.3321557+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T03:32:09.6856693+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.69, 13.107.213.73]
+
+2023-11-15T03:36:05.9888416+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.69, 13.107.246.73]
+
+2023-11-15T03:36:32.5633363+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T03:43:20.2527714+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T03:45:28.8928340+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T03:45:29.1797182+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.213.74]
+
+2023-11-15T03:47:38.4288379+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T03:50:30.7827649+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.74]
+
+2023-11-15T03:55:31.5976672+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.73, 13.107.213.73]
+
+2023-11-15T04:00:32.1345836+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T04:05:32.9331212+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T04:10:33.6986056+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T04:15:34.9700166+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T04:25:37.6751769+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.73]
+
+2023-11-15T04:30:38.2761878+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T04:35:43.9868897+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T04:40:47.0681805+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.213.74]
+
+2023-11-15T04:45:51.7103997+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T04:50:52.3459654+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.73, 13.107.213.73]
+
+2023-11-15T04:53:25.1718291+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.74, 13.107.246.69]
+
+2023-11-15T04:55:52.9859090+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T05:00:53.7946620+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.69]
+
+2023-11-15T05:03:30.3782365+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.69, 13.107.213.74]
+
+2023-11-15T05:04:03.2189476+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T05:05:54.1134381+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T05:10:54.7767136+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T05:15:55.8260103+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T05:19:36.1726723+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.74, 13.107.246.69]
+
+2023-11-15T05:24:38.2278186+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.69, 13.107.213.74]
+
+2023-11-15T05:26:01.6066051+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.246.69]
+
+2023-11-15T05:29:38.5152987+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T05:31:02.6189457+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.213.69]
+
+2023-11-15T05:34:20.3044654+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T05:36:03.3311611+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.73, 13.107.213.73]
+
+2023-11-15T05:41:01.2447719+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T05:43:09.8848067+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T05:43:10.2488694+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T05:45:19.6768510+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T05:48:10.9333605+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T05:53:11.1532318+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T06:03:11.7871484+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T06:07:54.4288097+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T06:10:02.9407395+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T06:10:03.2743939+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.246.74]
+
+2023-11-15T06:12:12.7328329+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T06:15:04.0052654+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T06:15:48.4469793+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T06:20:04.2469766+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.69]
+
+2023-11-15T06:20:49.1693187+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.74, 13.107.213.74]
+
+2023-11-15T06:25:04.4809910+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.69, 13.107.246.74]
+
+2023-11-15T06:25:50.0239118+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.246.69]
+
+2023-11-15T06:30:05.4252491+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.69]
+
+2023-11-15T06:32:04.3639891+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T06:35:06.4560265+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T06:40:06.8240741+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T06:45:07.8086660+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T06:54:03.8358301+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.69, 13.107.213.69]
+
+2023-11-15T06:55:10.3644242+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.246.69]
+
+2023-11-15T06:59:04.9753477+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T07:00:08.3620550+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.69, 13.107.246.73]
+
+2023-11-15T07:04:08.8267016+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.69, 13.107.246.73]
+
+2023-11-15T07:05:09.5229849+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.69, 13.107.213.73]
+
+2023-11-15T07:05:11.7480298+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.69, 13.107.213.74]
+
+2023-11-15T07:07:02.1147008+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T07:09:07.9034408+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.69, 13.107.213.74]
+
+2023-11-15T07:09:15.0361500+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.213.69]
+
+2023-11-15T07:10:16.6198799+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.69, 13.107.246.74]
+
+2023-11-15T07:14:15.8366520+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.69, 13.107.213.73]
+
+2023-11-15T07:15:21.4570312+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.69, 13.107.213.74]
+
+2023-11-15T07:19:08.4372551+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T07:20:24.6853318+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T07:30:26.0354054+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T07:35:17.3087776+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T07:37:25.9488980+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T07:37:26.2585283+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T07:39:35.7408397+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T07:40:24.8765865+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.69, 13.107.246.74]
+
+2023-11-15T07:42:26.6457946+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T07:45:24.9935265+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.213.69]
+
+2023-11-15T07:47:26.7878154+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.69, 13.107.246.73]
+
+2023-11-15T07:50:41.8491145+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T07:52:26.9700725+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T07:57:29.1231490+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T08:02:29.7721950+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.73]
+
+2023-11-15T08:07:32.0220318+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.74]
+
+2023-11-15T08:12:33.9712230+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.69]
+
+2023-11-15T08:13:08.4949395+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.69, 13.107.246.74]
+
+2023-11-15T08:17:36.0643821+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T08:18:26.6992746+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T08:22:19.7087719+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T08:24:28.3487467+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T08:24:28.6723998+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.246.74]
+
+2023-11-15T08:26:38.5247999+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T08:29:29.6211529+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T08:34:29.7835456+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T08:39:01.8208013+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T08:41:10.9727834+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T08:41:11.2811800+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T08:43:21.0208396+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T08:46:12.7775893+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T08:51:09.6289499+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T08:53:18.7808278+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T08:53:19.1091564+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T08:58:20.1386111+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T09:03:20.6143501+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.73, 13.107.246.74]
+
+2023-11-15T09:08:09.1407504+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T09:08:20.9633286+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T09:13:09.8639848+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T09:13:25.1733005+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.69, 13.107.213.73]
+
+2023-11-15T09:18:27.2760968+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.69, 13.107.226.49]
+
+2023-11-15T09:18:31.7862864+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.226.49, 13.107.246.73, 13.107.253.49]
+
+2023-11-15T09:20:52.5014040+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.226.49, 13.107.253.49]
+
+2023-11-15T09:23:29.2241261+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.74, 13.107.226.49]
+
+2023-11-15T09:25:40.9822316+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T09:28:29.9115672+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.69, 13.107.246.73]
+
+2023-11-15T09:33:30.4776203+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.69, 13.107.246.69]
+
+2023-11-15T09:35:42.4081321+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.69, 13.107.213.73]
+
+2023-11-15T09:35:53.0294874+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T09:38:31.1865113+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T09:43:32.2319181+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T09:46:08.4393559+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-15T09:48:18.4929234+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T09:50:27.5168174+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T09:50:32.3280529+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T09:55:34.1693617+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T10:00:38.5915455+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T10:05:42.6812062+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T10:06:45.5038861+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.253.49]
+
+2023-11-15T10:08:45.3144077+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T10:10:43.6543099+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T10:15:46.2742507+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T10:19:20.7284082+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.226.49]
+
+2023-11-15T10:23:00.9248452+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T10:25:10.2048317+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T10:25:10.5861419+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T10:27:20.6368752+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T10:30:13.0542753+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T10:35:13.4551081+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T10:40:14.2564774+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.226.49, 13.107.213.74, 13.107.253.49]
+
+2023-11-15T10:43:44.1900252+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T10:45:22.8662417+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.73]
+
+2023-11-15T10:50:23.5483593+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T10:55:24.5786121+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T11:03:13.9279104+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T11:05:27.8334676+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T11:08:16.6842244+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.69, 13.107.213.69]
+
+2023-11-15T11:10:32.5744425+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.74, 13.107.213.69]
+
+2023-11-15T11:15:02.2048904+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T11:17:11.7408319+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T11:17:12.1121951+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T11:19:22.1730459+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T11:22:17.5881843+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T11:26:36.1027484+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.69, 13.107.246.73]
+
+2023-11-15T11:27:14.7085556+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.69, 13.107.213.73]
+
+2023-11-15T11:27:18.6412645+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.74, 13.107.213.69]
+
+2023-11-15T11:31:36.7971410+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.69, 13.107.246.74]
+
+2023-11-15T11:32:22.0243121+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.69, 13.107.213.73]
+
+2023-11-15T11:37:23.0894672+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.69]
+
+2023-11-15T11:37:24.1621126+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.69, 13.107.246.74]
+
+2023-11-15T11:41:39.2681634+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.246.69]
+
+2023-11-15T11:42:24.9106683+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.69]
+
+2023-11-15T11:44:41.0177127+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T11:47:25.0630392+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T11:52:25.0476985+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.213.74]
+
+2023-11-15T11:52:27.5957719+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T11:57:25.9944164+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.73, 13.107.246.74]
+
+2023-11-15T11:57:28.0822587+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T12:00:39.6129237+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.69, 13.107.246.69]
+
+2023-11-15T12:02:28.5959518+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.213.69]
+
+2023-11-15T12:07:07.3249828+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T12:09:16.6048533+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T12:09:17.9574653+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.69, 13.107.246.74]
+
+2023-11-15T12:11:27.9328025+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T12:14:17.9771275+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.246.69]
+
+2023-11-15T12:14:19.0691542+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T12:19:18.5367111+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.246.74]
+
+2023-11-15T12:19:21.5848054+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T12:23:59.5487694+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T12:26:08.9568253+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T12:26:09.3298437+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T12:28:19.6447653+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T12:31:09.6369762+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T12:41:16.2354344+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T12:46:16.9941174+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T12:50:57.9808014+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T12:53:07.7729146+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T12:53:08.1355334+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T12:55:18.0767643+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T12:58:08.5984880+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T13:03:09.5084055+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.69, 13.107.213.69]
+
+2023-11-15T13:07:44.5728294+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T13:09:54.2367839+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T13:09:54.5639892+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T13:12:04.9248014+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T13:14:54.7850771+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T13:19:55.2118452+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T13:24:58.4014788+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T13:29:58.8112133+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T13:34:59.5488864+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T13:36:45.8163118+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.69, 13.107.213.73]
+
+2023-11-15T13:40:00.0945434+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.246.69]
+
+2023-11-15T13:44:38.7168968+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T13:46:53.2448822+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T13:49:02.7808913+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T13:49:03.0961953+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T13:54:03.9292411+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.246.74]
+
+2023-11-15T13:57:43.3385113+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.246.69]
+
+2023-11-15T13:59:13.2946799+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.69, 13.107.246.74]
+
+2023-11-15T14:02:44.6121673+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.74, 13.107.213.74]
+
+2023-11-15T14:03:32.4102001+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.226.49, 13.107.246.74]
+
+2023-11-15T14:04:15.6511052+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.226.49, 13.107.213.73]
+
+2023-11-15T14:07:44.1376648+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.226.49, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T14:08:34.7609239+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T14:09:18.0978922+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.74]
+
+2023-11-15T14:14:20.9524512+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T14:21:29.0210061+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T14:23:43.4208723+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T14:25:52.8288286+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T14:25:53.1507153+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T14:30:53.2539914+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T14:31:07.6221947+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T14:34:11.8851251+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.226.49]
+
+2023-11-15T14:35:54.2865442+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.226.49, 13.107.213.69]
+
+2023-11-15T14:36:08.5945005+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.69, 13.107.226.49]
+
+2023-11-15T14:39:12.2737429+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.69, 13.107.253.49]
+
+2023-11-15T14:40:54.8298329+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.74, 13.107.253.49]
+
+2023-11-15T14:44:13.0380146+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.253.49, 13.107.246.69, 13.107.213.74]
+
+2023-11-15T14:45:55.7871383+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.253.49, 13.107.246.69]
+
+2023-11-15T14:46:11.4782191+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.253.49, 13.107.226.49]
+
+2023-11-15T14:46:14.5073721+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T14:46:39.6052157+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T14:50:57.5483585+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T15:01:02.4855515+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T15:06:03.1572645+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.73, 13.107.246.74]
+
+2023-11-15T15:08:28.3488185+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T15:10:37.7568563+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T15:12:48.1887862+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T15:13:01.1468962+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.213.74]
+
+2023-11-15T15:18:10.9972060+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T15:20:38.2047724+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T15:22:47.7409137+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T15:23:12.9972233+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.213.74]
+
+2023-11-15T15:30:15.1007649+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T15:30:19.7722571+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T15:32:46.2688594+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T15:33:52.1555179+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.246.69]
+
+2023-11-15T15:35:21.4578908+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T15:38:58.7346532+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.69, 13.107.213.74]
+
+2023-11-15T15:40:24.0813421+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.69, 13.107.246.74]
+
+2023-11-15T15:43:59.6744931+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.69]
+
+2023-11-15T15:45:24.6550962+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T15:46:39.3176761+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T15:50:25.1977839+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T15:55:31.6979833+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T15:55:36.8926179+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T16:00:32.1066453+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T16:00:38.4541147+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.246.69]
+
+2023-11-15T16:05:36.2222756+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T16:05:39.3157245+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T16:08:08.8153818+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.213.74]
+
+2023-11-15T16:10:52.4768800+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T16:13:02.1408538+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T16:13:02.4217176+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T16:15:12.4448430+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T16:18:05.0739232+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T16:22:15.1182485+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.69]
+
+2023-11-15T16:23:04.4474333+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.74, 13.107.246.69]
+
+2023-11-15T16:27:17.3295801+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.69, 13.107.246.74]
+
+2023-11-15T16:28:04.6374187+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.246.69]
+
+2023-11-15T16:32:35.3888495+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T16:34:49.9167929+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T16:36:59.5807856+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T16:36:59.8845487+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T16:42:00.9315863+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T16:44:18.0662891+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.69]
+
+2023-11-15T16:47:01.0010857+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T16:47:02.0894118+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.69, 13.107.213.74]
+
+2023-11-15T16:49:18.8591034+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.246.69]
+
+2023-11-15T16:52:01.8934913+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T16:52:02.9860224+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.69]
+
+2023-11-15T16:54:19.2336962+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.69, 13.107.213.69]
+
+2023-11-15T16:59:27.1648548+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T17:01:36.9567907+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T17:01:37.1669092+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T17:03:47.3887933+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T17:03:59.1912074+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T17:04:39.9129853+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.73, 13.107.213.69]
+
+2023-11-15T17:09:01.9336681+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.73, 13.107.246.69]
+
+2023-11-15T17:09:44.5208287+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.73, 13.107.246.74]
+
+2023-11-15T17:14:07.9913111+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T17:19:16.5830273+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T17:24:19.1422887+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.246.74]
+
+2023-11-15T17:29:40.3938412+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.69, 13.107.246.73]
+
+2023-11-15T17:34:22.5218415+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.213.69]
+
+2023-11-15T17:34:41.4084988+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.69, 13.107.213.69]
+
+2023-11-15T17:39:23.5591069+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T17:39:44.5872268+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T17:43:59.1981460+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T17:44:25.4746541+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T17:44:53.9400504+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.69, 13.107.213.73]
+
+2023-11-15T17:49:30.2446805+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.69, 13.107.246.69]
+
+2023-11-15T17:49:55.9368544+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.246.69]
+
+2023-11-15T17:54:33.2400229+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.69, 13.107.213.73]
+
+2023-11-15T17:54:57.1811872+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T17:59:34.7312550+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.246.69]
+
+2023-11-15T17:59:59.1224237+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T18:04:36.3024830+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T18:09:42.5494452+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.246.69]
+
+2023-11-15T18:14:46.6360809+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T18:21:55.1327543+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T18:24:05.1808376+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T18:24:05.5009884+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.73, 13.107.213.74]
+
+2023-11-15T18:26:15.4848143+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T18:26:24.6985873+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T18:29:06.1006463+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T18:30:22.8833382+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T18:34:07.0156702+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.69]
+
+2023-11-15T18:35:23.9404974+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.69, 13.107.246.73]
+
+2023-11-15T18:39:07.1750498+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T18:40:24.1057791+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.69, 13.107.213.74]
+
+2023-11-15T18:40:51.8440902+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T18:44:08.1183089+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T18:49:08.8857002+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T18:50:47.9710799+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.69, 13.107.213.73]
+
+2023-11-15T18:54:09.2733979+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T18:55:48.9026859+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T18:59:09.9682207+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.69]
+
+2023-11-15T19:00:51.2588216+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T19:04:10.0779958+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T19:05:51.7842799+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.69, 13.107.213.69]
+
+2023-11-15T19:09:10.3217474+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T19:14:04.2208139+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T19:16:13.5008691+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T19:16:13.7844225+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T19:18:24.0609201+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T19:21:21.7751562+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.73]
+
+2023-11-15T19:26:26.9515500+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T19:31:27.1624131+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T19:32:34.6377169+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T19:34:16.8066322+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-15T19:36:27.4534753+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.213.69]
+
+2023-11-15T19:37:34.7485048+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.69, 13.107.213.73]
+
+2023-11-15T19:41:27.8587675+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.73, 13.107.246.74]
+
+2023-11-15T19:42:37.8596281+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.74, 13.107.246.73]
+
+2023-11-15T19:46:31.4136247+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.73, 13.107.246.74]
+
+2023-11-15T19:47:38.2459065+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.69]
+
+2023-11-15T19:51:33.5424364+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T19:56:35.6241871+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T19:57:31.2703193+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-15T19:57:40.8663883+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.73, 13.107.246.69]
+
+2023-11-15T20:01:37.1897162+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.73, 13.107.213.69]
+
+2023-11-15T20:02:41.5632418+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.73, 13.107.246.69]
+
+2023-11-15T20:06:39.4450897+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.69, 13.107.213.74]
+
+2023-11-15T20:07:47.9711543+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.246.74]
+
+2023-11-15T20:11:16.5408254+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T20:13:25.9488505+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T20:13:26.2476073+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T20:15:37.0209323+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T20:18:26.5230965+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.74, 13.107.213.73]
+
+2023-11-15T20:23:27.9299412+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T20:24:01.9657816+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.69, 13.107.246.73]
+
+2023-11-15T20:24:22.9573022+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@8.8.8.8:53->Unable to read data from the transport connection: Connection reset by peer.
+
+2023-11-15T20:28:28.0274501+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T20:29:03.7855565+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.69, 13.107.213.74]
+
+2023-11-15T20:32:27.5367133+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-15T20:33:30.9915145+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T20:33:56.3297482+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.69, 13.107.246.74]
+
+2023-11-15T20:34:04.1328957+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.74, 13.107.213.69]
+
+2023-11-15T20:34:18.3150330+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.74]
+
+2023-11-15T20:34:25.9374500+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T20:38:31.9021691+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T20:39:01.5520316+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-15T20:43:32.8088601+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.74]
+
+2023-11-15T20:44:24.6069336+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-15T20:48:23.1287629+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-15T20:48:33.3179318+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T20:53:34.2473630+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.246.74]
+
+2023-11-15T20:58:37.2352859+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.74, 13.107.213.73]
+
+2023-11-15T21:01:02.3753306+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T21:03:20.6368564+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T21:05:31.3247450+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T21:07:41.1169948+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T21:07:41.4229400+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.69, 13.107.246.69]
+
+2023-11-15T21:11:09.9012152+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.246.73]
+
+2023-11-15T21:12:41.9616536+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-15T21:21:46.0441307+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-15T21:22:07.5583669+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-15T21:22:44.2086815+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.74]
+
+2023-11-15T21:26:51.9856547+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.69]
+
+2023-11-15T21:27:44.3701451+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.213.74]
+
+2023-11-15T21:30:09.2127628+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T21:32:21.4369576+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T21:32:21.7464526+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.73, 13.107.246.69]
+
+2023-11-15T21:34:33.1488790+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection timed out
+
+2023-11-15T21:34:45.5328698+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.73, 13.107.246.69]
+

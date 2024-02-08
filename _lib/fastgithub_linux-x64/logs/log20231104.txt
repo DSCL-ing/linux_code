@@ -1,0 +1,112 @@
+2023-11-04T16:16:03.6371603+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HMUHAVD9SG32", Request id "0HMUHAVD9SG32:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到mobile.events.data.microsoft.com:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2023-11-04T16:16:04.5471478+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HMUHAVD9SG33", Request id "0HMUHAVD9SG33:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到mobile.events.data.microsoft.com:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2023-11-04T16:16:16.0749606+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HMUHAVD9SG36", Request id "0HMUHAVD9SG36:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到mobile.events.data.microsoft.com:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2023-11-04T16:16:40.8965641+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HMUHAVD9SG39", Request id "0HMUHAVD9SG39:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到mobile.events.data.microsoft.com:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2023-11-04T18:14:36.3481038+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 615.8959 ms
+
+2023-11-04T18:14:36.7339801+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 347.1048 ms
+
+2023-11-04T18:14:37.1470388+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 200 in 411.4109 ms
+
+2023-11-04T18:14:37.9262679+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/DSCL-ing/linux_code.git/git-receive-pack responded 200 in 740.4547 ms
+
+2023-11-04T21:23:40.4384243+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 200 in 620.4268 ms
+
+2023-11-04T21:23:47.9854035+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 200 in 357.8562 ms
+
+2023-11-04T21:24:20.9690772+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 200 in 371.5696 ms
+
+2023-11-04T21:24:27.5251281+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 200 in 361.4372 ms
+
+2023-11-04T21:24:41.6699589+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 200 in 362.3077 ms
+
+2023-11-04T21:25:36.8908303+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 200 in 454.131 ms
+
+2023-11-04T21:26:04.2345936+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 200 in 322.7865 ms
+
+2023-11-04T23:07:38.0456224+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 200 in 624.309 ms
+
+2023-11-04T23:09:21.4464072+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 604.8113 ms
+
+2023-11-04T23:09:21.8043527+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 341.465 ms
+
+2023-11-04T23:09:22.1993735+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 200 in 393.6198 ms
+

@@ -1,0 +1,4182 @@
+2023-11-02T00:00:20.0463263+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3, 140.82.113.3]
+
+2023-11-02T00:00:21.7778958+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.67, 13.107.246.74]
+
+2023-11-02T00:00:51.5976908+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.3, 140.82.112.3]
+
+2023-11-02T00:02:19.6550453+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.3, 140.82.113.4]
+
+2023-11-02T00:03:04.6110094+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.113.3]
+
+2023-11-02T00:04:14.8479612+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 175.4.51.35]
+
+2023-11-02T00:04:23.8444444+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.74, 13.107.213.73]
+
+2023-11-02T00:04:25.0154268+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.246.44]
+
+2023-11-02T00:06:52.1767516+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T00:06:53.5895245+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.112.3]
+
+2023-11-02T00:07:00.5779631+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.52, 13.107.213.73, 13.107.246.73]
+
+2023-11-02T00:07:03.5899968+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 113.219.161.35]
+
+2023-11-02T00:08:05.7049716+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.113.4]
+
+2023-11-02T00:08:59.0882398+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.50, 13.107.246.52, 13.107.213.73]
+
+2023-11-02T00:09:12.1929966+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.112.3]
+
+2023-11-02T00:09:25.7299611+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.44, 13.107.246.50, 13.107.246.52]
+
+2023-11-02T00:10:11.5687129+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@8.8.8.8:53->Unable to read data from the transport connection: Connection reset by peer.
+
+2023-11-02T00:11:12.1527257+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T00:12:05.8838735+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.113.3]
+
+2023-11-02T00:12:06.1749847+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.44, 13.107.246.50, 13.107.246.73]
+
+2023-11-02T00:13:08.2849083+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 192.30.255.113]
+
+2023-11-02T00:14:20.7687374+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.44, 13.107.246.73, 13.107.246.74]
+
+2023-11-02T00:14:29.8709381+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.213.50]
+
+2023-11-02T00:14:29.8713493+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 124.225.184.35, 113.219.142.35]
+
+2023-11-02T00:19:26.5620210+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.29.134.23]
+
+2023-11-02T00:19:33.4692082+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.52, 13.107.213.57]
+
+2023-11-02T00:19:37.9636928+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 124.225.184.35, 61.136.173.35]
+
+2023-11-02T00:19:42.3255138+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.113.3]
+
+2023-11-02T00:20:21.2147478+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.67, 13.107.246.52]
+
+2023-11-02T00:22:38.6441864+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.114.4]
+
+2023-11-02T00:22:41.7403254+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.44, 13.107.246.52]
+
+2023-11-02T00:22:45.5291981+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 124.225.184.35, 106.225.194.35]
+
+2023-11-02T00:23:11.2138268+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.142.35, 111.174.9.35]
+
+2023-11-02T00:24:33.6545421+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.44, 13.107.213.74, 13.107.213.45]
+
+2023-11-02T00:24:40.3105457+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.44, 13.107.246.67, 13.107.213.74]
+
+2023-11-02T00:25:22.3977550+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.44, 13.107.213.74, 13.107.213.45]
+
+2023-11-02T00:28:14.2160925+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+vscode.cdn.azure.cn@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T00:28:14.4865399+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.161.35, 119.96.52.35]
+
+2023-11-02T00:28:27.4858050+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.121.3]
+
+2023-11-02T00:28:31.6742662+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.45, 13.107.246.69]
+
+2023-11-02T00:29:38.4398902+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.240.118.35, 113.219.161.35]
+
+2023-11-02T00:29:49.2236012+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.121.4]
+
+2023-11-02T00:29:49.3115608+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.73, 13.107.246.45]
+
+2023-11-02T00:29:49.6021633+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.142.35, 113.240.118.35]
+
+2023-11-02T00:30:43.8457732+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.67, 13.107.246.73, 13.107.213.67]
+
+2023-11-02T00:30:48.2198622+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 113.219.142.35]
+
+2023-11-02T00:31:33.7636769+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.4, 140.82.121.3]
+
+2023-11-02T00:32:16.9026269+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.44, 13.107.246.67, 13.107.246.73]
+
+2023-11-02T00:33:19.6447184+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 113.240.118.35]
+
+2023-11-02T00:33:34.4224744+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3, 140.82.121.4]
+
+2023-11-02T00:34:41.3077326+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 106.225.194.35]
+
+2023-11-02T00:34:56.0094262+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.44, 13.107.213.74, 13.107.246.67]
+
+2023-11-02T00:35:50.9260538+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.67, 13.107.213.69, 13.107.246.44]
+
+2023-11-02T00:36:02.3717665+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.44, 13.107.246.69]
+
+2023-11-02T00:37:34.0073659+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.69, 13.107.213.74]
+
+2023-11-02T00:37:40.0044330+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.69, 13.107.246.57]
+
+2023-11-02T00:37:43.7068694+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 171.107.86.35]
+
+2023-11-02T00:39:41.3109074+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 124.225.184.35]
+
+2023-11-02T00:39:56.3162301+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.4, 140.82.121.3]
+
+2023-11-02T00:39:56.4002872+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.73, 13.107.246.69]
+
+2023-11-02T00:40:19.6952283+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.73, 13.107.213.59]
+
+2023-11-02T00:40:41.8642818+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.67, 13.107.213.69, 13.107.213.73]
+
+2023-11-02T00:41:03.4108526+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.59, 13.107.246.69]
+
+2023-11-02T00:41:45.5857248+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.59, 13.107.246.57]
+
+2023-11-02T00:41:46.1736879+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 124.225.184.35, 171.107.86.35]
+
+2023-11-02T00:42:40.8538573+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.59, 13.107.213.57]
+
+2023-11-02T00:42:46.9770215+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.59, 13.107.213.60]
+
+2023-11-02T00:42:47.0162097+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 171.107.86.35, 124.225.184.35]
+
+2023-11-02T00:42:59.6335490+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.207.73.82, 140.82.121.4]
+
+2023-11-02T00:45:03.8134807+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.45, 13.107.213.59]
+
+2023-11-02T00:45:17.4692249+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.59, 13.107.213.60]
+
+2023-11-02T00:45:22.1899418+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.60, 13.107.246.69]
+
+2023-11-02T00:46:12.9232834+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.69, 13.107.213.60]
+
+2023-11-02T00:47:41.2387440+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.213.74, 13.107.246.44]
+
+2023-11-02T00:48:04.0884579+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 171.107.86.35]
+
+2023-11-02T00:48:40.6218310+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.207.73.82, 140.82.121.3]
+
+2023-11-02T00:48:55.2192421+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+vscode.cdn.azure.cn@8.8.8.8:53->Invalid response received with code ServerFailure
+
+2023-11-02T00:49:42.7379525+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 124.225.184.35]
+
+2023-11-02T00:50:07.9945473+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.44, 13.107.213.57]
+
+2023-11-02T00:50:42.0928397+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.44, 13.107.213.69, 13.107.246.70]
+
+2023-11-02T00:51:16.2997975+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.44, 13.107.246.70, 13.107.213.44]
+
+2023-11-02T00:51:39.5081147+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 113.219.142.35]
+
+2023-11-02T00:52:07.1559182+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.246.44, 13.107.246.70]
+
+2023-11-02T00:54:23.9979124+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T00:54:24.2440625+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.246.60, 13.107.246.44]
+
+2023-11-02T00:54:33.2892256+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 182.84.110.35]
+
+2023-11-02T00:54:55.9857800+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3, 140.82.121.4]
+
+2023-11-02T00:55:52.8137602+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.213.64, 13.107.246.44]
+
+2023-11-02T00:55:52.8140167+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 106.225.194.35]
+
+2023-11-02T00:56:05.7789726+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 119.96.52.35]
+
+2023-11-02T00:56:17.7864004+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 182.107.80.35]
+
+2023-11-02T00:56:40.2485828+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.213.64, 13.107.213.69]
+
+2023-11-02T00:56:55.0787717+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.3, 140.82.121.3]
+
+2023-11-02T00:57:10.3816643+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.64, 13.107.213.69, 13.107.246.44]
+
+2023-11-02T00:58:01.1864708+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.64, 13.107.213.69, 13.107.246.64]
+
+2023-11-02T00:58:54.6266023+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.3, 140.82.114.3]
+
+2023-11-02T00:58:54.9056663+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.64, 13.107.213.69, 13.107.213.71]
+
+2023-11-02T00:59:42.1364232+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 106.225.194.35]
+
+2023-11-02T01:00:17.6828063+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.64, 13.107.213.69, 13.107.246.52]
+
+2023-11-02T01:01:19.4442644+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 220.169.152.35]
+
+2023-11-02T01:01:26.1235791+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 220.169.152.35, 106.225.194.35]
+
+2023-11-02T01:01:40.9471168+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.64, 13.107.246.52]
+
+2023-11-02T01:02:06.8409472+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.64, 13.107.213.71]
+
+2023-11-02T01:02:58.0340741+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.60, 13.107.246.69, 13.107.213.64]
+
+2023-11-02T01:03:59.8241456+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.60, 13.107.246.71, 13.107.213.71]
+
+2023-11-02T01:04:04.6588056+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.113.3]
+
+2023-11-02T01:04:14.1639600+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unable to read data from the transport connection: Connection reset by peer.
+
+2023-11-02T01:04:45.0662230+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 220.169.152.35]
+
+2023-11-02T01:05:18.5671851+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.60, 13.107.213.52, 13.107.246.71]
+
+2023-11-02T01:06:01.7231489+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.60, 13.107.213.52, 13.107.246.57]
+
+2023-11-02T01:06:28.2383345+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 182.106.158.35]
+
+2023-11-02T01:06:41.7346419+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.60, 13.107.246.69, 13.107.213.52]
+
+2023-11-02T01:07:58.8494635+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.52, 13.107.246.57]
+
+2023-11-02T01:09:00.8985904+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.71, 13.107.246.69, 13.107.213.52]
+
+2023-11-02T01:10:21.4676242+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.71]
+
+2023-11-02T01:11:20.0786705+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 220.169.152.35]
+
+2023-11-02T01:14:02.2281874+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.114.3]
+
+2023-11-02T01:14:03.0224251+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.246.74]
+
+2023-11-02T01:14:10.0997562+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.29.134.23]
+
+2023-11-02T01:15:23.6964039+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.74, 13.107.246.57]
+
+2023-11-02T01:16:09.2101419+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.74, 13.107.213.57]
+
+2023-11-02T01:16:33.0071164+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 175.4.51.35]
+
+2023-11-02T01:17:46.9599142+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.53, 13.107.246.74]
+
+2023-11-02T01:18:01.6027525+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.53, 13.107.213.60]
+
+2023-11-02T01:18:05.6052554+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.114.3]
+
+2023-11-02T01:18:31.9374448+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.113.3]
+
+2023-11-02T01:19:05.9701799+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.71, 13.107.213.53]
+
+2023-11-02T01:19:54.8485018+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.59, 13.107.246.71]
+
+2023-11-02T01:20:24.1130883+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.59, 13.107.246.71, 13.107.213.53]
+
+2023-11-02T01:21:12.2673663+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.213.59, 13.107.246.71]
+
+2023-11-02T01:22:01.5860919+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.48, 13.107.246.57, 13.107.213.59]
+
+2023-11-02T01:24:55.5984951+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.48, 13.107.246.57, 13.107.246.64]
+
+2023-11-02T01:25:26.2182453+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.48, 13.107.246.57, 13.107.246.73]
+
+2023-11-02T01:26:10.0751187+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 61.136.173.35]
+
+2023-11-02T01:26:14.5901958+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.48, 13.107.246.73, 13.107.246.64]
+
+2023-11-02T01:27:12.2872166+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.64, 13.107.213.59]
+
+2023-11-02T01:27:54.1856538+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.114.4]
+
+2023-11-02T01:28:23.9415854+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.4, 140.82.113.3]
+
+2023-11-02T01:29:08.1678645+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.59, 13.107.213.69]
+
+2023-11-02T01:29:32.0420542+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 182.107.80.35]
+
+2023-11-02T01:29:41.0950978+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 119.96.52.35]
+
+2023-11-02T01:29:58.5304474+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.69, 13.107.246.59]
+
+2023-11-02T01:30:24.1926897+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.4, 140.82.114.3]
+
+2023-11-02T01:30:28.4259769+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 192.30.255.113, 140.82.114.4]
+
+2023-11-02T01:30:28.6492294+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.59, 13.107.246.73]
+
+2023-11-02T01:30:40.9029007+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.73, 13.107.213.74]
+
+2023-11-02T01:30:51.1015002+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.69, 13.107.246.73]
+
+2023-11-02T01:31:30.5309540+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 119.96.52.35, 61.136.173.35]
+
+2023-11-02T01:32:18.6909183+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.48, 13.107.213.50, 13.107.213.69]
+
+2023-11-02T01:32:29.2840055+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 192.30.255.113, 20.29.134.23]
+
+2023-11-02T01:34:01.7134297+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.50, 13.107.213.69, 13.107.246.69]
+
+2023-11-02T01:34:35.7317964+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 119.96.52.35, 182.107.80.35]
+
+2023-11-02T01:34:49.6476863+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 182.107.80.35]
+
+2023-11-02T01:35:59.9225880+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.50, 13.107.246.69, 13.107.213.53]
+
+2023-11-02T01:36:12.0034974+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.50, 13.107.246.69, 13.107.213.71]
+
+2023-11-02T01:36:23.5905394+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.48, 13.107.213.50, 13.107.246.69]
+
+2023-11-02T01:36:31.6467437+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 175.4.51.35]
+
+2023-11-02T01:37:22.0688065+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.50, 13.107.213.71]
+
+2023-11-02T01:37:29.4844977+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 192.30.255.113]
+
+2023-11-02T01:38:07.5783353+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T01:39:14.4501610+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.71, 13.107.213.48]
+
+2023-11-02T01:40:30.5947553+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.69, 13.107.246.73]
+
+2023-11-02T01:41:01.6830100+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.71]
+
+2023-11-02T01:41:12.7478463+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.48]
+
+2023-11-02T01:42:25.0602561+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.53, 13.107.246.73]
+
+2023-11-02T01:42:26.1182036+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.121.3]
+
+2023-11-02T01:44:28.0592136+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.48]
+
+2023-11-02T01:45:08.1699835+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.59, 13.107.246.73]
+
+2023-11-02T01:45:30.8742498+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.213.48, 13.107.213.40]
+
+2023-11-02T01:47:28.4264171+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.213.40, 13.107.246.74]
+
+2023-11-02T01:47:51.1171996+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 124.225.184.35, 106.225.194.35]
+
+2023-11-02T01:48:08.7558671+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 124.225.184.35, 171.107.86.35]
+
+2023-11-02T01:48:48.3318037+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.213.45, 13.107.246.59]
+
+2023-11-02T01:49:44.0831613+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.40, 13.107.246.45, 13.107.213.45]
+
+2023-11-02T01:49:53.8687385+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.44, 13.107.213.40, 13.107.246.45]
+
+2023-11-02T01:49:56.6030796+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.240.118.35, 113.219.142.35, 106.225.194.35]
+
+2023-11-02T01:53:48.9590812+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.44, 13.107.213.40, 13.107.246.74]
+
+2023-11-02T01:54:14.5232968+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.207.73.82, 20.29.134.23]
+
+2023-11-02T01:54:14.7145407+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.219.142.35, 106.225.194.35, 220.169.152.35]
+
+2023-11-02T01:54:18.6366951+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 220.169.152.35, 113.240.118.35]
+
+2023-11-02T01:54:44.4675172+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 106.225.194.35]
+
+2023-11-02T01:54:52.0959236+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.44, 13.107.246.74, 13.107.213.73]
+
+2023-11-02T01:54:54.7242585+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.44, 13.107.213.73]
+
+2023-11-02T01:55:36.7881427+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.44, 13.107.246.74]
+
+2023-11-02T01:57:09.5133239+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.67, 13.107.213.73, 13.107.213.44]
+
+2023-11-02T01:57:13.5568290+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 220.169.152.35]
+
+2023-11-02T01:58:47.9495009+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 171.107.86.35]
+
+2023-11-02T01:58:49.1811768+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.67, 13.107.213.73]
+
+2023-11-02T02:00:37.6821049+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.67, 13.107.213.44]
+
+2023-11-02T02:00:57.2171375+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.67, 13.107.213.57]
+
+2023-11-02T02:01:09.4132896+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.69, 13.107.246.67]
+
+2023-11-02T02:02:09.9666182+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.69, 13.107.213.69]
+
+2023-11-02T02:03:08.7320821+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.69, 13.107.213.67]
+
+2023-11-02T02:03:48.1141983+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 171.107.86.35]
+
+2023-11-02T02:06:20.4532922+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.67, 13.107.213.31]
+
+2023-11-02T02:07:10.4222574+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.31, 13.107.246.64]
+
+2023-11-02T02:07:15.4834002+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.113.3]
+
+2023-11-02T02:09:27.7677476+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.64, 13.107.246.73]
+
+2023-11-02T02:10:51.2898963+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.121.4]
+
+2023-11-02T02:10:51.3724383+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.64, 13.107.213.73]
+
+2023-11-02T02:10:51.3726721+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 113.219.161.35]
+
+2023-11-02T02:11:22.0134244+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.64, 13.107.246.69]
+
+2023-11-02T02:11:32.2217194+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.69, 13.107.213.73]
+
+2023-11-02T02:11:54.7163379+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.112.3]
+
+2023-11-02T02:12:38.0115751+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 171.107.86.35]
+
+2023-11-02T02:12:49.0472925+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 171.107.86.35, 124.225.184.35]
+
+2023-11-02T02:14:44.6499283+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.59, 13.107.246.59]
+
+2023-11-02T02:15:41.0243517+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.59, 13.107.246.41]
+
+2023-11-02T02:15:56.8654897+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.113.3]
+
+2023-11-02T02:15:57.7042971+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.73, 13.107.213.59]
+
+2023-11-02T02:16:28.4115487+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.59, 13.107.246.73]
+
+2023-11-02T02:17:46.3897537+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.112.3]
+
+2023-11-02T02:18:56.2839857+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 124.225.184.35, 171.107.86.35]
+
+2023-11-02T02:19:44.9760649+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.246.41]
+
+2023-11-02T02:20:42.1664215+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.59]
+
+2023-11-02T02:21:00.1988739+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.59, 13.107.246.59]
+
+2023-11-02T02:21:34.6064660+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.73, 13.107.213.59]
+
+2023-11-02T02:21:49.9176821+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 124.225.184.35]
+
+2023-11-02T02:21:58.6852583+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.121.3]
+
+2023-11-02T02:22:52.7413488+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.69, 13.107.246.73]
+
+2023-11-02T02:23:47.6512622+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.67, 13.107.246.45, 13.107.246.69]
+
+2023-11-02T02:24:14.3765038+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.207.73.82, 20.29.134.23]
+
+2023-11-02T02:24:38.2214352+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 106.225.194.35]
+
+2023-11-02T02:25:05.9955092+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 175.4.51.35]
+
+2023-11-02T02:26:03.1318997+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.67, 13.107.246.45, 13.107.246.73]
+
+2023-11-02T02:26:37.1686946+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.67, 13.107.246.45]
+
+2023-11-02T02:26:58.4963234+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 182.107.80.35]
+
+2023-11-02T02:27:59.2680343+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.67, 13.107.246.73]
+
+2023-11-02T02:28:48.3850741+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.73, 13.107.246.69]
+
+2023-11-02T02:29:36.9366633+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 124.225.184.35]
+
+2023-11-02T02:30:56.7767799+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.71, 13.107.213.69, 13.107.246.73]
+
+2023-11-02T02:31:05.4024577+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.71, 13.107.246.73, 13.107.213.69]
+
+2023-11-02T02:31:41.4087085+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.71, 13.107.246.73, 13.107.246.69]
+
+2023-11-02T02:32:39.2903688+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.69, 13.107.213.74]
+
+2023-11-02T02:33:01.3009000+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.45, 13.107.246.69]
+
+2023-11-02T02:35:56.8659517+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.69, 13.107.213.74]
+
+2023-11-02T02:36:05.7095218+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.73, 13.107.246.57]
+
+2023-11-02T02:36:15.1521528+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 192.30.255.112]
+
+2023-11-02T02:36:44.3500934+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.57, 13.107.246.70]
+
+2023-11-02T02:36:59.3780584+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.246.73, 13.107.246.57]
+
+2023-11-02T02:37:17.2076196+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.53, 13.107.246.73]
+
+2023-11-02T02:37:18.2898455+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.53, 13.107.246.70]
+
+2023-11-02T02:38:02.2811263+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.246.73, 13.107.213.45]
+
+2023-11-02T02:38:52.2817816+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.246.67, 13.107.246.73]
+
+2023-11-02T02:39:15.4910170+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.246.67, 13.107.246.57]
+
+2023-11-02T02:41:18.2857559+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.213.61, 13.107.246.67]
+
+2023-11-02T02:41:44.8822983+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.70, 13.107.213.61]
+
+2023-11-02T02:42:19.1073399+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.61, 13.107.246.67]
+
+2023-11-02T02:42:39.5063799+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 175.4.51.35]
+
+2023-11-02T02:43:08.0167139+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.45, 13.107.213.69, 13.107.213.61]
+
+2023-11-02T02:44:23.0569821+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.45, 13.107.213.57, 13.107.213.69]
+
+2023-11-02T02:44:48.5037021+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.161.35, 111.177.3.35]
+
+2023-11-02T02:44:56.0410739+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.142.35, 113.219.161.35]
+
+2023-11-02T02:45:16.1593384+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.219.142.35, 106.225.194.35, 113.219.161.35]
+
+2023-11-02T02:46:09.9984508+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 192.30.255.112, 140.82.121.3]
+
+2023-11-02T02:46:13.0015983+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.45, 13.107.213.69, 13.107.246.46]
+
+2023-11-02T02:46:24.2724419+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.45, 13.107.213.69, 13.107.246.61]
+
+2023-11-02T02:46:52.1803411+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.45, 13.107.246.61, 13.107.246.46]
+
+2023-11-02T02:46:55.8110467+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 175.4.51.35]
+
+2023-11-02T02:47:13.7574783+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 106.225.194.35]
+
+2023-11-02T02:47:15.7588875+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.45, 13.107.246.46, 13.107.246.41]
+
+2023-11-02T02:48:14.8152557+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3]
+
+2023-11-02T02:48:14.8962347+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.46, 13.107.246.41]
+
+2023-11-02T02:49:09.9879079+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.161.35, 113.219.142.35]
+
+2023-11-02T02:49:21.7203680+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.46, 13.107.246.41, 13.107.213.67]
+
+2023-11-02T02:49:25.5611081+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.36, 13.107.246.46, 13.107.246.41]
+
+2023-11-02T02:49:28.2824162+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.112.3, 140.82.121.3]
+
+2023-11-02T02:49:56.4162481+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.161.35, 106.225.194.35]
+
+2023-11-02T02:50:50.5636418+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.36, 13.107.246.41, 13.107.213.67]
+
+2023-11-02T02:51:29.1577171+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.112.4, 140.82.112.3]
+
+2023-11-02T02:52:00.2793507+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.36, 13.107.213.41, 13.107.213.67]
+
+2023-11-02T02:52:26.3441407+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.161.35, 175.4.51.35]
+
+2023-11-02T02:54:02.2467237+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.36, 13.107.213.67, 13.107.213.41]
+
+2023-11-02T02:54:13.9962822+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 106.225.194.35]
+
+2023-11-02T02:54:28.8769074+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.112.3, 140.82.112.4]
+
+2023-11-02T02:54:31.4369882+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.41, 13.107.213.44, 13.107.213.36]
+
+2023-11-02T02:54:59.4718977+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 113.219.142.35]
+
+2023-11-02T02:55:49.5339232+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.41, 13.107.213.44, 13.107.246.44]
+
+2023-11-02T02:55:53.5439958+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.41, 13.107.213.46, 13.107.213.44]
+
+2023-11-02T02:56:37.5869586+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.41, 13.107.213.44, 13.107.246.44]
+
+2023-11-02T02:57:26.4935512+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.41, 13.107.246.31, 13.107.213.44]
+
+2023-11-02T02:57:28.8321516+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 106.225.194.35]
+
+2023-11-02T02:57:53.8174131+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.112.3]
+
+2023-11-02T02:58:23.3980176+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.213.41, 13.107.246.31]
+
+2023-11-02T02:59:34.9828701+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.112.4]
+
+2023-11-02T02:59:36.5982802+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.44, 13.107.246.45, 13.107.213.41]
+
+2023-11-02T03:00:48.4148987+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 124.225.184.35]
+
+2023-11-02T03:01:56.6699650+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.246.44, 13.107.246.45]
+
+2023-11-02T03:02:05.7426687+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.213.69, 13.107.246.44]
+
+2023-11-02T03:02:31.9298037+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.246.67, 13.107.213.69]
+
+2023-11-02T03:03:29.6007029+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.112.3]
+
+2023-11-02T03:03:31.1177186+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.246.45, 13.107.246.67]
+
+2023-11-02T03:05:49.2533964+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 171.107.86.35]
+
+2023-11-02T03:06:57.5949359+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.67, 13.107.213.69]
+
+2023-11-02T03:07:14.1482786+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.67, 13.107.246.41]
+
+2023-11-02T03:07:37.1595046+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.41, 13.107.213.59]
+
+2023-11-02T03:08:27.9424904+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.41, 13.107.246.67]
+
+2023-11-02T03:10:28.7888674+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.41, 13.107.246.67, 13.107.246.73]
+
+2023-11-02T03:10:53.7002083+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.246.41, 13.107.246.67]
+
+2023-11-02T03:10:53.7548219+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 124.225.184.35]
+
+2023-11-02T03:11:21.8190958+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.246.74, 13.107.246.41]
+
+2023-11-02T03:11:41.6621759+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.40, 13.107.246.53, 13.107.246.74]
+
+2023-11-02T03:12:16.4575064+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.40, 13.107.213.41, 13.107.246.53]
+
+2023-11-02T03:14:10.2156482+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.121.4]
+
+2023-11-02T03:15:59.0706475+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.121.3]
+
+2023-11-02T03:16:00.5932794+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.40, 13.107.213.41, 13.107.246.31]
+
+2023-11-02T03:16:00.6493992+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T03:16:43.3383612+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.40, 13.107.246.31, 13.107.213.40]
+
+2023-11-02T03:16:53.4159220+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 124.225.184.35, 106.225.194.35]
+
+2023-11-02T03:17:45.9983517+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.64, 13.107.246.40, 13.107.246.31]
+
+2023-11-02T03:18:43.8354008+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.64, 13.107.246.31, 13.107.213.46]
+
+2023-11-02T03:18:49.7912466+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.64, 13.107.213.46, 13.107.213.53]
+
+2023-11-02T03:18:57.4788679+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.64, 13.107.246.45, 13.107.213.46]
+
+2023-11-02T03:19:24.8001036+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T03:20:56.6748594+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.64, 13.107.246.46, 13.107.246.45]
+
+2023-11-02T03:21:01.5395511+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 171.107.86.35]
+
+2023-11-02T03:21:28.6016539+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.121.4]
+
+2023-11-02T03:22:51.6645861+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.46, 13.107.246.45, 13.107.213.64]
+
+2023-11-02T03:23:47.7443030+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.46, 13.107.246.45, 13.107.213.69]
+
+2023-11-02T03:23:51.3311765+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.46, 13.107.246.31, 13.107.246.45]
+
+2023-11-02T03:23:59.1271419+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.46, 13.107.246.31, 13.107.213.45]
+
+2023-11-02T03:26:04.6939753+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.114.4]
+
+2023-11-02T03:26:06.2276708+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.46, 13.107.246.31, 13.107.213.45]
+
+2023-11-02T03:26:09.1146690+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T03:26:30.4236821+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.46, 13.107.246.31, 13.107.246.73]
+
+2023-11-02T03:27:45.4376497+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.46, 13.107.246.31]
+
+2023-11-02T03:28:54.4294857+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.46, 13.107.246.73]
+
+2023-11-02T03:31:03.8360574+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.73, 13.107.213.73]
+
+2023-11-02T03:31:06.5047463+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.29.134.23]
+
+2023-11-02T03:31:09.5657679+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 175.4.51.35]
+
+2023-11-02T03:31:34.1847925+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.45, 13.107.213.73]
+
+2023-11-02T03:32:45.8765358+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.213.73, 13.107.246.73]
+
+2023-11-02T03:34:05.6719648+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.45, 13.107.213.73, 13.107.246.73]
+
+2023-11-02T03:34:28.6048902+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T03:35:56.2081911+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 182.106.158.35]
+
+2023-11-02T03:36:35.0535455+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.45, 13.107.246.45]
+
+2023-11-02T03:39:14.1237893+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.45, 13.107.213.45]
+
+2023-11-02T03:39:37.7082425+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 182.107.80.35]
+
+2023-11-02T03:40:08.9964225+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.240.118.35, 175.4.51.35]
+
+2023-11-02T03:40:38.3693467+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.45, 13.107.246.59]
+
+2023-11-02T03:41:21.9752907+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.248.137.48]
+
+2023-11-02T03:41:38.3424155+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.246.74, 13.107.246.59]
+
+2023-11-02T03:43:04.8761051+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.248.137.48, 20.29.134.23]
+
+2023-11-02T03:43:10.8796220+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.59, 13.107.246.70]
+
+2023-11-02T03:43:30.5645343+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.71, 13.107.246.59]
+
+2023-11-02T03:44:40.1661662+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.240.118.35, 106.225.194.35]
+
+2023-11-02T03:44:42.3664061+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.71, 13.107.246.46]
+
+2023-11-02T03:45:07.0633296+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.248.137.48, 140.82.112.3]
+
+2023-11-02T03:45:07.0635261+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.46, 13.107.246.59]
+
+2023-11-02T03:45:09.1252666+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 113.240.118.35]
+
+2023-11-02T03:45:23.9258232+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.240.118.35, 113.219.142.35]
+
+2023-11-02T03:45:26.5533648+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.46, 13.107.213.70]
+
+2023-11-02T03:45:26.6075919+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.240.118.35, 60.188.66.35]
+
+2023-11-02T03:45:46.0426279+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.59, 13.107.246.46]
+
+2023-11-02T03:45:55.0624146+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.240.118.35, 106.225.194.35, 60.188.66.35]
+
+2023-11-02T03:46:51.5075931+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.59, 13.107.246.46, 13.107.213.70]
+
+2023-11-02T03:47:32.0432267+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.248.137.48, 20.29.134.23]
+
+2023-11-02T03:48:01.8842292+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.59, 13.107.246.69, 13.107.246.46]
+
+2023-11-02T03:49:56.5315894+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.46, 13.107.213.59, 13.107.246.69]
+
+2023-11-02T03:50:27.3235603+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.219.142.35, 113.240.118.35, 106.225.194.35]
+
+2023-11-02T03:50:56.0119111+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.46, 13.107.246.69, 13.107.213.69]
+
+2023-11-02T03:51:52.0769005+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.46, 13.107.246.69, 13.107.213.74]
+
+2023-11-02T03:52:35.3060561+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.240.118.35, 106.225.194.35, 119.96.52.35]
+
+2023-11-02T03:52:43.6390696+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.46, 13.107.246.69, 13.107.213.67]
+
+2023-11-02T03:53:02.3401558+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.46, 13.107.213.67]
+
+2023-11-02T03:53:17.3828570+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.219.142.35, 113.240.118.35, 106.225.194.35]
+
+2023-11-02T03:53:26.7914048+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.114.4]
+
+2023-11-02T03:55:03.1858460+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.46, 13.107.213.67]
+
+2023-11-02T03:55:23.9015694+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.219.142.35, 106.225.194.35, 113.240.118.35]
+
+2023-11-02T03:55:34.8989310+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.240.118.35, 113.219.142.35]
+
+2023-11-02T03:56:06.4852530+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.46, 13.107.213.67, 13.107.213.70]
+
+2023-11-02T03:56:21.0064773+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.240.118.35, 220.169.152.35]
+
+2023-11-02T03:56:33.2032016+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.67, 13.107.213.70, 13.107.246.67]
+
+2023-11-02T03:56:40.4830940+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.67, 13.107.213.52, 13.107.246.52]
+
+2023-11-02T03:56:52.3959919+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.67, 13.107.213.52]
+
+2023-11-02T03:57:44.0856050+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.52, 13.107.246.52]
+
+2023-11-02T03:57:46.8769629+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.52, 13.107.246.71]
+
+2023-11-02T03:58:00.6522832+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.69, 13.107.213.52]
+
+2023-11-02T03:58:03.2607266+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.52, 13.107.246.71]
+
+2023-11-02T03:58:40.9043889+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 220.169.152.35, 113.219.142.35]
+
+2023-11-02T03:59:29.4830350+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.4, 140.82.113.3]
+
+2023-11-02T04:00:39.1506856+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.213.73, 13.107.213.52]
+
+2023-11-02T04:00:39.1987931+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 220.169.152.35, 60.188.66.35]
+
+2023-11-02T04:01:25.9738817+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 60.188.66.35, 113.219.161.35]
+
+2023-11-02T04:01:44.3453382+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.213.73, 13.107.246.71]
+
+2023-11-02T04:01:52.7245195+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.246.71, 13.107.213.53]
+
+2023-11-02T04:02:41.2488655+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.3, 140.82.121.3]
+
+2023-11-02T04:02:51.8888231+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.71, 13.107.213.70, 13.107.213.53]
+
+2023-11-02T04:03:04.7331935+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[60.188.66.35, 113.219.161.35, 113.219.142.35]
+
+2023-11-02T04:04:43.7321658+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.3, 140.82.121.4]
+
+2023-11-02T04:05:39.6618847+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.71, 13.107.213.53, 13.107.213.74]
+
+2023-11-02T04:05:39.7129359+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[119.96.52.35, 113.219.161.35, 220.169.152.35]
+
+2023-11-02T04:05:54.5746982+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.71, 13.107.246.53, 13.107.213.53]
+
+2023-11-02T04:06:26.6417983+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[119.96.52.35, 220.169.152.35, 113.219.161.35]
+
+2023-11-02T04:06:50.4340774+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 119.96.52.35, 220.169.152.35]
+
+2023-11-02T04:07:44.2916120+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.71, 13.107.213.69, 13.107.246.60]
+
+2023-11-02T04:07:58.6014645+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.60, 13.107.213.67, 13.107.213.71]
+
+2023-11-02T04:08:13.4601024+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.60, 13.107.213.67, 13.107.213.69]
+
+2023-11-02T04:08:25.1224951+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.113.3]
+
+2023-11-02T04:09:23.7829518+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 220.169.152.35, 113.219.161.35]
+
+2023-11-02T04:10:25.2794635+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.114.3]
+
+2023-11-02T04:11:09.1132328+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.60, 13.107.213.67]
+
+2023-11-02T04:11:30.6586955+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.161.35, 111.177.3.35]
+
+2023-11-02T04:13:04.0287644+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.60, 13.107.213.45]
+
+2023-11-02T04:14:51.7337679+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.213.45, 13.107.213.67]
+
+2023-11-02T04:15:26.0309307+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.113.3]
+
+2023-11-02T04:15:34.2015694+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.113.4]
+
+2023-11-02T04:16:11.6303275+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.59, 13.107.213.45, 13.107.213.67]
+
+2023-11-02T04:17:04.4604389+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.59, 13.107.213.45, 13.107.213.73]
+
+2023-11-02T04:17:11.9612934+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.59, 13.107.213.73, 13.107.213.67]
+
+2023-11-02T04:18:06.5511684+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.59, 13.107.213.67, 13.107.213.73]
+
+2023-11-02T04:19:02.9912035+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 111.177.3.35, 220.169.152.35]
+
+2023-11-02T04:19:22.8460399+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 220.169.152.35, 183.131.185.35]
+
+2023-11-02T04:19:37.7385209+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.29.134.23]
+
+2023-11-02T04:20:23.1964721+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.113.4]
+
+2023-11-02T04:20:23.2592402+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.50, 13.107.213.59, 13.107.213.67]
+
+2023-11-02T04:21:02.8406667+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.50, 13.107.213.59, 13.107.213.73]
+
+2023-11-02T04:21:12.5978824+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.213.50, 13.107.213.73]
+
+2023-11-02T04:21:33.0284870+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[220.169.152.35, 106.225.194.35, 183.131.185.35]
+
+2023-11-02T04:22:15.5551105+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 140.82.113.4]
+
+2023-11-02T04:22:17.1303849+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.213.50, 13.107.246.45]
+
+2023-11-02T04:22:17.6825143+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[220.169.152.35, 106.225.194.35, 113.219.161.35]
+
+2023-11-02T04:22:44.4879275+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 20.29.134.23]
+
+2023-11-02T04:24:04.3624147+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.213.50, 13.107.246.69]
+
+2023-11-02T04:24:41.4646224+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.29.134.23]
+
+2023-11-02T04:25:25.1838526+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.246.50, 13.107.246.69]
+
+2023-11-02T04:26:18.3191387+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.50, 13.107.246.69, 13.107.246.71]
+
+2023-11-02T04:26:33.1424289+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.161.35, 119.96.52.35]
+
+2023-11-02T04:26:52.5147491+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.248.137.48]
+
+2023-11-02T04:26:54.0363343+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.50, 13.107.246.71]
+
+2023-11-02T04:27:20.2903297+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.161.35, 220.169.152.35]
+
+2023-11-02T04:29:39.3240217+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.240.118.35, 113.219.161.35]
+
+2023-11-02T04:29:49.0649010+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.50, 13.107.246.60]
+
+2023-11-02T04:30:26.2615898+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.60, 13.107.213.50]
+
+2023-11-02T04:30:36.1877066+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.71, 13.107.246.60]
+
+2023-11-02T04:32:03.0001462+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.71, 13.107.246.60, 13.107.213.50]
+
+2023-11-02T04:32:03.0004400+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.240.118.35, 113.219.161.35, 220.169.152.35]
+
+2023-11-02T04:32:27.2825606+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.74, 13.107.246.73]
+
+2023-11-02T04:32:37.3582197+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.248.137.48, 20.29.134.23]
+
+2023-11-02T04:32:37.4411329+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.53, 13.107.246.74]
+
+2023-11-02T04:33:07.5267366+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.240.118.35, 113.219.161.35]
+
+2023-11-02T04:34:20.8369872+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@8.8.8.8:53->Invalid response received with code ServerFailure
+
+2023-11-02T04:36:52.3067876+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.248.137.48, 140.82.113.4]
+
+2023-11-02T04:37:35.4101049+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.142.35, 113.240.118.35]
+
+2023-11-02T04:37:41.4914458+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.52]
+
+2023-11-02T04:38:10.1147623+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.219.142.35, 106.225.194.35, 113.240.118.35]
+
+2023-11-02T04:38:25.9188019+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.248.137.48]
+
+2023-11-02T04:38:53.2664014+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.113.4]
+
+2023-11-02T04:39:30.9697903+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 106.225.194.35]
+
+2023-11-02T04:39:44.6423626+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 113.240.118.35]
+
+2023-11-02T04:40:41.3702406+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-02T04:40:44.9867724+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.60]
+
+2023-11-02T04:40:49.9738757+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.74]
+
+2023-11-02T04:40:49.9741885+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.240.118.35, 106.225.194.35]
+
+2023-11-02T04:42:41.9977676+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.246.59]
+
+2023-11-02T04:42:59.0395363+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.69]
+
+2023-11-02T04:44:23.3321939+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.246.71]
+
+2023-11-02T04:44:31.6729717+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.240.118.35, 175.4.51.35]
+
+2023-11-02T04:44:46.4684351+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 106.225.194.35]
+
+2023-11-02T04:46:20.5823434+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.114.4]
+
+2023-11-02T04:46:29.2894425+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.213.59]
+
+2023-11-02T04:46:35.1329067+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.114.3]
+
+2023-11-02T04:47:42.5912667+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.59, 13.107.246.71, 13.107.213.69]
+
+2023-11-02T04:47:59.5692192+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.59, 13.107.246.71]
+
+2023-11-02T04:48:18.7028716+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.213.69, 13.107.213.59]
+
+2023-11-02T04:48:31.1131106+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 140.82.114.3]
+
+2023-11-02T04:48:51.1127937+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 175.4.51.35]
+
+2023-11-02T04:49:23.9690929+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.3, 140.82.114.4]
+
+2023-11-02T04:49:24.0508412+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.246.71, 13.107.213.69]
+
+2023-11-02T04:49:37.4124969+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.4, 140.82.114.3]
+
+2023-11-02T04:49:39.3373467+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 106.225.194.35]
+
+2023-11-02T04:51:29.8432168+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.219.142.35, 106.225.194.35, 113.240.118.35]
+
+2023-11-02T04:51:49.7466557+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.219.142.35, 106.225.194.35, 220.169.152.35]
+
+2023-11-02T04:53:03.2786136+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.246.71, 13.107.246.59]
+
+2023-11-02T04:53:03.6096338+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 106.225.194.35]
+
+2023-11-02T04:53:24.7559350+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.71, 13.107.246.59, 13.107.246.69]
+
+2023-11-02T04:53:31.6380996+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.71, 13.107.213.57, 13.107.246.59]
+
+2023-11-02T04:53:57.5248396+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.161.35, 106.225.194.35]
+
+2023-11-02T04:54:25.0011859+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.57, 13.107.246.59, 13.107.246.69]
+
+2023-11-02T04:56:30.6946679+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.67, 13.107.213.57, 13.107.246.69]
+
+2023-11-02T04:58:12.8898473+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.67, 13.107.213.57]
+
+2023-11-02T04:58:25.9001261+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.57, 13.107.213.45]
+
+2023-11-02T04:58:33.7225705+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.45, 13.107.246.74]
+
+2023-11-02T04:58:49.9769598+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.74, 13.107.213.45]
+
+2023-11-02T04:59:06.0302886+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.67, 13.107.246.74]
+
+2023-11-02T04:59:06.0582276+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 106.225.194.35]
+
+2023-11-02T05:00:08.9527045+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.67, 13.107.246.31]
+
+2023-11-02T05:00:51.0041685+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 182.107.80.35]
+
+2023-11-02T05:00:54.6218905+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.246.69, 13.107.246.67]
+
+2023-11-02T05:01:31.3158789+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.246.69, 13.107.246.31]
+
+2023-11-02T05:02:34.9690714+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.4, 140.82.121.3]
+
+2023-11-02T05:02:44.3194529+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.213.73, 13.107.246.69]
+
+2023-11-02T05:03:22.9034825+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.213.73, 13.107.246.31]
+
+2023-11-02T05:03:56.5225622+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.213.45, 13.107.213.73]
+
+2023-11-02T05:04:03.6676755+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 106.225.194.35]
+
+2023-11-02T05:04:06.6960269+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 113.219.161.35]
+
+2023-11-02T05:04:42.9608877+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.213.73, 13.107.246.31]
+
+2023-11-02T05:04:54.2882096+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 113.240.118.35]
+
+2023-11-02T05:05:09.1983175+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.213.73, 13.107.213.31]
+
+2023-11-02T05:05:22.7606205+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.4, 140.82.114.3]
+
+2023-11-02T05:05:55.2309367+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.31, 13.107.213.67]
+
+2023-11-02T05:06:32.3850739+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.67, 13.107.213.73, 13.107.246.67]
+
+2023-11-02T05:07:49.2532104+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.213.67]
+
+2023-11-02T05:09:46.2384287+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.248.137.48, 140.82.114.4]
+
+2023-11-02T05:09:46.2802453+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 175.4.51.35]
+
+2023-11-02T05:11:34.0131631+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.213.31]
+
+2023-11-02T05:12:06.5637052+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.73, 13.107.246.55]
+
+2023-11-02T05:12:49.3280415+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.55, 13.107.213.55, 13.107.213.73]
+
+2023-11-02T05:12:50.4096166+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.55, 13.107.213.55, 13.107.246.73]
+
+2023-11-02T05:12:54.0622240+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.248.137.48, 192.30.255.113]
+
+2023-11-02T05:13:33.3948485+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.73, 13.107.246.74]
+
+2023-11-02T05:13:38.6763695+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.60, 13.107.246.73, 13.107.213.73]
+
+2023-11-02T05:13:48.0753393+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 106.225.194.35]
+
+2023-11-02T05:14:39.4200480+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.60, 13.107.246.64, 13.107.246.73]
+
+2023-11-02T05:14:50.5161803+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 182.107.80.35]
+
+2023-11-02T05:14:59.3717030+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 113.240.118.35]
+
+2023-11-02T05:16:25.6020137+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 171.107.86.35]
+
+2023-11-02T05:17:51.2762170+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.60, 13.107.213.74]
+
+2023-11-02T05:18:42.0170933+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.74, 13.107.246.55]
+
+2023-11-02T05:19:40.6697472+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.64, 13.107.213.64]
+
+2023-11-02T05:21:28.2618140+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 124.225.184.35]
+
+2023-11-02T05:21:47.7633987+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 192.30.255.113, 140.82.121.3]
+
+2023-11-02T05:21:49.0450198+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.64, 13.107.246.50]
+
+2023-11-02T05:22:02.6806590+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 192.30.255.113, 140.82.113.4]
+
+2023-11-02T05:22:37.8644477+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@8.8.8.8:53->Unable to read data from the transport connection: Connection reset by peer.
+
+2023-11-02T05:22:51.9950593+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.64, 13.107.246.50, 13.107.246.57]
+
+2023-11-02T05:24:46.3954871+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.50, 13.107.246.57, 13.107.213.69]
+
+2023-11-02T05:24:54.4600109+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.4, 140.82.121.3]
+
+2023-11-02T05:25:09.2225266+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T05:26:03.0246940+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.50, 13.107.246.57, 13.107.213.67]
+
+2023-11-02T05:26:28.9747777+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 124.225.184.35]
+
+2023-11-02T05:26:44.9267658+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.50, 13.107.246.57, 13.107.213.57]
+
+2023-11-02T05:26:53.5879110+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.213.50, 13.107.213.57]
+
+2023-11-02T05:27:03.0610120+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.4, 140.82.121.4]
+
+2023-11-02T05:27:41.1513262+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.240.118.35, 175.4.51.35]
+
+2023-11-02T05:27:56.5300512+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.74, 13.107.213.50]
+
+2023-11-02T05:28:48.2995531+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.74, 13.107.213.57]
+
+2023-11-02T05:28:53.7805059+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.240.118.35, 106.225.194.35]
+
+2023-11-02T05:29:11.8445898+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 175.4.51.35]
+
+2023-11-02T05:31:08.1881522+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.213.69, 13.107.246.74]
+
+2023-11-02T05:31:28.4199591+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.113.4]
+
+2023-11-02T05:32:03.7449095+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.121.4]
+
+2023-11-02T05:32:03.8275246+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.57, 13.107.246.74]
+
+2023-11-02T05:32:42.0312342+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 220.169.152.35]
+
+2023-11-02T05:33:12.9604110+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-02T05:34:14.0353370+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.121.3]
+
+2023-11-02T05:36:10.3515716+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.57, 13.107.246.74, 13.107.246.43]
+
+2023-11-02T05:37:50.1796287+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.112.4]
+
+2023-11-02T05:38:05.9365710+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.57, 13.107.213.74, 13.107.246.43]
+
+2023-11-02T05:38:29.3774683+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.57, 13.107.213.74, 13.107.246.67]
+
+2023-11-02T05:38:56.9128680+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 220.169.152.35, 119.96.52.35]
+
+2023-11-02T05:39:04.5406163+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.161.35, 220.169.152.35]
+
+2023-11-02T05:39:09.4324676+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.161.35, 111.177.3.35]
+
+2023-11-02T05:39:26.1704923+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.57, 13.107.213.74, 13.107.213.71]
+
+2023-11-02T05:40:00.2215358+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.51, 13.107.213.57, 13.107.213.74]
+
+2023-11-02T05:40:02.6827175+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.161.35, 113.240.118.35]
+
+2023-11-02T05:40:35.5582926+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 171.107.86.35, 124.225.184.35]
+
+2023-11-02T05:41:55.3147135+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.29.134.23]
+
+2023-11-02T05:42:06.2090790+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.51, 13.107.213.74, 13.107.213.51]
+
+2023-11-02T05:42:52.6455303+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.51, 13.107.213.74, 13.107.246.67]
+
+2023-11-02T05:43:06.1176094+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.51, 13.107.246.67, 13.107.213.51]
+
+2023-11-02T05:43:30.0683374+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.51, 13.107.246.67, 13.107.246.43]
+
+2023-11-02T05:43:38.9896482+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.112.4]
+
+2023-11-02T05:44:26.9108546+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.51, 13.107.246.67, 13.107.246.71]
+
+2023-11-02T05:45:01.0219478+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.51, 13.107.246.67, 13.107.246.71]
+
+2023-11-02T05:46:02.1173027+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.51, 13.107.246.45, 13.107.246.67]
+
+2023-11-02T05:47:05.2973913+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.51, 13.107.246.69, 13.107.246.45]
+
+2023-11-02T05:48:15.9558818+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unable to read data from the transport connection: Connection reset by peer.
+
+2023-11-02T05:48:17.8256597+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.51, 13.107.246.74, 13.107.246.69]
+
+2023-11-02T05:49:05.2446339+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.29.134.23]
+
+2023-11-02T05:49:05.5404813+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.51, 13.107.213.70, 13.107.246.74]
+
+2023-11-02T05:49:40.0512453+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 171.107.86.35]
+
+2023-11-02T05:50:03.4956567+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.246.74, 13.107.246.69]
+
+2023-11-02T05:50:37.3780751+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 106.225.194.35]
+
+2023-11-02T05:51:44.3081004+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 113.219.161.35]
+
+2023-11-02T05:52:04.7832160+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 20.29.134.23]
+
+2023-11-02T05:52:05.8448925+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.246.74, 13.107.213.69]
+
+2023-11-02T05:52:36.6539798+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.161.35, 106.225.194.35]
+
+2023-11-02T05:53:12.0195943+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.246.64, 13.107.246.74]
+
+2023-11-02T05:53:18.1070813+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.246.64, 13.107.213.69]
+
+2023-11-02T05:53:56.1576125+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.114.3]
+
+2023-11-02T05:54:03.4234384+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.246.64, 13.107.246.50]
+
+2023-11-02T05:54:09.8791375+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.64, 13.107.246.50, 13.107.213.69]
+
+2023-11-02T05:54:09.9142053+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.161.35, 113.219.142.35]
+
+2023-11-02T05:56:06.3144607+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.64, 13.107.213.69, 13.107.213.64]
+
+2023-11-02T05:56:48.9487306+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 113.240.118.35]
+
+2023-11-02T05:57:08.5986900+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.64, 13.107.213.64, 13.107.213.74]
+
+2023-11-02T05:58:12.8134712+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.57, 13.107.213.52]
+
+2023-11-02T05:58:25.1237456+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.57]
+
+2023-11-02T05:58:56.2677367+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.50, 13.107.246.74, 13.107.246.73]
+
+2023-11-02T05:59:03.5636000+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.213.57]
+
+2023-11-02T05:59:18.3410178+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.73, 13.107.246.70]
+
+2023-11-02T05:59:25.7755719+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 220.169.152.35]
+
+2023-11-02T06:00:22.6370003+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.74, 13.107.246.73]
+
+2023-11-02T06:00:34.1894409+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.29.134.23]
+
+2023-11-02T06:01:14.1807679+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.44, 13.107.246.57, 13.107.246.74]
+
+2023-11-02T06:03:04.6571531+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.74, 13.107.246.73]
+
+2023-11-02T06:03:16.9138412+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 182.107.80.35]
+
+2023-11-02T06:03:32.9160507+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.70, 13.107.246.64]
+
+2023-11-02T06:04:07.4083655+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.50, 13.107.246.70]
+
+2023-11-02T06:04:47.3793792+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.41, 13.107.246.50]
+
+2023-11-02T06:04:47.4203892+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 175.4.51.35]
+
+2023-11-02T06:05:30.3000658+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.41, 13.107.246.50, 13.107.213.41]
+
+2023-11-02T06:09:08.6259170+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.41, 13.107.213.41, 13.107.246.67]
+
+2023-11-02T06:09:47.5456679+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.41, 13.107.246.67, 13.107.246.65]
+
+2023-11-02T06:09:51.8181697+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 220.169.152.35]
+
+2023-11-02T06:11:50.5404889+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 113.219.142.35]
+
+2023-11-02T06:12:11.2372539+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.65, 13.107.213.41, 13.107.246.67]
+
+2023-11-02T06:13:36.5051254+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.65, 13.107.213.74, 13.107.213.41]
+
+2023-11-02T06:14:47.9734447+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.65, 13.107.213.74, 13.107.246.41]
+
+2023-11-02T06:16:22.2315591+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.213.65, 13.107.213.74]
+
+2023-11-02T06:16:30.2701028+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-02T06:16:57.1634631+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 113.219.161.35]
+
+2023-11-02T06:17:11.6256252+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.213.74, 13.107.213.65]
+
+2023-11-02T06:18:43.0136767+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.213.73, 13.107.213.65]
+
+2023-11-02T06:18:56.9561538+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.213.73, 13.107.213.46]
+
+2023-11-02T06:19:23.7479623+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.161.35, 106.225.194.35]
+
+2023-11-02T06:19:39.1466292+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.213.73, 13.107.246.70]
+
+2023-11-02T06:21:46.8992527+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.113.3]
+
+2023-11-02T06:21:56.1441457+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.161.35, 182.107.80.35]
+
+2023-11-02T06:21:58.1727605+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 119.96.52.35]
+
+2023-11-02T06:23:01.4581164+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.114.3]
+
+2023-11-02T06:23:43.1485908+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.53, 13.107.246.70]
+
+2023-11-02T06:24:40.3599921+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.3, 140.82.113.3]
+
+2023-11-02T06:24:40.4417384+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.53, 13.107.213.57]
+
+2023-11-02T06:25:05.9832644+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 113.219.142.35]
+
+2023-11-02T06:25:14.5678376+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.53, 13.107.213.46]
+
+2023-11-02T06:25:44.9951129+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.53, 13.107.213.69]
+
+2023-11-02T06:26:23.7856901+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.69, 13.107.213.70]
+
+2023-11-02T06:26:58.7391333+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 119.96.52.35]
+
+2023-11-02T06:27:02.6822019+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[119.96.52.35, 113.219.142.35, 220.169.152.35]
+
+2023-11-02T06:27:03.9610945+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[220.169.152.35, 119.96.52.35, 113.219.142.35]
+
+2023-11-02T06:28:44.0983256+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.69, 13.107.213.73]
+
+2023-11-02T06:30:14.2392043+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.114.3]
+
+2023-11-02T06:30:38.5785022+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.69, 13.107.246.41]
+
+2023-11-02T06:30:45.5855347+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.41, 13.107.213.41]
+
+2023-11-02T06:31:54.6694545+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.44, 13.107.246.44]
+
+2023-11-02T06:32:02.8456057+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[220.169.152.35, 113.219.142.35, 113.219.161.35]
+
+2023-11-02T06:32:05.8737501+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.219.142.35, 113.219.161.35, 119.96.52.35]
+
+2023-11-02T06:32:27.1852165+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 113.219.142.35]
+
+2023-11-02T06:32:31.2835637+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.44, 13.107.213.50]
+
+2023-11-02T06:33:34.7016819+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.44, 13.107.246.44]
+
+2023-11-02T06:33:44.9337749+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 140.82.114.3]
+
+2023-11-02T06:33:45.0155455+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.44, 13.107.246.44, 13.107.246.69]
+
+2023-11-02T06:34:54.8192474+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@8.8.8.8:53->Unable to read data from the transport connection: Connection reset by peer.
+
+2023-11-02T06:34:55.7024281+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.46, 13.107.213.44, 13.107.246.44]
+
+2023-11-02T06:35:14.7399972+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.114.3]
+
+2023-11-02T06:35:21.1365557+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.113.4]
+
+2023-11-02T06:36:59.1521780+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.46, 13.107.246.69, 13.107.213.44]
+
+2023-11-02T06:37:28.0195095+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 220.169.152.35]
+
+2023-11-02T06:37:44.6688582+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.46, 13.107.213.44, 13.107.246.44]
+
+2023-11-02T06:38:47.2404754+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.46, 13.107.213.73, 13.107.246.73]
+
+2023-11-02T06:39:56.1465783+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.246.74]
+
+2023-11-02T06:40:26.6955757+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.59, 13.107.246.73]
+
+2023-11-02T06:42:11.4023900+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.4, 140.82.121.4]
+
+2023-11-02T06:42:22.5017316+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 220.169.152.35, 182.107.80.35]
+
+2023-11-02T06:42:28.3136446+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 220.169.152.35, 175.4.51.35]
+
+2023-11-02T06:42:48.5107125+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 220.169.152.35]
+
+2023-11-02T06:42:52.6679056+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.59, 13.107.246.71]
+
+2023-11-02T06:43:47.6812195+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.246.71, 13.107.213.74]
+
+2023-11-02T06:45:07.9852637+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.4, 140.82.121.3]
+
+2023-11-02T06:45:18.5232782+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.4, 140.82.121.4]
+
+2023-11-02T06:45:27.6055853+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.71, 13.107.213.74, 13.107.213.73]
+
+2023-11-02T06:45:39.6185575+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.246.71, 13.107.213.74]
+
+2023-11-02T06:46:06.0894775+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-02T06:46:46.5673587+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.113.4]
+
+2023-11-02T06:47:22.7204776+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 175.4.51.35]
+
+2023-11-02T06:47:44.3734302+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.213.64, 13.107.246.71]
+
+2023-11-02T06:47:54.5483519+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.213.64, 13.107.213.74]
+
+2023-11-02T06:48:47.7864387+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.213.64, 13.107.246.52]
+
+2023-11-02T06:49:55.6220740+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@8.8.8.8:53->Unable to read data from the transport connection: Connection reset by peer.
+
+2023-11-02T06:49:59.1570196+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+vscode.cdn.azure.cn@8.8.8.8:53->Unexpected end of stream
+
+2023-11-02T06:50:14.3640459+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 124.225.184.35]
+
+2023-11-02T06:50:43.2298819+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.246.70, 13.107.213.64]
+
+2023-11-02T06:52:45.0221028+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.246.70, 13.107.246.52]
+
+2023-11-02T06:52:54.5225879+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.246.70, 13.107.213.69]
+
+2023-11-02T06:53:43.9675640+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unable to read data from the transport connection: Connection reset by peer.
+
+2023-11-02T06:53:51.2752662+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+vscode.cdn.azure.cn@8.8.8.8:53->Unexpected end of stream
+
+2023-11-02T06:53:52.4417045+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.246.70, 13.107.213.74]
+
+2023-11-02T06:54:28.4020242+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.114.3]
+
+2023-11-02T06:55:14.3411390+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T06:55:15.4014676+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 171.107.86.35]
+
+2023-11-02T06:55:44.2335317+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.213.74, 13.107.213.69]
+
+2023-11-02T06:57:55.3207779+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.213.74, 13.107.246.64]
+
+2023-11-02T06:58:57.5614968+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.213.74, 13.107.246.74]
+
+2023-11-02T06:59:49.2875217+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.3, 140.82.121.4]
+
+2023-11-02T06:59:59.2669758+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.213.74, 13.107.213.31]
+
+2023-11-02T07:00:15.3152483+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T07:00:43.4702327+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.213.31, 13.107.246.74]
+
+2023-11-02T07:00:56.2095539+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 192.30.255.113, 140.82.114.3]
+
+2023-11-02T07:01:59.7218123+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.70, 13.107.213.31]
+
+2023-11-02T07:02:06.9785353+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 192.30.255.113, 140.82.121.4]
+
+2023-11-02T07:02:09.3967786+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 220.169.152.35, 175.4.51.35]
+
+2023-11-02T07:02:19.9722463+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 220.169.152.35, 113.219.142.35]
+
+2023-11-02T07:03:50.6903962+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T07:04:07.4631364+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.213.31, 13.107.246.69]
+
+2023-11-02T07:04:58.9139367+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.67, 13.107.246.70, 13.107.213.31]
+
+2023-11-02T07:05:03.3203669+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.67, 13.107.246.70, 13.107.246.67]
+
+2023-11-02T07:06:17.3988863+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 192.30.255.113, 140.82.121.3]
+
+2023-11-02T07:07:00.6387904+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.67, 13.107.246.67, 13.107.213.74]
+
+2023-11-02T07:07:04.4592482+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.67, 13.107.246.52, 13.107.246.67]
+
+2023-11-02T07:07:07.5060465+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 192.30.255.113]
+
+2023-11-02T07:08:04.4441219+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.52, 13.107.246.59, 13.107.213.74]
+
+2023-11-02T07:09:10.5994628+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.52, 13.107.246.59]
+
+2023-11-02T07:10:03.6081967+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.31, 13.107.246.73, 13.107.246.52]
+
+2023-11-02T07:10:38.2327533+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 124.225.184.35, 171.107.86.35]
+
+2023-11-02T07:12:04.6239959+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.31, 13.107.246.73, 13.107.246.59]
+
+2023-11-02T07:12:05.2059713+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T07:13:01.4479529+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.121.4]
+
+2023-11-02T07:13:05.4610301+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.59, 13.107.213.31, 13.107.246.73]
+
+2023-11-02T07:14:16.9888490+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 140.82.121.4]
+
+2023-11-02T07:14:17.2934056+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.59, 13.107.246.73, 13.107.213.53]
+
+2023-11-02T07:15:08.4325982+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-02T07:15:21.2394562+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 20.248.137.48]
+
+2023-11-02T07:15:22.1227778+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 124.225.184.35]
+
+2023-11-02T07:17:11.6649678+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.248.137.48]
+
+2023-11-02T07:18:11.6775463+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.53, 13.107.246.53]
+
+2023-11-02T07:19:32.8422525+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.67, 13.107.213.67, 13.107.213.57]
+
+2023-11-02T07:20:22.2541033+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T07:21:43.3082650+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.67, 13.107.213.67]
+
+2023-11-02T07:22:14.1438933+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.248.137.48, 20.29.134.23]
+
+2023-11-02T07:22:31.0685103+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.67, 13.107.246.70]
+
+2023-11-02T07:24:38.0439023+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.73, 13.107.246.70]
+
+2023-11-02T07:25:22.8846680+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 124.225.184.35]
+
+2023-11-02T07:27:01.5042399+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.73, 13.107.246.64]
+
+2023-11-02T07:28:13.8498920+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.113.4]
+
+2023-11-02T07:29:43.7549342+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.64, 13.107.213.74]
+
+2023-11-02T07:30:12.8133658+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 124.225.184.35, 113.219.161.35]
+
+2023-11-02T07:30:15.0019540+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 124.225.184.35, 171.107.86.35]
+
+2023-11-02T07:30:25.9987207+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 124.225.184.35, 113.219.142.35]
+
+2023-11-02T07:31:43.9991187+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.64, 13.107.213.69, 13.107.213.74]
+
+2023-11-02T07:32:01.6393887+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.74, 13.107.246.73]
+
+2023-11-02T07:33:24.3506860+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.219.142.35, 220.169.152.35, 111.177.8.35]
+
+2023-11-02T07:33:59.1591697+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.142.35, 220.169.152.35]
+
+2023-11-02T07:34:44.3176922+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.67, 13.107.213.64]
+
+2023-11-02T07:35:16.3964763+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 220.169.152.35, 111.177.8.35]
+
+2023-11-02T07:36:32.7204425+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.59, 13.107.246.67]
+
+2023-11-02T07:36:46.7574782+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.59, 13.107.246.67, 13.107.246.69]
+
+2023-11-02T07:36:56.2219028+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.113.3]
+
+2023-11-02T07:39:50.4623984+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.121.3]
+
+2023-11-02T07:39:52.9959288+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.213.59, 13.107.246.46]
+
+2023-11-02T07:40:17.5208721+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.161.35, 113.219.142.35]
+
+2023-11-02T07:40:45.1741089+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-02T07:41:38.1654462+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.73, 13.107.246.46]
+
+2023-11-02T07:41:43.3564640+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.161.35, 220.169.152.35]
+
+2023-11-02T07:41:54.1990736+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.213.69, 13.107.246.73]
+
+2023-11-02T07:43:40.8128816+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.73, 13.107.246.46]
+
+2023-11-02T07:43:57.8406456+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.73, 13.107.213.41]
+
+2023-11-02T07:44:22.9948958+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.213.69, 13.107.246.73]
+
+2023-11-02T07:44:55.7733480+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.213.69, 13.107.213.41]
+
+2023-11-02T07:45:18.5032102+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.142.35, 220.169.152.35]
+
+2023-11-02T07:45:56.1415595+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.113.4]
+
+2023-11-02T07:45:57.3174472+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.219.142.35, 220.169.152.35, 119.96.52.35]
+
+2023-11-02T07:46:38.8568079+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.57, 13.107.213.41]
+
+2023-11-02T07:46:55.3917042+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.69, 13.107.213.41]
+
+2023-11-02T07:48:51.5300257+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.41, 13.107.246.41]
+
+2023-11-02T07:49:52.2717390+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 171.107.86.35, 124.225.184.35]
+
+2023-11-02T07:50:02.0639753+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.73, 13.107.213.67]
+
+2023-11-02T07:52:49.5926629+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.60, 13.107.246.40, 13.107.213.73]
+
+2023-11-02T07:54:04.8744865+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.60, 13.107.246.41, 13.107.246.40]
+
+2023-11-02T07:54:49.7737796+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.4, 140.82.112.4]
+
+2023-11-02T07:54:55.0845096+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 124.225.184.35, 171.107.86.35]
+
+2023-11-02T07:55:05.4539134+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.60, 13.107.246.41, 13.107.213.74]
+
+2023-11-02T07:55:35.9020544+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.113.4]
+
+2023-11-02T07:56:25.8827121+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.112.4]
+
+2023-11-02T07:57:03.4348104+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.60, 13.107.213.74, 13.107.246.40]
+
+2023-11-02T07:58:15.8845777+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.64, 13.107.213.74, 13.107.213.69]
+
+2023-11-02T07:58:39.4472682+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.64, 13.107.213.53, 13.107.213.74]
+
+2023-11-02T07:59:32.7453751+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T07:59:39.2812558+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-02T08:00:52.0387343+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.64, 13.107.213.53]
+
+2023-11-02T08:03:19.4054126+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.69, 13.107.213.53]
+
+2023-11-02T08:03:48.4673310+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.69, 13.107.246.69]
+
+2023-11-02T08:04:04.1060776+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.69, 13.107.246.67]
+
+2023-11-02T08:05:21.3540008+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 113.219.161.35]
+
+2023-11-02T08:05:36.2187010+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.52, 13.107.213.69]
+
+2023-11-02T08:05:52.3811915+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.52, 13.107.213.69, 13.107.246.67]
+
+2023-11-02T08:06:12.2454163+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 171.107.86.35]
+
+2023-11-02T08:07:03.4852686+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.161.35, 106.225.194.35]
+
+2023-11-02T08:07:47.2526004+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.52, 13.107.246.67, 13.107.213.74]
+
+2023-11-02T08:08:49.4720307+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.246.52, 13.107.246.67]
+
+2023-11-02T08:10:21.4939791+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 113.219.142.35]
+
+2023-11-02T08:10:42.5870869+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.246.67, 13.107.213.74]
+
+2023-11-02T08:10:52.8712789+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.246.73, 13.107.246.67]
+
+2023-11-02T08:12:00.1403920+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.246.53, 13.107.213.59]
+
+2023-11-02T08:12:06.6637085+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.219.142.35, 113.219.161.35, 220.169.152.35]
+
+2023-11-02T08:13:49.8486311+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.53, 13.107.246.53, 13.107.246.73]
+
+2023-11-02T08:14:38.8234442+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.53, 13.107.246.60, 13.107.213.60]
+
+2023-11-02T08:15:26.5669355+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.121.4]
+
+2023-11-02T08:15:26.6111620+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[220.169.152.35, 113.219.142.35, 113.219.161.35]
+
+2023-11-02T08:15:36.1157002+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 220.169.152.35]
+
+2023-11-02T08:18:58.8212543+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.60, 13.107.246.53, 13.107.213.60]
+
+2023-11-02T08:20:15.5973744+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.113.4]
+
+2023-11-02T08:20:17.1767275+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.53, 13.107.213.60]
+
+2023-11-02T08:20:59.3423455+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.213.73, 13.107.246.53]
+
+2023-11-02T08:21:28.6550343+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.213.73, 13.107.246.70]
+
+2023-11-02T08:25:02.1729014+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+vscode.cdn.azure.cn@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T08:25:02.4302588+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 175.4.51.35]
+
+2023-11-02T08:25:29.8979291+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.4, 140.82.121.4]
+
+2023-11-02T08:25:36.7856574+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.41, 13.107.213.73, 13.107.246.70]
+
+2023-11-02T08:25:49.7627495+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 182.107.80.35]
+
+2023-11-02T08:27:14.0806795+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.4, 140.82.112.4]
+
+2023-11-02T08:27:24.3856156+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.41, 13.107.213.70, 13.107.246.73]
+
+2023-11-02T08:29:46.1154242+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 113.96.178.35]
+
+2023-11-02T08:30:43.2508474+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.41, 13.107.213.70, 13.107.246.73]
+
+2023-11-02T08:31:22.5541986+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.41, 13.107.213.70, 13.107.213.59]
+
+2023-11-02T08:31:42.9718937+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 113.96.178.35, 124.225.184.35]
+
+2023-11-02T08:31:50.8525105+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.112.4, 140.82.121.4]
+
+2023-11-02T08:32:16.7931278+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.4, 140.82.121.3]
+
+2023-11-02T08:32:21.7550941+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.41, 13.107.246.73]
+
+2023-11-02T08:35:01.7208816+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T08:35:22.8934339+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 113.96.178.35, 171.107.86.35]
+
+2023-11-02T08:35:43.7283529+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.213.46]
+
+2023-11-02T08:35:59.3343959+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3, 140.82.112.4]
+
+2023-11-02T08:36:10.4375909+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@8.8.8.8:53->Unable to read data from the transport connection: Connection reset by peer.
+
+2023-11-02T08:38:23.1933534+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T08:38:23.5739083+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.112.4, 140.82.121.3]
+
+2023-11-02T08:38:56.0671828+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.70, 13.107.246.73, 13.107.213.73]
+
+2023-11-02T08:39:23.7047169+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.112.4]
+
+2023-11-02T08:41:33.3998175+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T08:41:41.5386772+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.121.3]
+
+2023-11-02T08:41:44.2217793+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.40, 13.107.213.70, 13.107.246.73]
+
+2023-11-02T08:41:47.2746911+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.96.178.35, 113.219.142.35, 113.219.161.35]
+
+2023-11-02T08:44:13.2711963+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T08:44:22.9557205+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.53, 13.107.246.40, 13.107.213.74]
+
+2023-11-02T08:47:21.8125039+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T08:47:40.3702325+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.53, 13.107.213.57, 13.107.246.57]
+
+2023-11-02T08:47:47.4663276+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[220.169.152.35, 111.177.3.35, 183.131.185.35]
+
+2023-11-02T08:48:45.4912193+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection refused
+
+2023-11-02T08:48:51.9279546+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+vscode.cdn.azure.cn@119.29.29.29:53->Connection refused
+
+2023-11-02T08:48:54.9795624+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection refused
+
+2023-11-02T08:49:23.3244660+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.213.57, 13.107.213.53]
+
+2023-11-02T08:49:35.4764022+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.213.57, 13.107.213.45]
+
+2023-11-02T08:49:37.9114763+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection refused
+
+2023-11-02T08:49:56.0831167+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[220.169.152.35, 119.96.52.35, 111.177.6.35]
+
+2023-11-02T08:50:36.0021060+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.112.3]
+
+2023-11-02T08:50:48.1991385+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 175.4.51.35]
+
+2023-11-02T08:52:40.4575775+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.53, 13.107.213.45, 13.107.213.57]
+
+2023-11-02T08:54:26.1118855+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.53, 13.107.213.45, 13.107.213.57]
+
+2023-11-02T08:54:43.7276285+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.53, 13.107.246.45, 13.107.213.57]
+
+2023-11-02T08:55:17.5756134+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.112.3, 140.82.121.3]
+
+2023-11-02T08:55:50.7401565+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 182.107.80.35, 61.136.173.35]
+
+2023-11-02T08:56:45.0414871+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.4, 140.82.112.3]
+
+2023-11-02T08:57:41.9048775+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.53, 13.107.246.45, 13.107.213.45]
+
+2023-11-02T08:59:48.5303471+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.213.74, 13.107.246.57]
+
+2023-11-02T08:59:57.8611197+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 182.107.80.35, 106.225.194.35]
+
+2023-11-02T09:00:55.4293762+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 175.4.51.35]
+
+2023-11-02T09:02:25.6217001+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T09:02:27.3791911+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection refused
+
+2023-11-02T09:02:27.7909591+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.112.3, 140.82.113.4]
+
+2023-11-02T09:02:29.6342770+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection refused
+
+2023-11-02T09:02:29.8828969+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.74, 13.107.246.59, 13.107.246.57]
+
+2023-11-02T09:02:32.3420375+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+vscode.cdn.azure.cn@119.29.29.29:53->Connection refused
+
+2023-11-02T09:02:46.4249080+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.213.74, 13.107.246.59]
+
+2023-11-02T09:03:38.8686129+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-02T09:03:47.9962317+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+vscode.cdn.azure.cn@8.8.8.8:53->Unexpected end of stream
+
+2023-11-02T09:04:36.5253981+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.4, 140.82.121.4]
+
+2023-11-02T09:04:37.2431006+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 113.219.142.35]
+
+2023-11-02T09:04:54.1553981+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.57, 13.107.246.73, 13.107.246.74]
+
+2023-11-02T09:05:31.5076498+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 113.219.161.35]
+
+2023-11-02T09:05:37.9885684+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.73, 13.107.246.74, 13.107.246.59]
+
+2023-11-02T09:05:55.8740164+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.161.35, 113.219.142.35]
+
+2023-11-02T09:07:27.0285440+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.71, 13.107.246.73, 13.107.246.74]
+
+2023-11-02T09:10:45.0675117+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T09:11:00.4647329+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.112.3, 140.82.121.4]
+
+2023-11-02T09:11:02.6372857+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.71, 13.107.213.73, 13.107.246.41]
+
+2023-11-02T09:11:05.5264387+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.161.35, 175.4.51.35]
+
+2023-11-02T09:11:13.6667526+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.207.73.82, 140.82.112.3]
+
+2023-11-02T09:11:13.6669749+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.71, 13.107.213.73, 13.107.246.74]
+
+2023-11-02T09:14:19.4661687+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T09:15:03.2675342+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.213.60]
+
+2023-11-02T09:15:21.4719808+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.246.31]
+
+2023-11-02T09:16:04.9012767+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.31, 13.107.213.71, 13.107.213.31]
+
+2023-11-02T09:16:05.9456064+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 175.4.51.35]
+
+2023-11-02T09:16:38.0237384+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.44, 13.107.246.44, 13.107.246.31]
+
+2023-11-02T09:19:41.6404868+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T09:19:50.5831553+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.207.73.82, 140.82.121.4]
+
+2023-11-02T09:20:01.3956438+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.40, 13.107.213.44, 13.107.246.44]
+
+2023-11-02T09:20:55.8191352+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.207.73.82, 20.29.134.23]
+
+2023-11-02T09:23:05.1608982+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T09:23:12.9251533+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.121.4]
+
+2023-11-02T09:23:15.9237811+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.40, 13.107.213.31, 13.107.213.40]
+
+2023-11-02T09:23:22.7804353+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 175.4.51.35, 182.107.80.35]
+
+2023-11-02T09:24:16.6992956+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.29.134.23]
+
+2023-11-02T09:25:05.3659522+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.31, 13.107.246.40, 13.107.246.65]
+
+2023-11-02T09:25:13.9113770+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.41, 13.107.213.31, 13.107.246.40]
+
+2023-11-02T09:25:40.5955602+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.41, 13.107.246.40, 13.107.246.65]
+
+2023-11-02T09:27:41.3516788+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-02T09:29:48.6149551+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T09:29:59.5396148+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.41, 13.107.246.40, 13.107.246.31]
+
+2023-11-02T09:30:02.4651224+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 182.107.80.35]
+
+2023-11-02T09:30:13.1971706+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-02T09:30:18.2618673+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.40, 13.107.246.31, 13.107.246.50]
+
+2023-11-02T09:30:55.1841251+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.40, 13.107.213.31, 13.107.246.50]
+
+2023-11-02T09:33:12.0058164+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T09:33:12.1666320+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.31, 13.107.246.50, 13.107.213.73]
+
+2023-11-02T09:33:14.9659478+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 113.219.142.35]
+
+2023-11-02T09:33:41.5302087+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.71, 13.107.213.31, 13.107.246.50]
+
+2023-11-02T09:35:01.9037373+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.50, 13.107.213.65, 13.107.246.74]
+
+2023-11-02T09:35:16.0062049+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.50, 13.107.246.74, 13.107.213.71]
+
+2023-11-02T09:35:19.3112976+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.50, 13.107.246.74, 13.107.213.41]
+
+2023-11-02T09:36:41.7147477+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.50, 13.107.246.74, 13.107.213.71]
+
+2023-11-02T09:37:42.8086422+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113]
+
+2023-11-02T09:37:49.9364820+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 119.96.52.35]
+
+2023-11-02T09:39:05.2111402+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.121.4]
+
+2023-11-02T09:39:41.0377462+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.50, 13.107.246.74, 13.107.213.45]
+
+2023-11-02T09:39:43.9205061+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 61.136.173.35, 106.225.194.35]
+
+2023-11-02T09:39:56.3606366+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.50, 13.107.246.74, 13.107.213.69]
+
+2023-11-02T09:40:02.7402360+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.45, 13.107.246.50]
+
+2023-11-02T09:41:27.4999682+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.213.45, 13.107.213.74]
+
+2023-11-02T09:41:43.3077629+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.69, 13.107.246.45, 13.107.213.74]
+
+2023-11-02T09:44:22.2077732+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T09:44:40.6393010+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.41, 13.107.213.69, 13.107.246.41]
+
+2023-11-02T09:47:05.0229894+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+vscode.cdn.azure.cn@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T09:47:05.2862258+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 182.107.80.35]
+
+2023-11-02T09:47:33.7260022+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.41, 13.107.213.69, 13.107.246.74]
+
+2023-11-02T09:47:43.2192278+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 113.219.161.35, 171.107.86.35]
+
+2023-11-02T09:48:28.5616305+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.112.4]
+
+2023-11-02T09:48:41.8456850+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.112.4, 140.82.121.4]
+
+2023-11-02T09:49:12.1711144+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[106.225.194.35, 182.107.80.35, 113.219.161.35]
+
+2023-11-02T09:49:35.0502025+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.213.59, 13.107.213.41]
+
+2023-11-02T09:50:16.0284903+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.213.59, 13.107.213.69]
+
+2023-11-02T09:50:54.5102405+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 182.107.80.35]
+
+2023-11-02T09:51:33.2588908+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.112.4]
+
+2023-11-02T09:52:05.8055905+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 175.4.51.35]
+
+2023-11-02T09:54:38.6519465+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+vscode.cdn.azure.cn@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T09:54:38.8636886+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 171.107.86.35, 106.225.194.35]
+
+2023-11-02T09:56:58.9396647+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T09:57:02.3054339+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.73, 13.107.246.67]
+
+2023-11-02T09:58:27.1709068+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.29.134.23]
+
+2023-11-02T09:58:36.1373833+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 106.225.194.35, 182.84.110.35]
+
+2023-11-02T10:00:07.2769718+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.73, 13.107.213.59]
+
+2023-11-02T10:00:16.7851870+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.219.142.35, 106.225.194.35]
+
+2023-11-02T10:02:26.6001082+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.73, 13.107.246.64]
+
+2023-11-02T10:02:28.9226493+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.96.178.35, 183.61.177.35, 113.219.142.35]
+
+2023-11-02T10:02:42.5600681+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.113.3]
+
+2023-11-02T10:05:10.0720795+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T10:05:43.8700178+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.96.178.35, 183.61.177.35, 106.225.194.35]
+
+2023-11-02T10:06:01.0021829+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.248.137.48]
+
+2023-11-02T10:07:03.8826585+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.96.178.35, 183.61.177.35, 182.107.80.35]
+
+2023-11-02T10:07:31.8098582+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.213.64, 13.107.213.73]
+
+2023-11-02T10:07:31.8175857+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.96.178.35, 182.107.80.35]
+
+2023-11-02T10:07:51.0058937+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 113.96.178.35]
+
+2023-11-02T10:09:05.3254304+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.59, 13.107.213.73, 13.107.246.74]
+
+2023-11-02T10:10:36.8198949+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.44, 13.107.246.59, 13.107.213.73]
+
+2023-11-02T10:11:06.0137194+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.248.137.48, 140.82.121.4]
+
+2023-11-02T10:11:56.6742656+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.44, 13.107.246.59, 13.107.213.46]
+
+2023-11-02T10:12:34.4745806+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.44, 13.107.213.45, 13.107.213.46]
+
+2023-11-02T10:12:36.7719529+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 113.96.178.35, 183.61.177.35]
+
+2023-11-02T10:12:41.3874153+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.248.137.48, 140.82.113.3]
+
+2023-11-02T10:12:43.2288227+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.45, 13.107.213.46, 13.107.213.74]
+
+2023-11-02T10:12:51.1111372+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.67, 13.107.213.45, 13.107.213.46]
+
+2023-11-02T10:12:51.1643445+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.96.178.35, 183.61.177.35, 113.105.172.35]
+
+2023-11-02T10:14:00.0977711+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.27.177.113, 20.205.243.166, 20.248.137.48]
+
+2023-11-02T10:14:10.2602778+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.45, 13.107.213.46, 13.107.213.74]
+
+2023-11-02T10:15:14.6157558+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.67, 13.107.213.45, 13.107.213.46]
+
+2023-11-02T10:15:29.4564096+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.248.137.48]
+
+2023-11-02T10:18:52.4763810+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.45, 13.107.213.45, 13.107.213.46]
+
+2023-11-02T10:19:02.8337126+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 171.107.86.35]
+
+2023-11-02T10:19:18.8796275+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.46, 13.107.213.67, 13.107.213.73]
+
+2023-11-02T10:19:32.8262389+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.46, 13.107.213.67]
+
+2023-11-02T10:20:04.7717227+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 124.225.184.35]
+
+2023-11-02T10:21:49.1434087+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.29.134.23]
+
+2023-11-02T10:22:41.8816737+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.67, 13.107.213.73]
+
+2023-11-02T10:24:19.3693645+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.246.69, 13.107.246.73]
+
+2023-11-02T10:24:26.3139659+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 171.107.86.35]
+
+2023-11-02T10:24:38.5981862+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.70, 13.107.246.73, 13.107.213.73]
+
+2023-11-02T10:26:50.1621772+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T10:27:03.0135577+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.121.3]
+
+2023-11-02T10:27:34.9006990+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 171.107.86.35, 113.219.142.35]
+
+2023-11-02T10:30:10.2243364+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T10:30:14.5817819+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.73]
+
+2023-11-02T10:30:23.6504219+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 124.225.184.35]
+
+2023-11-02T10:30:35.6583198+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.29.134.23, 140.82.113.3]
+
+2023-11-02T10:30:46.5028648+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.3, 140.82.121.3]
+
+2023-11-02T10:33:23.7582297+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T10:33:34.1972562+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+vscode.cdn.azure.cn@119.29.29.29:53->Connection refused
+
+2023-11-02T10:33:34.4149029+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 124.225.184.35, 171.107.86.35]
+
+2023-11-02T10:33:37.2297033+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Connection refused
+
+2023-11-02T10:33:44.3620399+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Connection refused
+
+2023-11-02T10:33:51.9852572+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.105.172.35, 183.61.177.35, 124.225.184.35]
+
+2023-11-02T10:33:54.5134041+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Connection refused
+
+2023-11-02T10:35:14.1449722+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.67, 13.107.213.74, 13.107.246.73]
+
+2023-11-02T10:35:15.2085629+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.67, 13.107.213.53, 13.107.213.74]
+
+2023-11-02T10:35:23.7658688+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 171.107.86.35]
+
+2023-11-02T10:35:43.1707910+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3, 192.30.255.113]
+
+2023-11-02T10:36:57.1071944+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.52, 13.107.213.67, 13.107.213.53]
+
+2023-11-02T10:38:02.6283945+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.4, 140.82.121.3]
+
+2023-11-02T10:38:04.3890908+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.52, 13.107.213.53, 13.107.213.52]
+
+2023-11-02T10:38:04.5582191+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T10:38:51.3690267+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 192.30.255.113, 140.82.121.4]
+
+2023-11-02T10:38:55.9023849+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.57, 13.107.246.52, 13.107.246.57]
+
+2023-11-02T10:39:00.0626655+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.57, 13.107.246.52, 13.107.246.31]
+
+2023-11-02T10:40:14.2775557+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.57, 13.107.246.52]
+
+2023-11-02T10:41:58.1284327+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.213.57, 13.107.246.74]
+
+2023-11-02T10:43:24.8225188+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[183.61.177.35, 113.96.178.35, 113.105.172.35]
+
+2023-11-02T10:43:57.0256359+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 192.30.255.113, 140.82.121.3]
+
+2023-11-02T10:45:02.6450897+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.213.74]
+
+2023-11-02T10:45:39.8791051+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.213.73, 13.107.246.74, 13.107.213.52]
+
+2023-11-02T10:45:39.9352984+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.96.178.35, 183.61.177.35, 113.105.172.35]
+
+2023-11-02T10:45:49.0188371+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3, 140.82.121.4]
+
+2023-11-02T10:48:23.5934320+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T10:48:33.7193324+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.67, 13.107.213.73, 13.107.246.74]
+
+2023-11-02T10:48:58.4600383+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.4, 140.82.121.3]
+
+2023-11-02T10:50:07.5032663+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.67, 13.107.213.31, 13.107.213.73]
+
+2023-11-02T10:50:26.1390301+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.112.3, 140.82.121.4]
+
+2023-11-02T10:50:50.7068639+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.67, 13.107.213.31, 13.107.213.36]
+
+2023-11-02T10:53:19.4276883+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.3, 140.82.112.3]
+
+2023-11-02T10:53:21.9892594+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.67, 13.107.213.36, 13.107.213.59]
+
+2023-11-02T10:53:42.2802802+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.67, 13.107.213.36, 13.107.246.36]
+
+2023-11-02T10:55:27.3715302+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.112.3, 140.82.113.3]
+
+2023-11-02T10:55:51.4984408+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.73, 13.107.246.36]
+
+2023-11-02T10:55:51.5533951+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.96.178.35, 113.105.172.35, 124.225.184.35]
+
+2023-11-02T10:56:11.8056360+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.246.69, 13.107.213.73]
+
+2023-11-02T10:56:13.7639046+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.96.178.35, 171.107.86.35, 175.4.51.35]
+
+2023-11-02T10:58:27.2390330+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T11:00:36.6460034+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T11:00:38.1122639+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.4, 140.82.121.3]
+
+2023-11-02T11:00:48.4810812+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.96.178.35, 171.107.86.35, 106.225.194.35]
+
+2023-11-02T11:01:00.5998053+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3, 140.82.113.3]
+
+2023-11-02T11:01:00.6855702+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.213.69, 13.107.246.67]
+
+2023-11-02T11:01:00.7448166+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.96.178.35, 171.107.86.35, 175.4.51.35]
+
+2023-11-02T11:03:18.4371960+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T11:03:36.8554832+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.69, 13.107.246.67, 13.107.213.69]
+
+2023-11-02T11:03:47.2031069+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[175.4.51.35, 119.96.52.35, 182.107.80.35]
+
+2023-11-02T11:04:06.0924211+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.4, 140.82.121.3]
+
+2023-11-02T11:05:10.9642381+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 192.30.255.113, 140.82.121.4]
+
+2023-11-02T11:05:12.4786719+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[175.4.51.35, 113.219.142.35, 119.96.52.35]
+
+2023-11-02T11:05:37.0712081+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.67, 13.107.246.73, 13.107.213.67]
+
+2023-11-02T11:05:39.8370987+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 192.30.255.113, 140.82.112.3]
+
+2023-11-02T11:05:49.7132365+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[182.107.80.35, 113.219.142.35, 119.96.52.35]
+
+2023-11-02T11:06:05.2983029+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.67, 13.107.213.73, 13.107.213.67]
+
+2023-11-02T11:06:18.5997481+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 192.30.255.113, 140.82.121.3]
+
+2023-11-02T11:06:18.6000868+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.219.142.35, 119.96.52.35, 111.174.9.35]
+
+2023-11-02T11:09:33.3465109+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T11:09:44.2042158+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.207.73.82, 192.30.255.113]
+
+2023-11-02T11:12:05.2808574+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+vscode.cdn.azure.cn@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T11:12:05.5219966+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+vscode.cdn.azure.cn:443->[113.219.142.35, 106.225.194.35, 119.96.52.35]
+
+2023-11-02T11:12:40.3172677+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.74, 13.107.213.36, 13.107.246.70]
+
+2023-11-02T11:12:45.4684922+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+vscode.cdn.azure.cn@8.8.8.8:53->Unexpected end of stream
+
+2023-11-02T11:13:08.6767158+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unable to read data from the transport connection: Connection reset by peer.
+
+2023-11-02T11:16:58.6561641+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@119.29.29.29:53->Unexpected end of stream
+
+2023-11-02T11:17:19.6862436+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@8.8.8.8:53->Unable to read data from the transport connection: Connection reset by peer.
+
+2023-11-02T15:59:44.9964564+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HMUHAVD9SFER", Request id "0HMUHAVD9SFER:00000002": An unhandled exception was thrown by the application.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+

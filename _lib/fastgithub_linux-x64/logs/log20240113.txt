@@ -1,0 +1,28 @@
+2024-01-13T23:16:40.2880889+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 616.8286 ms
+
+2024-01-13T23:16:40.6530549+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 342.8055 ms
+
+2024-01-13T23:16:41.0040233+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 349.7085 ms
+
+2024-01-13T23:19:12.3447657+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 647.0337 ms
+
+2024-01-13T23:19:43.5273083+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 639.4935 ms
+
+2024-01-13T23:19:43.8963870+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 363.4364 ms
+
+2024-01-13T23:19:49.4211430+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 356.6528 ms
+

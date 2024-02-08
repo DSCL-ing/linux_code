@@ -1,0 +1,50 @@
+2023-11-03T05:59:05.6623945+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-03T08:10:46.8982872+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Unexpected end of stream
+
+2023-11-03T21:45:25.3490662+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HMUHAVD9SG22", Request id "0HMUHAVD9SG22:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到mobile.events.data.microsoft.com:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2023-11-03T21:45:42.2103613+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HMUHAVD9SG27", Request id "0HMUHAVD9SG27:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到mobile.events.data.microsoft.com:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2023-11-03T23:02:03.6897238+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 1020.3909 ms
+
+2023-11-03T23:02:04.0817069+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 343.6313 ms
+
+2023-11-03T23:02:04.7427858+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 200 in 659.2658 ms
+
+2023-11-03T23:02:05.7627282+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/DSCL-ing/linux_code.git/git-receive-pack responded 200 in 982.9711 ms
+

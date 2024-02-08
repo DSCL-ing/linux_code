@@ -1,0 +1,766 @@
+2024-01-15T21:20:36.6515568+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/trzsz/trzsz-go.git/info/refs responded 200 in 655.8426 ms
+
+2024-01-15T21:20:37.4854543+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/trzsz/trzsz-go.git/git-upload-pack responded 200 in 814.1387 ms
+
+2024-01-15T21:22:35.4524074+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8T8", Request id "0HN04I537K8T8:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:22:35.4524075+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8T9", Request id "0HN04I537K8T9:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:22:45.5107026+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TA", Request id "0HN04I537K8TA:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:22:45.5142634+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TB", Request id "0HN04I537K8TB:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:22:55.5217703+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TC", Request id "0HN04I537K8TC:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:22:55.5269536+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TD", Request id "0HN04I537K8TD:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:23:05.5261057+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TE", Request id "0HN04I537K8TE:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:23:05.5399159+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TF", Request id "0HN04I537K8TF:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:23:15.6138599+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TH", Request id "0HN04I537K8TH:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:23:15.6172461+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TG", Request id "0HN04I537K8TG:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:23:25.6213623+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TI", Request id "0HN04I537K8TI:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:23:25.6268147+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TJ", Request id "0HN04I537K8TJ:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:23:35.6258067+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TK", Request id "0HN04I537K8TK:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:23:35.6315503+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TL", Request id "0HN04I537K8TL:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:23:45.6301614+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TM", Request id "0HN04I537K8TM:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:23:45.6373127+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TN", Request id "0HN04I537K8TN:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:23:55.6339657+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TO", Request id "0HN04I537K8TO:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:23:55.6424454+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TP", Request id "0HN04I537K8TP:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:24:05.6379937+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TQ", Request id "0HN04I537K8TQ:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:24:05.6470307+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TR", Request id "0HN04I537K8TR:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:24:15.6415002+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TS", Request id "0HN04I537K8TS:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:24:15.6505524+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TT", Request id "0HN04I537K8TT:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:24:25.6448980+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TU", Request id "0HN04I537K8TU:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:24:25.6539932+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8TV", Request id "0HN04I537K8TV:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:24:35.6484738+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8U0", Request id "0HN04I537K8U0:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:24:35.6586093+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8U1", Request id "0HN04I537K8U1:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:24:45.6519574+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8U2", Request id "0HN04I537K8U2:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:24:45.6641139+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8U3", Request id "0HN04I537K8U3:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:25:33.5263728+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8U4", Request id "0HN04I537K8U4:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:25:33.5263735+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8U5", Request id "0HN04I537K8U5:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:25:43.5315890+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8U7", Request id "0HN04I537K8U7:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:25:43.5362402+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8U6", Request id "0HN04I537K8U6:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:25:53.5406289+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8U8", Request id "0HN04I537K8U8:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:25:53.5456551+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8U9", Request id "0HN04I537K8U9:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:26:03.5523642+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UA", Request id "0HN04I537K8UA:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:26:03.5523642+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UB", Request id "0HN04I537K8UB:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:26:13.5781695+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UC", Request id "0HN04I537K8UC:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:26:13.5781695+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UD", Request id "0HN04I537K8UD:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:26:23.5846346+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UE", Request id "0HN04I537K8UE:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:26:23.5895123+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UF", Request id "0HN04I537K8UF:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:26:33.5904583+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UG", Request id "0HN04I537K8UG:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:26:33.5959192+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UH", Request id "0HN04I537K8UH:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:26:43.5942782+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UI", Request id "0HN04I537K8UI:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:26:43.6013996+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UJ", Request id "0HN04I537K8UJ:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:26:53.5978621+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UK", Request id "0HN04I537K8UK:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:26:53.6049961+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UL", Request id "0HN04I537K8UL:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:27:03.6022481+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UM", Request id "0HN04I537K8UM:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:27:03.6093781+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UN", Request id "0HN04I537K8UN:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:27:13.6065757+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UO", Request id "0HN04I537K8UO:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:27:13.6135681+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UP", Request id "0HN04I537K8UP:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:27:23.6099508+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UQ", Request id "0HN04I537K8UQ:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:27:23.6173992+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UR", Request id "0HN04I537K8UR:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:27:33.6138271+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8US", Request id "0HN04I537K8US:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:27:33.6225092+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UT", Request id "0HN04I537K8UT:00000002": An unhandled exception was thrown by the application.
+System.AggregateException: 无法连接到proxy.golang.org:443 (The operation was canceled.)
+ ---> System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs , ValueTask , CancellationToken )
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:27:42.2443756+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UV", Request id "0HN04I537K8UV:00000002": An unhandled exception was thrown by the application.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:27:42.2441950+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8UU", Request id "0HN04I537K8UU:00000002": An unhandled exception was thrown by the application.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:32:48.7591276+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8V0", Request id "0HN04I537K8V0:00000002": An unhandled exception was thrown by the application.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T21:32:48.7591276+08:00 [ERR]
+Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HN04I537K8V1", Request id "0HN04I537K8V1:00000002": An unhandled exception was thrown by the application.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.CreateConnectionAsync(HostString host, CancellationToken cancellationToken)
+   at FastGithub.HttpServer.HttpProxyMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2024-01-15T22:23:41.6520279+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 642.0944 ms
+
+2024-01-15T22:23:42.0296939+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 401 in 356.7071 ms
+
+2024-01-15T22:23:42.4573689+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/DSCL-ing/linux_code.git/info/refs responded 200 in 425.7483 ms
+
+2024-01-15T22:23:43.3932676+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/DSCL-ing/linux_code.git/git-receive-pack responded 200 in 901.9707 ms
+

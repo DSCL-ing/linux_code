@@ -1,0 +1,18 @@
+[
+  {
+    "host": "github.com",
+    "port": 443
+  },
+  {
+    "host": "dc.services.visualstudio.com",
+    "port": 80
+  },
+  {
+    "host": "vscode.cdn.azure.cn",
+    "port": 443
+  },
+  {
+    "host": "update.code.visualstudio.com",
+    "port": 443
+  }
+]
