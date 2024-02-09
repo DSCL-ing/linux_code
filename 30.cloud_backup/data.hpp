@@ -3,9 +3,13 @@
 
 #include"util.hpp"
 #include"config.hpp"
+#include"pthread.h"
+#include<unordered_map>
+#include<vector>
+#include<mutex>
 
 namespace ns_cloud_backup{
-  struct BackupInfo{
+  typedef struct BackupInfo{
 
     bool arc_flag; //是否被压缩
     size_t fsize;  //原文件大小
@@ -42,6 +46,55 @@ namespace ns_cloud_backup{
       return true;
     }
 
+  }BackupInfo;
+
+  class DataManager
+  {
+    public:
+      DataManager()
+      {
+        _backup_file = Config::GetInstance()->GetBackupFileName();//持久化文件
+        pthread_rwlock_init(&_rwlock,nullptr);
+      } 
+      ~DataManager()
+      {
+        pthread_rwlock_destroy(&_rwlock);
+      }
+      bool Insert(const BackupInfo&info)
+      {
+        pthread_rwlock_wrlock(&_rwlock);
+        _table[info.url] = info;
+        pthread_rwlock_unlock(&_rwlock);
+        return true;
+      }
+      bool Update(const BackupInfo&info) //目前和insert没有区别
+      {
+        pthread_rwlock_wrlock(&_rwlock);
+        _table[info.url] = info; //覆盖
+        pthread_rwlock_unlock(&_rwlock);
+        return true;
+      }
+      bool GetOneByURL(const std::string& url,BackupInfo*info)//根据url获取一条info
+      {
+        pthread_rwlock_wrlock(&_rwlock);
+        auto it = _table.find(url);
+        if(it == _table.end()) 
+        {
+          info = nullptr;
+          pthread_rwlock_unlock(&_rwlock);
+          return true;
+        }
+        *info = it->second;
+        pthread_rwlock_unlock(&_rwlock);
+        return true;
+      }
+      bool GetOneByRealPath(const std::string realpath,BackupInfo*info);//根据realpath获取一条info
+      bool GetAll(std::vector<BackupInfo> *arry);//获取所有的info放入vector
+
+    private:
+      std::string _backup_file;//持久化文件
+      pthread_rwlock_t _rwlock;//读写锁,同时读,互斥写
+      std::unordered_map<std::string,BackupInfo> _table; //key是url
   };
 
 }
