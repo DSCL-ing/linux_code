@@ -18,10 +18,11 @@ namespace ns_cloud_backup{
     std::string real_path; //实际路径
     std::string arc_path;  //压缩包路径: ./压缩包路径/文件.压缩包后缀名
     std::string url;  //下载资源路径
-    
+
+
     bool NewBackupInfo(const std::string &realpath) // ./dir/filename
     {
-      
+
       FileUtil fu(realpath);
       if(fu.Exists() == false) 
       {
@@ -31,7 +32,7 @@ namespace ns_cloud_backup{
       fsize = fu.FileSize();
       mtime = fu.LastMTime(); 
       atime = fu.LastATime();
-     
+
       arc_flag = false;
       real_path = realpath;
 
@@ -82,14 +83,43 @@ namespace ns_cloud_backup{
         {
           info = nullptr;
           pthread_rwlock_unlock(&_rwlock);
-          return true;
+          return false;
         }
         *info = it->second;
         pthread_rwlock_unlock(&_rwlock);
         return true;
       }
-      bool GetOneByRealPath(const std::string realpath,BackupInfo*info);//根据realpath获取一条info
-      bool GetAll(std::vector<BackupInfo> *arry);//获取所有的info放入vector
+      bool GetOneByRealPath(const std::string realpath,BackupInfo*info)//根据realpath获取一条info
+      {
+        pthread_rwlock_wrlock(&_rwlock);
+        for(auto it:_table)
+        {
+          if(it.second.real_path == realpath)
+          {
+            *info = it.second;
+            pthread_rwlock_unlock(&_rwlock);
+            return true;
+          }
+        }
+        pthread_rwlock_unlock(&_rwlock);
+        return false;
+      }
+
+      bool GetAll(std::vector<BackupInfo> *arry)//获取所有的info放入vector
+      {
+        pthread_rwlock_wrlock(&_rwlock);
+        if(_table.empty())
+        {
+          pthread_rwlock_unlock(&_rwlock);
+          return false;
+        }
+        for(auto it:_table)
+        {
+          arry->push_back(it.second);
+        }
+        pthread_rwlock_unlock(&_rwlock);
+        return true;
+      }
 
     private:
       std::string _backup_file;//持久化文件
