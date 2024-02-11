@@ -117,6 +117,18 @@ void DataManagerTest()
     PrintBackupInfo(info);
   }
 }
+void DataManagerTest2() //test func:InitLoad()
+{
+  std::cout<<"-----------------get all Info  -------------"<<std::endl;
+  std::vector<cloud::BackupInfo> v;
+  cloud::DataManager dm;
+  dm.GetAll(&v);
+  for(auto &info :v)
+  {
+    PrintBackupInfo(info);
+  }
+  
+}
 
 int main(int argc, char* argv[])
 {
@@ -124,7 +136,8 @@ int main(int argc, char* argv[])
   //JsonUtilTest();
   //ConfigTest();
   //DataInfoTest();
-  DataManagerTest();
+  //DataManagerTest();
+  DataManagerTest2();
 
   return 0;
 }

@@ -6,7 +6,7 @@
 #include<mutex>
 #include<ctime>
 
-static const char* CONFIG_FILE_PATH =  "./config/cloud.conf";
+#define CONFIG_FILE_PATH "./config/cloud.conf" //全局可见
 
 namespace ns_cloud_backup
 {

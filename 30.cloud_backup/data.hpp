@@ -56,6 +56,7 @@ namespace ns_cloud_backup{
       {
         _backup_file = Config::GetInstance()->GetBackupFileName();//持久化文件
         pthread_rwlock_init(&_rwlock,nullptr);
+        InitLoad();
       } 
       ~DataManager()
       {
@@ -66,6 +67,7 @@ namespace ns_cloud_backup{
         pthread_rwlock_wrlock(&_rwlock);
         _table[info.url] = info;
         pthread_rwlock_unlock(&_rwlock);
+        Storage();
         return true;
       }
       bool Update(const BackupInfo&info) //目前和insert没有区别
@@ -73,6 +75,7 @@ namespace ns_cloud_backup{
         pthread_rwlock_wrlock(&_rwlock);
         _table[info.url] = info; //覆盖
         pthread_rwlock_unlock(&_rwlock);
+        Storage();
         return true;
       }
       bool GetOneByURL(const std::string& url,BackupInfo*info)//根据url获取一条info
@@ -120,9 +123,65 @@ namespace ns_cloud_backup{
         pthread_rwlock_unlock(&_rwlock);
         return true;
       }
+      
+      bool Storage() //持久化,每有信息改变(Insert,Update)就需要持久化一次
+      {
+        //1.获取所有配置信息
+        //2.遍历添加到Json root中,每个配置对象作为一个Json item数组
+        //3.json序列化
+        //4.以json格式写入到文件中
+        std::vector<BackupInfo> infos;
+        GetAll(&infos);
+        Json::Value root;
+        for(auto info : infos)
+        {
+          Json::Value item;
+          item["fsize"] = (Json::Int64)info.fsize;
+          item["atime"] = (Json::Int64)info.atime;
+          item["mtime"] = (Json::Int64)info.mtime;
+          item["arc_flag"] = info.arc_flag;
+          item["real_path"] = info.real_path;
+          item["arc_path"] = info.arc_path;
+          item["url"] = info.url;
+          root.append(item);
+        }
+        std::string body;
+        JsonUtil::Serialize(root,&body);
+        FileUtil fu(_backup_file);
+        fu.SetContent(body);
+        return true;
+      }
+
+      bool InitLoad()
+      {
+        FileUtil fu(_backup_file);
+        if(fu.Exists() == false)
+        {
+        std::cout<<R"comment(InitLoad: file "cloud.dat" not foundt)comment"<<std::endl;
+          return false;
+        }
+        std::string body; 
+        fu.GetContent(&body);
+        Json::Value root;
+        JsonUtil::UnSerialize(body,&root);
+        for(int i = 0;i<(int)root.size();i++)
+        {
+          BackupInfo info; 
+          info.arc_flag = root[i]["arc_flag"].asBool();
+          info.fsize = root[i]["fsize"].asInt64();
+          info.atime = root[i]["atime"].asInt64();
+          info.mtime = root[i]["mtime"].asInt64();
+          info.real_path = root[i]["real_path"].asString();
+          info.arc_path = root[i]["arc_path"].asString();
+          info.url = root[i]["url"].asString();
+          Insert(info);
+        }
+        return true;
+
+      }
 
     private:
-      std::string _backup_file;//持久化文件
+      std::string _backup_file;//存储备份信息的文件= CONFIG_FILE_PATH
       pthread_rwlock_t _rwlock;//读写锁,同时读,互斥写
       std::unordered_map<std::string,BackupInfo> _table; //key是url
   };

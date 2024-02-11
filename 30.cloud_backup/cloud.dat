@@ -1,0 +1,20 @@
+[
+	{
+		"arc_flag" : true,
+		"arc_path" : "./arc_dir/cloud.cpp.lz",
+		"atime" : 1707624006,
+		"fsize" : 3037,
+		"mtime" : 1707500306,
+		"real_path" : "./cloud.cpp",
+		"url" : "/download/cloud.cpp"
+	},
+	{
+		"arc_flag" : true,
+		"arc_path" : "./arc_dir/config.hpp.lz",
+		"atime" : 1707630499,
+		"fsize" : 2772,
+		"mtime" : 1707630499,
+		"real_path" : "./config.hpp",
+		"url" : "/download/config.hpp"
+	}
+]
