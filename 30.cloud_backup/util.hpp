@@ -6,6 +6,8 @@
 #include<vector>
 #include<experimental/filesystem> //gcc7
 //#include<filesystem>            //gcc8
+#include<ctime>
+#include<cstdio>
 
 
 #include<sys/types.h>
@@ -147,6 +149,16 @@ namespace ns_cloud_backup
             return false;
           }
           ofs.close();
+          return true;
+        }
+
+        bool Remove()
+        {
+          if(Exists() == false)
+          {
+            return true;
+          }
+          remove(_filename.c_str());
           return true;
         }
 

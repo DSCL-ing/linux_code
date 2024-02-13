@@ -9,8 +9,9 @@
 #include<mutex>
 
 namespace ns_cloud_backup{
-  typedef struct BackupInfo{
 
+  struct BackupInfo
+  { //备份文件的信息
     bool arc_flag; //是否被压缩
     size_t fsize;  //原文件大小
     time_t mtime;  //last modify修改时间
@@ -18,7 +19,6 @@ namespace ns_cloud_backup{
     std::string real_path; //实际路径
     std::string arc_path;  //压缩包路径: ./压缩包路径/文件.压缩包后缀名
     std::string url;  //下载资源路径
-
 
     bool NewBackupInfo(const std::string &realpath) // ./dir/filename
     {
@@ -47,14 +47,14 @@ namespace ns_cloud_backup{
       return true;
     }
 
-  }BackupInfo;
+  };
 
   class DataManager
   {
     public:
       DataManager()
       {
-        _backup_file = Config::GetInstance()->GetBackupFileName();//持久化文件
+        _backup_file = Config::GetInstance()->GetBackupFileName();//cloud.dat
         pthread_rwlock_init(&_rwlock,nullptr);
         InitLoad();
       } 
@@ -101,11 +101,11 @@ namespace ns_cloud_backup{
           {
             *info = it.second;
             pthread_rwlock_unlock(&_rwlock);
-            return true;
+            return true; //存在返回真
           }
         }
         pthread_rwlock_unlock(&_rwlock);
-        return false;
+        return false;//文件不存在
       }
 
       bool GetAll(std::vector<BackupInfo> *arry)//获取所有的info放入vector
@@ -123,7 +123,7 @@ namespace ns_cloud_backup{
         pthread_rwlock_unlock(&_rwlock);
         return true;
       }
-      
+
       bool Storage() //持久化,每有信息改变(Insert,Update)就需要持久化一次
       {
         //1.获取所有配置信息
@@ -157,7 +157,7 @@ namespace ns_cloud_backup{
         FileUtil fu(_backup_file);
         if(fu.Exists() == false)
         {
-        std::cout<<R"comment(InitLoad: file "cloud.dat" not foundt)comment"<<std::endl;
+          std::cout<<R"comment(InitLoad: file "cloud.dat" not foundt)comment"<<std::endl;
           return false;
         }
         std::string body; 
@@ -181,7 +181,7 @@ namespace ns_cloud_backup{
       }
 
     private:
-      std::string _backup_file;//存储备份信息的文件= CONFIG_FILE_PATH
+      std::string _backup_file;//存储备份信息的文件= "cloud.dat"
       pthread_rwlock_t _rwlock;//读写锁,同时读,互斥写
       std::unordered_map<std::string,BackupInfo> _table; //key是url
   };

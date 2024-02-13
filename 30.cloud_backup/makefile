@@ -4,8 +4,8 @@
 # 伪对象
 .PHONY:
 cloud:cloud.cpp 
-	g++ -g $^ -o a.out -lstdc++fs -ljsoncpp -lbundle -Llib -lpthread -Iinclude
+	g++ -g $^ -o $@ -lstdc++fs -ljsoncpp -lbundle -Llib -lpthread -Iinclude
 
 .PHONY:clean
 clean:
-	rm -rf a.out
+	rm -rf cloud

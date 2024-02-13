@@ -1,6 +1,7 @@
 #include"util.hpp"
 #include"config.hpp"
 #include"data.hpp"
+#include"hot.hpp"
 
 namespace cloud = ns_cloud_backup;
 
@@ -130,6 +131,12 @@ void DataManagerTest2() //test func:InitLoad()
   
 }
 
+void HotTest()
+{
+  cloud::HotManaget hm;
+  hm.RunModule();
+}
+
 int main(int argc, char* argv[])
 {
   //FileUtilTest(argv[1]);
@@ -137,7 +144,7 @@ int main(int argc, char* argv[])
   //ConfigTest();
   //DataInfoTest();
   //DataManagerTest();
-  DataManagerTest2();
-
+  //DataManagerTest2();
+  HotTest();
   return 0;
 }
