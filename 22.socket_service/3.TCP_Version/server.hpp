@@ -151,11 +151,13 @@ namespace a_very_long_name_namespace_server
             {
               //std::cout << who << " quit , me too." << std::endl;
               logMessage(INFO,"%s quit,me too.",who.c_str());
+              break;
             }
             else
             {
               //std::cerr << "read error: " << strerror(errno) << std::endl;
               logMessage(ERROR,"read error, %d:%s",errno,strerror(errno));
+              break;
             }
           }
           close(sock); 
