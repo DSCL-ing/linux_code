@@ -2,10 +2,11 @@
 #include<iostream>
 #include"httplib.h"
 
-void Hello(const httplib::Request &req,httplib::Response rsp)
+void Hello(const httplib::Request &req,httplib::Response &rsp)
 {
-  rsp.set_content("Hello World","text/plain");
+  rsp.set_content("hello world","text/plain");
   rsp.status = 200;
+
 }
 void Numbers(const httplib::Request &req,httplib::Response &rsp)
 {
@@ -39,7 +40,7 @@ int main()
   httplib::Server server;
   
   server.Get("/hi",Hello);
-  server.Get("/numbers/(//d+)",Numbers);
+  server.Get("/numbers/(\\d+)",Numbers);
   server.Post("/multipart",Multipart);
 
   server.listen("0.0.0.0",8080);//接收所有访问ip
