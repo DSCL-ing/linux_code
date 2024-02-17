@@ -28,7 +28,8 @@ void Multipart(const httplib::Request &req,httplib::Response &rsp)
   }
   const auto& file = req.get_file_value("file");
   rsp.body.clear();
-  rsp.body +="\n";
+  rsp.body += file.filename;
+  rsp.body+="\n";
   rsp.body +=file.content; //文件内容
   rsp.set_header("Content-Type","text/plain");
   rsp.status = 200;
@@ -38,7 +39,7 @@ void Multipart(const httplib::Request &req,httplib::Response &rsp)
 int main()
 {
   httplib::Server server;
-  
+
   server.Get("/hi",Hello);
   server.Get("/numbers/(\\d+)",Numbers);
   server.Post("/multipart",Multipart);
