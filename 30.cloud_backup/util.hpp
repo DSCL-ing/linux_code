@@ -69,7 +69,7 @@ namespace ns_cloud_backup
           return st.st_atime;
         }
 
-        //返回文件名
+        //返回不带路径的文件名
         const std::string FileName() 
         {
           //1. 路径格式为./dir/file.txt  .从最后一个'/'开始就是文件名

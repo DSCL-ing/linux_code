@@ -2,7 +2,7 @@
 
 
 # 伪对象
-.PHONY:
+.PHONY:cloud
 cloud:cloud.cpp 
 	g++ -g $^ -o $@ -lstdc++fs -ljsoncpp -lbundle -Llib -lpthread -Iinclude
 

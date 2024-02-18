@@ -3,7 +3,7 @@
 #include"data.hpp"
 #include"unistd.h"
 
-ns_cloud_backup::DataManager* g_dm;
+extern ns_cloud_backup::DataManager* g_dm;
 
 namespace ns_cloud_backup
 {
@@ -13,7 +13,6 @@ namespace ns_cloud_backup
       HotManaget()
       {
         //初始化
-        g_dm = new DataManager;
         Config* config = Config::GetInstance();
         _backup_dir = config->GetBackupDir();
         _arc_dir = config->GetArcDir();

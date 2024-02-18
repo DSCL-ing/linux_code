@@ -2,6 +2,8 @@
 #include"config.hpp"
 #include"data.hpp"
 #include"hot.hpp"
+#include<memory>
+#include"service.hpp"
 
 namespace cloud = ns_cloud_backup;
 
@@ -131,20 +133,34 @@ void DataManagerTest2() //test func:InitLoad()
   
 }
 
+ns_cloud_backup::DataManager* g_dm;
+
+//全局类没必要上智能指针
+//std::unique_ptr<ns_cloud_backup::DataManager> g_dm(new ns_cloud_backup::DataManager);
+
 void HotTest()
 {
   cloud::HotManaget hm;
   hm.RunModule();
 }
 
+void ServerTest()
+{
+  cloud::Service service; 
+  service.RunModule();
+}
+
 int main(int argc, char* argv[])
 {
+  g_dm = new ns_cloud_backup::DataManager;
   //FileUtilTest(argv[1]);
   //JsonUtilTest();
   //ConfigTest();
   //DataInfoTest();
   //DataManagerTest();
   //DataManagerTest2();
-  HotTest();
+  //HotTest();
+
+  ServerTest();
   return 0;
 }
