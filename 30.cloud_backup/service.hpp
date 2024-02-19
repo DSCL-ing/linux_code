@@ -21,11 +21,6 @@ namespace ns_cloud_backup
         _download_prefix = config->GetUrlPrefix();
 
       }
-      static void Hello(const httplib::Request &req,httplib::Response rsp)
-      {
-        rsp.set_content("hello world!","text/plain");
-        rsp.status = 200;
-      }
       
       bool RunModule()
       {
@@ -34,8 +29,7 @@ namespace ns_cloud_backup
         _server.Get("/",listShow);
         std::string Download_url = _download_prefix+"(.*)";
         _server.Get(Download_url,Download);
-        _server.Get("/hi1",Hello);
-        _server.Get("/test",[](const httplib::Request &req,httplib::Response rsp){
+        _server.Get("/test",[](const httplib::Request &req,httplib::Response& rsp){
             rsp.set_content("hello","text/plain");
             rsp.status = 200;
             });
@@ -46,9 +40,8 @@ namespace ns_cloud_backup
       }
 
     private:
-      static void Upload(const httplib::Request &req,httplib::Response rsp)
+      static void Upload(const httplib::Request &req,httplib::Response& rsp)
       {
-       
         //1.判断文件是否上传成功
         auto ret = req.has_file("file");
         if(ret == false)
@@ -60,6 +53,13 @@ namespace ns_cloud_backup
         //2.取文件数据
         //注意:multipart上传的文件的正文不全是文件数据,不能直接全部拷贝
         auto file = req.get_file_value("file"); 
+
+
+        //上传了个空的,不玩了
+        if(file.filename == "")
+        {
+          return ;
+        }
         
         //3.把文件数据放到back_dir中
         //需要先取得文件存放路径
@@ -74,7 +74,7 @@ namespace ns_cloud_backup
         g_dm->Insert(bi);
       }
 
-      static void Download(const httplib::Request &req,httplib::Response rsp)
+      static void Download(const httplib::Request &req,httplib::Response& rsp)
       {
 
       }
@@ -84,7 +84,7 @@ namespace ns_cloud_backup
         return ctime(&t);
       }
 
-      static void listShow(const httplib::Request &req,httplib::Response rsp)
+      static void listShow(const httplib::Request &req,httplib::Response& rsp)
       {
         //1.获取所有文件信息
         std::vector<BackupInfo> infos;
