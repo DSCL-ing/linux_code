@@ -35,7 +35,10 @@ namespace ns_cloud_backup
         std::string Download_url = _download_prefix+"(.*)";
         _server.Get(Download_url,Download);
         _server.Get("/hi1",Hello);
-        _server.Get("/test",[](const httplib::Request &req,httplib::Response rsp){rsp.set_content("hello","text/plain");});
+        _server.Get("/test",[](const httplib::Request &req,httplib::Response rsp){
+            rsp.set_content("hello","text/plain");
+            rsp.status = 200;
+            });
         std::cout<<"service start" <<std::endl;
         _server.listen("0.0.0.0",8888);
         //_server.listen(_server_ip.c_str(),_server_port);
