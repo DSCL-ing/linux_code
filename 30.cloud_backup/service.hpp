@@ -74,9 +74,42 @@ namespace ns_cloud_backup
         g_dm->Insert(bi);
       }
 
+      static std::string GetETag(const BackupInfo &info)
+      {
+        // ETag:filename-fsize-mtime
+        FileUtil fu(info.real_path);
+        std::string etag = fu.FileName();
+        etag+="-";
+        etag+=fu.FileSize();
+        etag+="-";
+        etag+=fu.LastMTime();
+        return etag;
+      }
+
       static void Download(const httplib::Request &req,httplib::Response& rsp)
       {
-
+        //1.获取客户端请求的资源路径path -- req成员
+        //2.根据资源路径,获取文件备份信息
+        BackupInfo info; 
+        g_dm->GetOneByURL(req.path,&info);
+        //3.判断文件是否被压缩,如果被压缩,要先解压缩--> 非热点文件
+        //    如果压缩,则还需要修改备份信息,然后删除压缩包
+        if(info.arc_flag == true)
+        {
+          FileUtil fu(info.arc_path);
+          fu.UnCompress(info.real_path); //解压到backup_path中
+          info.arc_flag = false;
+          g_dm->Update(info);
+          fu.Remove();
+        }
+        //4.读取文件数据,放入rsp.body中
+        FileUtil fu(info.real_path);
+        fu.GetContent(&rsp.body);
+        //5.设置响应头部字段:ETag,Accept-Ranges:bytes
+        rsp.set_header("ETag",GetETag(info));
+        rsp.set_header("Accept-Ranges","bytes");//允许断点续传
+        rsp.set_header("Content-Type","application/octet-stream");
+        rsp.status = 200;
       }
 
       static std::string TimeToStr(time_t t)
