@@ -105,11 +105,41 @@ namespace ns_cloud_backup
         //4.读取文件数据,放入rsp.body中
         FileUtil fu(info.real_path);
         fu.GetContent(&rsp.body);
-        //5.设置响应头部字段:ETag,Accept-Ranges:bytes
-        rsp.set_header("ETag",GetETag(info));
-        rsp.set_header("Accept-Ranges","bytes");//允许断点续传
-        rsp.set_header("Content-Type","application/octet-stream");
-        rsp.status = 200;
+
+
+        //5.断点续传
+        //Req中只有If-Range字段且etag一致,才是断点续传.否则是正常全文下载
+        std::string old_etag;
+        bool retrans = false;
+        if(req.has_header("If-Range"))
+        {
+          old_etag = req.get_header_value("If-Range");
+          if(old_etag == GetETag(info))
+          {
+            retrans = true;
+          }
+        }
+        
+        //6.设置响应头部字段:ETag,Accept-Ranges:bytes
+        if(retrans == false)
+        {
+          //正常下载
+          rsp.set_header("ETag",GetETag(info));
+          rsp.set_header("Accept-Ranges","bytes");//允许断点续传
+          rsp.set_header("Content-Type","application/octet-stream");
+          rsp.status = 200;
+        }
+        else
+        {
+          //断点续传 --- httplib内部实现了区间请求,即断点续传请求的处理
+          //只需要用户将所有数据读取到rsp.body中,就会自动取出指定区间数据进行响应
+          //本质实现: std::string range = req.get_header-val("Range");//内容是bytes=start-end(起点到终点).然后解析range字符串就能得到请求区间了....
+          rsp.set_header("ETag",GetETag(info));
+          rsp.set_header("Accept-Ranges","bytes");//允许断点续传
+          rsp.set_header("Content-Type","application/octet-stream");
+          rsp.status = 206;
+          //rep.set_header("Content-Range","bytes start-end/fsize");//手动解析需要填这个字段
+        }
       }
 
       static std::string TimeToStr(time_t t)
