@@ -1,38 +1,29 @@
 [
 	{
-		"arc_flag" : false,
-		"arc_path" : "./arc_dir/cpp-httplib-0.15.3.zip.lz",
-		"atime" : 1708427949,
-		"fsize" : 1165579,
-		"mtime" : 1708427949,
-		"real_path" : "./back_dir/cpp-httplib-0.15.3.zip",
-		"url" : "/download/cpp-httplib-0.15.3.zip"
-	},
-	{
-		"arc_flag" : false,
+		"arc_flag" : true,
 		"arc_path" : "./arc_dir/1.txt.lz",
-		"atime" : 1708426660,
+		"atime" : 1708426712,
 		"fsize" : 66,
 		"mtime" : 1708426660,
 		"real_path" : "./back_dir/1.txt",
 		"url" : "/download/1.txt"
 	},
 	{
-		"arc_flag" : false,
+		"arc_flag" : true,
 		"arc_path" : "./arc_dir/cloud.lz",
-		"atime" : 1708330264,
+		"atime" : 1708423299,
 		"fsize" : 7696568,
 		"mtime" : 1708423265,
 		"real_path" : "./back_dir/cloud",
 		"url" : "/download/cloud"
 	},
 	{
-		"arc_flag" : false,
-		"arc_path" : "./arc_dir/新建文本文档.txt.lz",
-		"atime" : 1708330030,
-		"fsize" : 0,
-		"mtime" : 1708330030,
-		"real_path" : "./back_dir/新建文本文档.txt",
-		"url" : "/download/新建文本文档.txt"
+		"arc_flag" : true,
+		"arc_path" : "./arc_dir/cpp-httplib-0.15.3.zip.lz",
+		"atime" : 1708534122,
+		"fsize" : 1165579,
+		"mtime" : 1708427949,
+		"real_path" : "./back_dir/cpp-httplib-0.15.3.zip",
+		"url" : "/download/cpp-httplib-0.15.3.zip"
 	}
 ]

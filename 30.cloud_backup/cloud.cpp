@@ -4,6 +4,7 @@
 #include"hot.hpp"
 #include<memory>
 #include"service.hpp"
+#include<thread>
 
 namespace cloud = ns_cloud_backup;
 
@@ -144,7 +145,7 @@ void HotTest()
   hm.RunModule();
 }
 
-void ServerTest()
+void ServiceTest()
 {
   cloud::Service service; 
   service.RunModule();
@@ -160,7 +161,13 @@ int main(int argc, char* argv[])
   //DataManagerTest();
   //DataManagerTest2();
   //HotTest();
+  //ServiceTest();
+  
+  std::thread thread_hot_manager(HotTest);
+  std::thread thread_service(ServiceTest);
 
-  ServerTest();
+  thread_hot_manager.join();
+  thread_service.join();
+
   return 0;
 }

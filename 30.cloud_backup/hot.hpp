@@ -64,7 +64,7 @@ namespace ns_cloud_backup
               bi.NewBackupInfo(bf);//文件信息不存在,则新建一个 --- 新文件
             }
 
-
+//压缩工作可以交给多线程去做
             //4.压缩文件/删除原文件
             FileUtil tmp(bf);
             tmp.Compress(bi.arc_path); //如果是同名文件,内容会覆盖
