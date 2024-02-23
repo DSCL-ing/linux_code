@@ -225,7 +225,7 @@ namespace ns_cloud_backup
         //创建文件,连带目录
         bool CreateDirectory()
         {
-          if(this->Exists() == false) //判断文件是否存在,不存在则创建之
+          if(this->Exists() == true) return true;//判断文件是否存在,不存在则创建之
             return fs::create_directories(_filename);
         }
 
