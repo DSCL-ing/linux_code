@@ -157,7 +157,7 @@ namespace ns_cloud_backup{
         FileUtil fu(_backup_file);
         if(fu.Exists() == false)
         {
-          std::cout<<R"comment(InitLoad: file "cloud.dat" not foundt)comment"<<std::endl;
+          std::cout<<R"comment(InitLoad: file "cloud.dat" not found)comment"<<std::endl;
           return false;
         }
         std::string body; 

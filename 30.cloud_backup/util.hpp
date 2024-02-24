@@ -30,7 +30,9 @@ namespace ns_cloud_backup
       private:
         std::string _filename;//文件名称
       public:
-        FileUtil(const std::string& filename):_filename(filename){}
+        FileUtil(const std::string& filename):_filename(filename)
+      {
+      }
 
         //返回文件大小,类型int64,能防止文件过大,并且能使用-1等作为错误码
         int64_t FileSize()
@@ -74,7 +76,7 @@ namespace ns_cloud_backup
         {
           //1. 路径格式为./dir/file.txt  .从最后一个'/'开始就是文件名
           //size_t pos = _filename.rfind('/');
-          size_t pos = _filename.find_last_of('/'); //最后一个'/'
+          size_t pos = _filename.find_last_of("/"); //最后一个'/'
           if(pos == std::string::npos) //没找到说明直接就是文件名(当前目录)
           {
             return _filename;
@@ -214,7 +216,7 @@ namespace ns_cloud_backup
           }
           return true;
         }  // Uncompress __End;
-        
+
         //返回文件是否存在. ---实例是文件,返回自己是否存在
         bool Exists()
         {
@@ -226,7 +228,7 @@ namespace ns_cloud_backup
         bool CreateDirectory()
         {
           if(this->Exists() == true) return true;//判断文件是否存在,不存在则创建之
-            return fs::create_directories(_filename);
+          return fs::create_directories(_filename);
         }
 
         //扫面目录中的文件. 实例是目录
@@ -242,39 +244,39 @@ namespace ns_cloud_backup
         }
 
     };//class FileUtil ___End;
-    
+
     class JsonUtil //工具类,没有成员,将几种相近功能的函数封装在一起,类方法为静态(可无需实例化直接调用)
     {
-    public:
-      static bool Serialize(const Json::Value &root,std::string *str) //输出str
-      {
-        Json::StreamWriterBuilder swb;
-        std::unique_ptr<Json::StreamWriter> sw(swb.newStreamWriter());
-        
-        std::stringstream ss;
-        int ret = sw->write(root,&ss);
-        if(ret <0)
+      public:
+        static bool Serialize(const Json::Value &root,std::string *str) //输出str
         {
-          std::cout<<"Serialize write error!"<<std::endl;
-          return false;
+          Json::StreamWriterBuilder swb;
+          std::unique_ptr<Json::StreamWriter> sw(swb.newStreamWriter());
+
+          std::stringstream ss;
+          int ret = sw->write(root,&ss);
+          if(ret <0)
+          {
+            std::cout<<"Serialize write error!"<<std::endl;
+            return false;
+          }
+
+          *str = ss.str();
+          return true;
         }
-       
-        *str = ss.str();
-        return true;
-      }
-      static bool UnSerialize(const std::string&str,Json::Value *root)
-      {
-        Json::CharReaderBuilder crb;
-        std::unique_ptr<Json::CharReader> cr(crb.newCharReader());
-        std::string err;
-        int ret = cr->parse(str.c_str(),str.c_str()+str.size(),root,&err);
-        if(ret <0)
+        static bool UnSerialize(const std::string&str,Json::Value *root)
         {
-          std::cout<<"UnSerialize parse error : "<<err<<std::endl;
-          return false;
+          Json::CharReaderBuilder crb;
+          std::unique_ptr<Json::CharReader> cr(crb.newCharReader());
+          std::string err;
+          int ret = cr->parse(str.c_str(),str.c_str()+str.size(),root,&err);
+          if(ret <0)
+          {
+            std::cout<<"UnSerialize parse error : "<<err<<std::endl;
+            return false;
+          }
+          return true; 
         }
-        return true; 
-      }
     }; //class JsonUtil__Endl;
 
 
