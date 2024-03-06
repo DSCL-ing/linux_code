@@ -133,7 +133,7 @@ namespace ns_cloud_backup
         {
           //断点续传 --- httplib内部实现了区间请求,即断点续传请求的处理
           //只需要用户将所有数据读取到rsp.body中,就会自动取出指定区间数据进行响应
-          //本质实现: std::string range = req.get_header-val("Range");//内容是bytes=start-end(起点到终点).然后解析range字符串就能得到请求区间了....
+          //本质实现: std::string range = req.get_header-value("Range");//内容是bytes=start-end(起点到终点).然后解析range字符串就能得到请求区间了....
           rsp.set_header("ETag",GetETag(info));
           rsp.set_header("Accept-Ranges","bytes");//允许断点续传
           rsp.set_header("Content-Type","application/octet-stream");
