@@ -9,11 +9,12 @@ void SetNonBlock(int fd)
   int fl = fcntl(fd,F_GETFL);
   if(fl < 0 )
   {
-    std::cout<<"error string :"<<strerror(errno)<<"error code:"<<errno<<std::endl;
+    std::cerr<<"error string :"<<strerror(errno)<<"error code:"<<errno<<std::endl;
     return ;
   }
   fcntl(fd,F_SETFL,fl|O_NONBLOCK);
 }
+
 
 int main()
 {
@@ -36,12 +37,26 @@ int main()
     }
     else 
     {
-      //std::cout<<"read error??"<<std::endl; //文件描述符有问题时出错
-      std::cout<<"read error, error string :"<<strerror(errno)<<"error code:"<<errno<<std::endl;
-      //break;
+      sleep(1);
+      //std::cout<<"read error??"<<std::endl; //文件描述符有问题时出错,有什么问题? 看下面
+      if(errno == EAGAIN||errno == EWOULDBLOCK) 
+      {
+        //errno == 11,非真出错,只是因为底层没数据
+        std::cout<<"data not ready!"<<std::endl;
+        continue;
+      }
+      else if(errno == EINTR)
+      {
+        continue; //因信号中断,也是重新获取
+      }
+      else
+      {
+        //这里才是真正出现错误的情况
+        std::cerr<<"read error, error string :"<<strerror(errno)<<"error code:"<<errno<<std::endl;
+        //break;
+      }
     }
-    sleep(1);
   }
-  
+
   return 0;
 }
