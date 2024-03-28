@@ -4,11 +4,12 @@
 enum
 {
   USAGE_ERR = 1,
-  SOCKET_ERR , //2
-  BIND_ERR = 4,
+  OPEN_ERR,
+  SOCKET_ERR = 10 , //2
+  BIND_ERR ,
   LISTEN_ERR,  //5
   ACCEPT_ERR,
   CONNECT_ERR,
   SETSID_ERR,
-  OPEN_ERR
+  EPOLL_CREATE_ERR = 20
 };
