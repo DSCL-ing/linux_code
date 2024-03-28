@@ -8,13 +8,13 @@
 
 //流+日志+业务
 
-static const int defaultfd = -1;
 static const int g_size = 128;
+static const int defaultepfd = -1;
 
 class Epoller //辅助构建epoll
 {
   public:
-    Epoller():epfd_(defaultfd)
+    Epoller():epfd_(defaultepfd)
     {
 
     }
@@ -64,7 +64,7 @@ class Epoller //辅助构建epoll
     void Close()
     {
 
-      if(epfd_!=defaultfd)
+      if(epfd_!=defaultepfd)
       {
         close(epfd_);
       }
