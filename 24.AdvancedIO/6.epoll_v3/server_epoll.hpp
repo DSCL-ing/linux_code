@@ -6,6 +6,8 @@
 #include<functional>
 #include<unordered_map>
 #include"Util.hpp"
+#include"log.hpp"
+#include"err.hpp"
 
 /*
    一.服务器基本结构
@@ -13,6 +15,7 @@
    */
 
 const static uint16_t defaultport = 8888;
+const static int bsize = 1024;  //buffer size :字节流缓冲区的大小
 class Connection;
 
 /*业务逻辑*/
@@ -106,7 +109,6 @@ class EpollServer
       if(events&EPOLLOUT) connections_[fd]->sender_(connections_[fd]);
       if(events&EPOLLERR || events&EPOLLHUP) connections_[fd]->excepter_(connections_[fd]);
 
-
     }
 
   }
@@ -153,23 +155,75 @@ class EpollServer
       (void)conn;
       std::string clientip; 
       uint16_t clientport;
-      int sock = listensock_.Accept(&clientip,&clientport);
+      int err;
+      int sock = listensock_.Accept(&clientip,&clientport,&err);
       //logMessage(INFO,"get a new link...");
-      if(sock < 0)
+      if(sock > 0)
       {
-        return ;
+        logMessage(INFO,"%s:%d已经连上服务器",clientip.c_str(),clientport);
+        //AddConnection(sock,EPOLLIN,clientip,clientport); //LT
+        AddConnection(sock,EPOLLIN|EPOLLET,clientip,clientport);   //ET
+        continue;//进行下次读取,加不加都可以,用于代码逻辑提醒
       }
-      logMessage(INFO,"%s:%d已经连上服务器",clientip.c_str(),clientport);
+      else
+      {
+        if(err == EAGAIN || err == EWOULDBLOCK)
+        {
+          //底层没数据了,说明已取完 -- 唯一出口
+          break;
+        }
+        else if(err == EINTR)
+        {
+          //因信号中断读取,重新读
+          continue;
+        }
+        else
+        {
+          //遇到真错误,没办法,但还是继续读.后续代码还可以加入错误处理
+          logMessage(WARNING,"accept error, code: %d, errstring: %s",err,strerror(err));
+          continue;
+        }
 
-      //AddConnection(sock,EPOLLIN,clientip,clientport); //LT
-      AddConnection(sock,EPOLLIN|EPOLLET,clientip,clientport);   //ET
+      }
 
     }while(conn->events_&EPOLLET);
   }
 
   void Recver(Connection*conn)
   {
+    do
+    {
+      char buffer[bsize];
+      ssize_t n = recv(conn->fd_,buffer,sizeof(buffer),0);
+      if(n>0)
+      {
+        buffer[n] = 0;//需要加上C语言分隔符,不然inbuffer不知道有多长
+        conn->inbuffer_+=buffer; //+=是会自动去掉\0,不用担心
+        
+        //可以边读取边分析... 1
+        logMessage(DEBUG,"fd: %d, inbuffer: %s",conn->fd_,conn->inbuffer_.c_str());
+      }
+      else if(n == 0)
+      {
+        conn->excepter_(conn);
+      }
+      else
+      {
+        if(n == EAGAIN)
+        {
+          //说明底层没数据了,可以结束循环  -- 唯一出口
+          break;
+        }
+        else if(n == EINTR) continue; //信号中断
+        else 
+        {
+          conn->excepter_(conn);// 真的出错 
+          continue;
+        }
+      }
 
+    }while(conn->events_& EPOLLET);
+    //读完了,也可以根据基本协议进行数据分析 2
   }
 
   void Sender(Connection*conn)
@@ -180,6 +234,11 @@ class EpollServer
   void Excepter(Connection*conn)
   {
 
+  }
+
+  bool ConnIsExists(int fd)
+  {
+    return connections_.find(fd) != connections_.end();
   }
 
   ~EpollServer()

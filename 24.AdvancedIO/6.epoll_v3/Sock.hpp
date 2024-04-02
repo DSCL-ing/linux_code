@@ -71,12 +71,13 @@ class Sock
     }
 
     //获取连接套接字和客户端的ip与端口号
-    int Accept(std::string *clientip,uint16_t *clientport)
+    int Accept(std::string *clientip,uint16_t *clientport, int *err)
     {
       struct sockaddr_in temp;
       memset(&temp,0,sizeof(temp));
       socklen_t len ;
       int sock = accept(sock_,(sockaddr*)&temp,&len);
+      *err = errno;  // 需要根据错误码做出正确的读写
       if(sock < 0)
       {
         //获取连接错误的话,可能说明资源紧张,但服务器还能维护之前的连接.
