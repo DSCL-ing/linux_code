@@ -5,6 +5,7 @@
 #include<cassert>
 #include<functional>
 #include<unordered_map>
+#include"Util.hpp"
 
 /*
    一.服务器基本结构
@@ -43,9 +44,12 @@ class Connection //管理服务器的动作,相当于关节
     callback_t sender_;
     callback_t excepter_;
 
-    //client info , only debug
+    //用户信息 , only debug
     std::string clientip_;
     uint16_t clientport_;
+  
+    //还可以给conn带上每个fd要关心的事件,用于根据不同的事件做不同的策略
+    uint32_t events_;
 };
 
 class EpollServer
@@ -64,7 +68,8 @@ class EpollServer
     epoller.Create();
 
     /*.要为listensock创建connect对象,符合每个fd都有自己的缓冲区,虽然listensock不需要,但统一规则能减少编码成本*/
-    AddConnection(listensock_.Fd(),EPOLLIN);
+    //AddConnection(listensock_.Fd(),EPOLLIN);//LT
+    AddConnection(listensock_.Fd(),EPOLLIN|EPOLLET); //ET
 
     logMessage(INFO,"init server success");
   }
@@ -109,6 +114,8 @@ class EpollServer
   /*将添加管理操作封装*/
   void AddConnection(int fd,uint32_t events,std::string clientip = "127.0.0.1" ,uint16_t clientport = defaultport)
   {
+    //判断是否要设置成ET模式,是则把需要关心的所有文件描述符设置非阻塞
+    if(events&EPOLLET) Util::SetNonBlock(fd);
     Connection* conn = new Connection(fd,clientip,clientport); 
     connections_.insert(std::pair<int,Connection*>(fd,conn));
 
@@ -127,6 +134,8 @@ class EpollServer
             );
     }
 
+    //保存关心的事件
+    conn->events_ = events;
     bool r = epoller.AddEvent(fd,events); //r == ret
     assert(r);
     (void)r;
@@ -137,18 +146,25 @@ class EpollServer
 
   void Accepter(Connection* conn)
   {
-    (void)conn;
-    std::string clientip; 
-    uint16_t clientport;
-    int sock = listensock_.Accept(&clientip,&clientport);
-    //logMessage(INFO,"get a new link...");
-    if(sock < 0)
+    //先do一次,如果是ET模式,就继续循环,否则只执行一次(即LT)
+    do
     {
-      return ;
-    }
-    logMessage(INFO,"%s:%d已经连上服务器",clientip.c_str(),clientport);
-    
-    AddConnection(sock,EPOLLIN,clientip,clientport);
+
+      (void)conn;
+      std::string clientip; 
+      uint16_t clientport;
+      int sock = listensock_.Accept(&clientip,&clientport);
+      //logMessage(INFO,"get a new link...");
+      if(sock < 0)
+      {
+        return ;
+      }
+      logMessage(INFO,"%s:%d已经连上服务器",clientip.c_str(),clientport);
+
+      //AddConnection(sock,EPOLLIN,clientip,clientport); //LT
+      AddConnection(sock,EPOLLIN|EPOLLET,clientip,clientport);   //ET
+
+    }while(conn->events_&EPOLLET);
   }
 
   void Recver(Connection*conn)
