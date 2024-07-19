@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-7/root/usr/bin/ar qc libxlog.a CMakeFiles/xlog.dir/xlog.cc.o
+/opt/rh/devtoolset-7/root/usr/bin/ranlib libxlog.a
