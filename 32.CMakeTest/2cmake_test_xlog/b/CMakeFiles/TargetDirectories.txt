@@ -1,0 +1,4 @@
+/home/chj/git_repositorier/linux_code/32.CMakeTest/2cmake_test_xlog/b/CMakeFiles/xlog.dir
+/home/chj/git_repositorier/linux_code/32.CMakeTest/2cmake_test_xlog/b/CMakeFiles/test_xlog.dir
+/home/chj/git_repositorier/linux_code/32.CMakeTest/2cmake_test_xlog/b/CMakeFiles/edit_cache.dir
+/home/chj/git_repositorier/linux_code/32.CMakeTest/2cmake_test_xlog/b/CMakeFiles/rebuild_cache.dir

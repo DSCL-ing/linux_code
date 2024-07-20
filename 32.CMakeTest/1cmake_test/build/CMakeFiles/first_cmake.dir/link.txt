@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-7/root/usr/bin/c++ CMakeFiles/first_cmake.dir/main.cc.o -o first_cmake 

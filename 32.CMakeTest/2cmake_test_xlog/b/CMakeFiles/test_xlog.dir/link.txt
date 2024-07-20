@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-7/root/usr/bin/c++ CMakeFiles/test_xlog.dir/test_xlog/test_xlog.cc.o -o test_xlog  -Wl,-rpath,/home/chj/git_repositorier/linux_code/32.CMakeTest/2cmake_test_xlog/b libxlog.so 
