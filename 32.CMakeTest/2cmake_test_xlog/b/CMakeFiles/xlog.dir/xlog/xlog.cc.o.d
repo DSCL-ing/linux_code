@@ -1,7 +1,6 @@
 CMakeFiles/xlog.dir/xlog/xlog.cc.o: \
  /home/chj/git_repositorier/linux_code/32.CMakeTest/2cmake_test_xlog/xlog/xlog.cc \
  /usr/include/stdc-predef.h \
- /home/chj/git_repositorier/linux_code/32.CMakeTest/2cmake_test_xlog/xlog/xlog.h \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/iostream \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -115,4 +114,5 @@ CMakeFiles/xlog.dir/xlog/xlog.cc.o: \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/bits/basic_ios.tcc \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/bits/ostream.tcc \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/istream \
- /opt/rh/devtoolset-7/root/usr/include/c++/7/bits/istream.tcc
+ /opt/rh/devtoolset-7/root/usr/include/c++/7/bits/istream.tcc \
+ /home/chj/git_repositorier/linux_code/32.CMakeTest/2cmake_test_xlog/xlog/xlog.h
