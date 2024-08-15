@@ -1,0 +1,16 @@
+
+//注释使用C或C++风格注释
+
+// (去注释后)首行用于指定protobuf版本,不指定默认是2
+// protu3是最新版本,3更加好用,简易,删除了2的很多复杂语法,支持多语言
+syntax = "proto3" //语法指定行
+
+//声明 "命名空间" ,类似java的package -- 可选
+package contacts;  //当前文件属于contacts
+
+
+//定义消息 消息名规范:大驼峰
+message PeopleInfo{
+  string name = 1;
+  
+}
