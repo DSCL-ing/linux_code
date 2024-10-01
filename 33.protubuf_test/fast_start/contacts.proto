@@ -3,7 +3,7 @@
 
 // (去注释后)首行用于指定protobuf版本,不指定默认是2
 // protu3是最新版本,3更加好用,简易,删除了2的很多复杂语法,支持多语言
-syntax = "proto3" //语法指定行
+syntax = "proto3"; //语法指定行
 
 //声明 "命名空间" ,类似java的package -- 可选
 package contacts;  //当前文件属于contacts
@@ -12,5 +12,9 @@ package contacts;  //当前文件属于contacts
 //定义消息 消息名规范:大驼峰
 message PeopleInfo{
   string name = 1;
+  int32 age = 2;  //没有char之类的,int32/64,是变长的,能够根据大小选择合适的空间(对负数不友好)
+  //uint32        //无符号
+  //fixed32/64;   //定长有符号,大数值友好
+  //sint32,sfixed32 之类是对负数友好
   
 }
