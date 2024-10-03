@@ -10,5 +10,7 @@ protoc:*.proto
 
 .PHONY:clean
 clean:
-	rm *.pb.* -rf
-	rm test 	-rf
+	## rm *.pb.* -rf
+	rm test -rf
+	rm *.bin
+

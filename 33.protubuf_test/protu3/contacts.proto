@@ -1,20 +1,21 @@
 syntax = "proto3"; 
 package contacts;
 
-import "phone.proto";
+//import "phone.proto";
 
 
 message PeopleInfo {
   string name = 1;                
   int32 age = 2;      
 
-  //message Phone{
-  //  string number=1;
-  //}
+  message Phone{
+    string number=1;
+  }
 
-  repeated phone.Phone phone = 3; 
+  //repeated phone.Phone phone = 3; 
+  repeated Phone phone = 3;
 }
 
 message Contacts{
-  repeated PeopleInfo people_info=1;
+  repeated PeopleInfo peopleinfo=1;
 }
