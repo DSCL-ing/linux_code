@@ -30,9 +30,6 @@ void Add_PeopleInfo(contacts::PeopleInfo* pi){
   std::cout<<"添加联系人成功"<<std::endl;
 }
 
-void Print(contacts::PeopleInfo* pi){
-  
-}
 
 int main(){
   // GOOGLE_PROTOBUF_VERIFY_VERSION 宏: 验证没有意外链接到与编译的头⽂件不兼容的库版 本。如果检测到版本不匹配，程序将中⽌。注意，每个 .pb.cc ⽂件在启动时都会⾃动调⽤此宏。在使 ⽤ C++ Protocol Buffer 库之前执⾏此宏是⼀种很好的做法，但不是绝对必要的。 
